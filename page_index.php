@@ -8,12 +8,12 @@
         <div class="body-content-part achievements">
         Achive
         </div>
-
+        <hr align="center" width="90%">
         <div class="body-content-part mission">
             <h3><?php echo $LANG["missions_title"] ?></h3>
             <p><?php echo $LANG["missions_text"] ?></p>
         </div>
-
+        <hr align="center" width="90%">
         <div class="body-content-part partner">
         partner    
     </div>

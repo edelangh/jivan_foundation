@@ -4,7 +4,7 @@
     $PAGES = array(
         "404" => "./page_404.php",
         "index" => "./page_index.php",
-        "donate" => "./page_donate.php",
+        "involved" => "./page_involved.php",
     )
 ?>
 <!DOCTYPE html>

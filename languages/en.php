@@ -25,4 +25,7 @@ We not only provide education but also to accompany the children in their develo
 smiles to their faces and confidence to their hearts.
 It’s a journey that we do together with the children, their parents when they are there and the team of the
 education center since 23 years.",
+    "involved_title" => "We are grateful for your support no matter how small it is",
+    "involved_paypal_once" => 
+"Give to Jivan through the PayPal Giving Fund. PayPal generously covers all transaction fees so 100% of your donation goes to Jivan.",
 );

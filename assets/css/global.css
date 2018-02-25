@@ -24,7 +24,7 @@ html {
 
 /* TODO: hardcoded */
 .body-content {
-    margin-top: 40px;
+    margin-top: 60px;
     background-color: #f6f3e2;
     min-height: 1000px;
 }
@@ -32,11 +32,6 @@ html {
 .body-content {
   padding: 3rem 1.5rem;
   text-align: center;
-}
-
-.body-content-part {
-    margin-top: 40px;
-    border-top: 1px solid #ddd;
 }
 
 .body-content-part > * {
