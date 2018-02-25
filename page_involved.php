@@ -3,6 +3,7 @@
         <div class="col-sm-12">
             <h3><?php echo $LANG["involved_title"] ?></h3>
         </div>
+        <hr align="center" width="90%">
         <div class="row col-12">
             <div class="col-sm-4">
                         <h4 class="row-sm-4-4"><?php echo $LANG["involved_once_title"] ?></h4>
