@@ -1,10 +1,19 @@
-<div class="container">
+<div class="core container">
+        <div class="core-part quotes">
+            quotes
+        </div>
 
-<div class="starter-template">
-  <h1>Bootstrap starter template</h1>
-  <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
-</div>
+        <div class="core-part achievements">
+        Achive
+        </div>
 
+        <div class="core-part mission">
+            Missions
+        </div>
+
+        <div class="core-part partner">
+        partner    
+    </div>
 </div><!-- /.container -->
 
 

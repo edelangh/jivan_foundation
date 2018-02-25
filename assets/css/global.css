@@ -22,12 +22,11 @@ html {
     color: #FFFFFF;
 }
 
-.starter-template {
+.core {
   padding: 3rem 1.5rem;
   text-align: center;
 }
 
-body > .container {
-    padding-top: 60px; /* footer */
+.core-part {
+    border-top: 1px solid #ddd;
 }
-adding-top: 60px;
