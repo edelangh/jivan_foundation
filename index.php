@@ -12,26 +12,28 @@
         ?>
     </head>
     <body>
-        <header>
+        <div id="main-page" class="container">
+            <header>
+                <?php
+                    include './header.php';
+                ?>
+            </header>
+            <!--   -->
             <?php
-                include './header.php';
-            ?>
-        </header>
-        <!--   -->
-        <?php
-            if (isset($_GET["page"])) {
-                if (isset($PAGES[$_GET["pages"]]))
-                    require $PAGES[$_GET["pages"]];
+                if (isset($_GET["page"])) {
+                    if (isset($PAGES[$_GET["pages"]]))
+                        require $PAGES[$_GET["pages"]];
+                    else
+                        require $PAGES["404"];    
+                }
                 else
-                    require $PAGES["404"];    
-            }
-            else
-                require $PAGES["index"];
-        ?>
-        <!--   -->
-        <?php
-            include './foot.php';
-        ?>
+                    require $PAGES["index"];
+            ?>
+            <!--   -->
+            <?php
+                include './foot.php';
+            ?>
+        </div>
         <footer>
             <?php
                 include './footer.php';
