@@ -1,4 +1,5 @@
-/* Main page
+/* Main page\
+#ffccb3`
 */
 #main-logo {
     width: 64px;
@@ -12,6 +13,27 @@ html {
     position: relative;
     min-height: 100%;
 }
+
+body {
+    background-color: #f6f3e1;
+}
+
+a {
+    color: #97838f;
+}
+
+
+/*
+header
+*/
+
+.header {
+    transition: background-color 1s;
+}
+
+/*
+end header
+*/
 
 .footer {
     position: absolute;

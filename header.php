@@ -35,7 +35,7 @@ $HEADER = array(
 
 ?>
 <header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <nav style="background-color: #f6f3e1 !important;" class="header navbar navbar-expand-md  fixed-top ">
         <a class="navbar-brand" href="#">
             <img id="main-logo" alt="Jivan" src="./assets/imgs/logo-jivan.png"/>
         </a>
@@ -49,7 +49,7 @@ $HEADER = array(
                 if (isset($ITEM["submenu"])) {
             ?>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="<?php echo $ITEM["link"]; ?>" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a style=" color: #97838f;"  class="nav-link dropdown-toggle" href="<?php echo $ITEM["link"]; ?>" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <?php echo $ITEM["title"]; ?>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
