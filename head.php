@@ -3,4 +3,3 @@
 <!-- Boostrap, jquery and pooper -->
 <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
 <link rel="stylesheet" href="assets/css/global.css"/>
-
