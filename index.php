@@ -1,4 +1,6 @@
 <?php
+    require "languages/en.php";
+
     $PAGES = array(
         "404" => "./page_404.php",
         "index" => "./page_index.php",
