@@ -7,6 +7,24 @@ $HEADER = array(
     ),
     1 => array(
         "title" => $LANG["title_who_we_are"],
+        "submenu" => array(
+            0 => array(
+                "title" => $LANG["title_who_sub_what"],
+                "url" => "#",
+            ),
+            1 => array(
+                "title" => $LANG["title_who_sub_story"],
+                "url" => "#",
+            ),
+            2 => array(
+                "title" => $LANG["title_who_sub_behind"],
+                "url" => "#",
+            ),
+            3 => array(
+                "title" => $LANG["title_who_sub_assoc"],
+                "url" => "#",
+            ),
+        ),
         "url" => "#"
     ),
     2 => array(
@@ -28,14 +46,31 @@ $HEADER = array(
         <ul class="navbar-nav mr-auto">
             <?php
             foreach ($HEADER as $ITEM) {
+                if (isset($ITEM["submenu"])) {
             ?>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">
-                        <!--span class="sr-only">(current)</span-->
-                        <?php echo $ITEM["title"]; ?>
-                    </a>
-                </li>
-            <?php
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="<?php echo $ITEM["link"]; ?>" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <?php echo $ITEM["title"]; ?>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <?php
+                            foreach ($ITEM["submenu"] as $SUBITEM) {
+                                echo "<a class='dropdown-item' href='".$SUBITEM["url"]."'>".$SUBITEM["title"]."</a>";
+                            }
+                            ?>   
+                        </div>
+                    </li>
+                <?php
+                } else {
+                ?>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="<?php echo $ITEM["url"]; ?>">
+                            <!--span class="sr-only">(current)</span-->
+                            <?php echo $ITEM["title"]; ?>
+                        </a>
+                    </li>
+                <?php
+                }
             }
             ?>
         </ul>

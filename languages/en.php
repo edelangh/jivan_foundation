@@ -4,6 +4,11 @@ $LANG = array(
     "title_what_we_do" => "WHAT WE DO",
     "title_who_we_are" => "WHO WE ARE",
     "title_get_involved" => "GET INVOLVED",
+    "title_who_sub_what" => "What is Jivan",
+    "title_who_sub_story" => "Jivan's story",
+    "title_who_sub_behind" => "The people behind",
+    "title_who_sub_assoc" => "The association",
+    "title_get_involved" => "GET INVOLVED",
     "quotes_title" => "A child is a child",
     "quotes_text" =>
 "Children have not asked to be born in a slum, to leprosy parents or in a cast of rag pickers.
