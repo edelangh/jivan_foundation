@@ -13,32 +13,25 @@
         ?>
     </head>
     <body>
-        <div id="main-page" class="container">
-            <header>
-                <?php
-                    include './header.php';
-                ?>
-            </header>
+        <?php
+            include './header.php';
+        ?>
             <!--   -->
-            <?php
-                if (isset($_GET["page"])) {
-                    if (isset($PAGES[$_GET["page"]]))
-                        require $PAGES[$_GET["page"]];
-                    else
-                        require $PAGES["404"];    
-                }
+        <?php
+            if (isset($_GET["page"])) {
+                if (isset($PAGES[$_GET["page"]]))
+                    require $PAGES[$_GET["page"]];
                 else
                     require $PAGES["index"];
+            }
             ?>
             <!--   -->
             <?php
                 include './foot.php';
             ?>
         </div>
-        <footer class="footer">
-            <?php
-                include './footer.php';
-            ?>
-        </footer>
+        <?php
+            include './footer.php';
+        ?>
     </body>
 </html>

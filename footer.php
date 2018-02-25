@@ -2,6 +2,7 @@
 <div id="fb-root"></div>
 <script src="assets/js/facebook_button.js"></script>
 
+<div class="footer">
 <div class="container">
     <div class="row">
         <div class="col-md-12">
@@ -17,6 +18,4 @@
         </div>
     </div>
 </div>
-
-
-
+</div>

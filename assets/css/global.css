@@ -21,3 +21,8 @@ html {
     background: #000000;
     color: #FFFFFF;
 }
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
