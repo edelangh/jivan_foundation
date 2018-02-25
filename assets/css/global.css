@@ -26,3 +26,8 @@ html {
   padding: 3rem 1.5rem;
   text-align: center;
 }
+
+body > .container {
+    padding-top: 60px; /* footer */
+}
+adding-top: 60px;
