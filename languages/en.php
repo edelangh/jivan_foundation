@@ -28,4 +28,9 @@ education center since 23 years.",
     "involved_title" => "We are grateful for your support no matter how small it is",
     "involved_paypal_once" => 
 "Give to Jivan through the PayPal Giving Fund. PayPal generously covers all transaction fees so 100% of your donation goes to Jivan.",
+    "involved_title_child" => "A child is a child",
+    "index_para_1" => "A child has not chosen to do degrading or humiliating jobs, and hence should have equal rights to succeed in life, to be loved and to be happy. Education is a powerful way of achieving it.
+    ",
+    "index_para_2" => "Children have not asked to be born in a slum, to leprosy parents or in a cast of rag pickers. 
+    "
 );
