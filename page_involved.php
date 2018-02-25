@@ -34,7 +34,7 @@
                     <?php include './button_paypal.php' ?>
             </div>
             <div class="col-sm-4">
-                    <button class="btn btn-outline-success my-2 my-sm-0">Mail</button>
+                    <a href="./index.php?page=contact"><button class="btn btn-outline-success my-2 my-sm-0">Mail</button></a>
             </div>
         </div>
     </div>

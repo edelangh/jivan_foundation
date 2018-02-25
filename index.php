@@ -5,6 +5,7 @@
         "404" => "./page_404.php",
         "index" => "./page_index.php",
         "involved" => "./page_involved.php",
+        "contact" => "./page_contact.php",
     )
 ?>
 <!DOCTYPE html>

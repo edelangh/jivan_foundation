@@ -39,6 +39,27 @@ header
 end header
 */
 
+
+/*
+index
+*/
+@media screen and (min-width: 1000px) and (max-width: 575px) {
+    .index-param {
+        padding-right: 15em !important;
+    }
+}
+
+@media screen and (min-width: 575px) {
+    .index-param {
+        padding-left: 4em !important;
+        padding-right: 4em !important;
+        padding-top: 0em !important;
+    }
+}
+/*
+end index
+*/
+
 .footer {
     position: absolute;
     bottom: 0;
