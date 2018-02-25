@@ -3,29 +3,29 @@
 $HEADER = array(
     0 => array(
         "title" => $LANG["title_what_we_do"],
-        "url" => "#"
+        "url" => "?"
     ),
     1 => array(
         "title" => $LANG["title_who_we_are"],
         "submenu" => array(
             0 => array(
                 "title" => $LANG["title_who_sub_what"],
-                "url" => "#",
+                "url" => "?",
             ),
             1 => array(
                 "title" => $LANG["title_who_sub_story"],
-                "url" => "#",
+                "url" => "?",
             ),
             2 => array(
                 "title" => $LANG["title_who_sub_behind"],
-                "url" => "#",
+                "url" => "?",
             ),
             3 => array(
                 "title" => $LANG["title_who_sub_assoc"],
-                "url" => "#",
+                "url" => "?",
             ),
         ),
-        "url" => "#"
+        "url" => "?"
     ),
     2 => array(
         "title" => $LANG["title_get_involved"],
@@ -36,7 +36,7 @@ $HEADER = array(
 ?>
 <header>
     <nav style="background-color: #f6f3e1 !important;" class="header navbar navbar-expand-md  fixed-top ">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="?">
             <img id="main-logo" alt="Jivan" src="./assets/imgs/logo-jivan.png"/>
         </a>
        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
