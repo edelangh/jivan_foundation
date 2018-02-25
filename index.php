@@ -35,7 +35,7 @@
                 include './foot.php';
             ?>
         </div>
-        <footer>
+        <footer class="footer">
             <?php
                 include './footer.php';
             ?>
