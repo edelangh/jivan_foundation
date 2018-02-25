@@ -22,13 +22,17 @@ a {
     color: #97838f;
 }
 
+h1 {
+    color: #ffccb3;
+}
+
 
 /*
 header
 */
 
 .header {
-    transition: 1s all;
+    transition: .5s all;
 }
 
 /*
