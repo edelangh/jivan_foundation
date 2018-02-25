@@ -18,12 +18,10 @@
         ?>
             <!--   -->
         <?php
-            if (isset($_GET["page"])) {
-                if (isset($PAGES[$_GET["page"]]))
+            if (isset($_GET["page"]) && isset($PAGES[$_GET["page"]]))
                     require $PAGES[$_GET["page"]];
-                else
+            else
                     require $PAGES["index"];
-            }
             ?>
             <!--   -->
             <?php
