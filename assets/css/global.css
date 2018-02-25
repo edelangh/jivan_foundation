@@ -64,9 +64,9 @@ end header
     color: #c9b5ac;
 }
 
-.body-content-part > * > h3 {
+.body-content-part h3 {
     color: #ffccb3;
 }
-.body-content-part > * > h4 {
+.body-content-part h4 {
     color: #ffccb3;
 }
