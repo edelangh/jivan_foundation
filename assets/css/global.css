@@ -1,4 +1,9 @@
 /* Main page
 */
+#main-logo {
+    width: 64px;
+    height: 64px;
+}
+
 #main-page {
 }
