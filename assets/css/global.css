@@ -22,10 +22,6 @@ a {
     color: #97838f;
 }
 
-h1 {
-    color: #ffccb3;
-}
-
 
 /*
 header
@@ -68,11 +64,15 @@ end header
     color: #c9b5ac;
 }
 
+h1 {
+    color: #ffbbb3;
+}
+
 .body-content-part h3 {
-    color: #ffccb3;
+    color: #ffbb80;
 }
 .body-content-part h4 {
-    color: #ffccb3;
+    color: #ffbb80;
 }
 
 /*
