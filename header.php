@@ -75,7 +75,7 @@ $HEADER = array(
             ?>
         </ul>
         <form class="form-inline mt-2 mt-md-0">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Donate</button>
+            <button class="btn-donate btn btn-outline my-2 my-sm-0" type="submit">Donate</button>
         </form>
     </div>
     </nav>

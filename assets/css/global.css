@@ -9,9 +9,61 @@
 #main-page {
 }
 
+.bck-ghost {
+    position: absolute;
+    width: 100vh;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+.cover-bck {
+    height: 100%;
+    background-color: red;
+    width: 100%;
+    left: 0px;
+}
+
+.ghost-body {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    background-image: url('../imgs/index_3.jpg');
+    height: 215px;
+    background-size: cover;
+    margin-top: -55px;
+}
+
+.index-h3 {
+    text-align: left !important;
+}
+
+.index-h3-right {
+    text-align: right !important;
+}
+
 html {
     position: relative;
     min-height: 100%;
+}
+
+.digiths {
+    margin-left: -4.5em !important;
+    margin-right: -4.5em !important;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.24);
+}
+
+.digiths > div {
+    color: #f6f3e1;
+    padding: 2em 2em 2em 2em;
+    font-family: 'fantasy', sans-serif;
+    text-align: center;
+    margin-top: -49px;
+}
+
+.number-wrap {
+    display: inline-block;
+    max-width: 100px;
 }
 
 body {
@@ -41,23 +93,12 @@ end header
 
 
 /*
-index
+Container padding
 */
-@media screen and (min-width: 1000px) and (max-width: 575px) {
-    .index-param {
-        padding-right: 15em !important;
-    }
-}
 
-@media screen and (min-width: 575px) {
-    .index-param {
-        padding-left: 4em !important;
-        padding-right: 4em !important;
-        padding-top: 0em !important;
-    }
-}
+
 /*
-end index
+End container padding
 */
 
 .footer {
@@ -65,14 +106,21 @@ end index
     bottom: 0;
     width: 100%;
     height: 60px;
-    background: #000000;
+    padding:3em;
+    background: #c8b5ac;
     color: #FFFFFF;
 }
+
+.btn-donate {
+    background-color: #ffccb3;
+    color: #f6f3e2;
+    padding: .5em 1.3em;
+    border-color: #ffccb3;
+    border-radius: 1em;}
 
 /* TODO: hardcoded */
 .body-content {
     margin-top: 60px;
-    background-color: #f6f3e2;
     min-height: 1000px;
 }
 

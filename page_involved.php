@@ -20,13 +20,9 @@
                     </div>
             </div>
             <div class="col-sm-4">
-<<<<<<< HEAD
-                    <a href="./index.php?page=contact"><button class="btn btn-outline-success my-2 my-sm-0">Mail</button></a>
-=======
                     <h4 style="height:20%"><?php echo $LANG["involved_partner_title"] ?></h4>
                     <p style="height:60%"><?php echo $LANG["involved_partner"] ?></p>
                     <button style="height:21%" class="btn btn-outline-success my-2 my-sm-0">Mail</button>
->>>>>>> 16f61f4d59a73c47501894b41533bdcd30756f1a
             </div>
         </div>
     </div>

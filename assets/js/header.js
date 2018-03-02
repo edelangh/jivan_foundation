@@ -1,8 +1,8 @@
 $(document).ready(function() {
     $(window).scroll(function() {
-        if ($(window).scrollTop() >= 130)
+        if ($(window).scrollTop() >= 10)
             $(".header").css({
-                'box-shadow': "0 1px 2px rgba(0,0,0,0.12), 0 1px 1px rgba(0,0,0,0.24)"
+                'box-shadow': "0 2px 3px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.24)"
             });
         else 
             $(".header").css({
