@@ -15,29 +15,6 @@
             <img src="assets/imgs/index_bck.jpg"></img>
         </div>
     </div>
-
-    <div class="cover-bck">
-    </div>
-
-    <div class="container">
-        <div class="container row body-content">
-            <div class="index-thumb body-content-part col-12">
-                    <h3 class="index-h3"><?php echo $LANG["quotes_title"] ?></h3>
-                    <p class="index-h3"><?php echo $LANG["quotes_text"] ?></p>
-            </div>
-        </div>
-    </div>
-        <!--div class="body-content-part achievements">
-        Achive
-        </div
-        <hr align="center" width="90%">
-        <div class="body-content-part mission">
-            <h3><!?php echo $LANG["missions_title"] ?></h3>
-            <p><!?php echo $LANG["missions_text"] ?></p>
-        </div>
-        <hr align="center" width="90%">
-        <div class="body-content-part partner">
-        partner   --> 
-</div><!-- /.container -->
+</div>
 
 
