@@ -1,3 +1,24 @@
+/*
+** Font
+*/
+
+@font-face {
+    font-family: 'butlerregular';
+    src: url('/assets/fonts/butler_regular-webfont.woff2') format('woff2'),
+         url('/assets/fonts/butler_regular-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'butlermedium';
+    src: url('/assets/fonts/butler_medium-webfont.woff2') format('woff2'),
+         url('/assets/fonts/butler_medium-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'arconregular';
+    src: url('/assets/fonts/Arcon-Regular.otf') format('opentype');
+}
+
 /* Main page\
 #ffccb3`
 */
@@ -74,10 +95,6 @@ a {
     color: #97838f;
 }
 
-h1 {
-    color: #ffccb3;
-}
-
 
 /*
 header
@@ -137,11 +154,23 @@ End container padding
     color: #c9b5ac;
 }
 
+h1, h2, h3, h4, h5 {
+    font-family: 'butlerregular';
+}
+
+p {
+    font-family: 'arconregular';
+}
+
+h1 {
+    color: #ffbb80;
+}
+
 .body-content-part h3 {
-    color: #ffccb3;
+    color: #ffbb80;
 }
 .body-content-part h4 {
-    color: #ffccb3;
+    color: #ffbb80;
 }
 
 /*
