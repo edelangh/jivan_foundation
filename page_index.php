@@ -21,18 +21,12 @@
             <h3><?php echo $LANG["quotes_foot"] ?></h3>
         </div>
 
-        <div class="body-content-part achievements">
-        Achive
-        </div>
         <hr align="center" width="90%">
         <div class="body-content-part mission">
             <h3><?php echo $LANG["missions_title"] ?></h3>
-            <p><?php echo $LANG["missions_text"] ?></p>
+            <p><?php echo $LANG["missions_body"] ?></p>
         </div>
         <hr align="center" width="90%">
-        <div class="body-content-part partner">
-        partner    
-    </div>
 </div><!-- /.container -->
 
 

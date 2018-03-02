@@ -10,19 +10,19 @@ $HEADER = array(
         "submenu" => array(
             0 => array(
                 "title" => $LANG["title_who_sub_what"],
-                "url" => "?",
+                "url" => "?page=who_what",
             ),
             1 => array(
                 "title" => $LANG["title_who_sub_story"],
-                "url" => "?",
+                "url" => "?page=who_story",
             ),
             2 => array(
                 "title" => $LANG["title_who_sub_behind"],
-                "url" => "?",
+                "url" => "?page=who_team",
             ),
             3 => array(
                 "title" => $LANG["title_who_sub_assoc"],
-                "url" => "?",
+                "url" => "?page=who_partner",
             ),
         ),
         "url" => "?"

@@ -3,38 +3,26 @@
         <div class="col-sm-12">
             <h3><?php echo $LANG["involved_title"] ?></h3>
         </div>
-        <hr align="center" width="90%">
-        <div class="row col-12">
+        <hr align="center" style="padding: 2em 2em" width="90%">
+        <div class="container row">
             <div class="col-sm-4">
-                        <h4 class="row-sm-4-4"><?php echo $LANG["involved_once_title"] ?></h4>
-            </div>
-            <div class="col-sm-4">
-                        <h4 class=""><?php echo $LANG["involved_monthly_title"] ?></h4>
-            </div>
-            <div class="col-sm-4">
-                        <h4 class="row-sm-4-4"><?php echo $LANG["involved_partner_title"] ?></h4>
-            </div>
-            </div>
-            <div class="row col-12">
-            <div class="col-sm-4">
-                        <p class="row-sm-4-4"><?php echo $LANG["involved_once_paypal"] ?></p>
-            </div>
-            <div class="col-sm-4">
-                        <p class=""><?php echo $LANG["involved_monthly_paypal"] ?></p>
-            </div>
-            <div class="col-sm-4">
-                        <p class="row-sm-4-4"><?php echo $LANG["involved_partner"] ?></p>
-            </div>
-          </div>
-          <div class="row col-12">
-            <div class="col-sm-4">
+                    <h4 style="height:20%"><?php echo $LANG["involved_once_title"] ?></h4>
+                    <p style="height:60%"><?php echo $LANG["involved_once_paypal"] ?></p>
+                    <div style="height:10%">
                     <?php include './button_paypal.php' ?>
+                    </div>
             </div>
             <div class="col-sm-4">
+                    <h4 style="height:20%"><?php echo $LANG["involved_monthly_title"] ?></h4>
+                    <p style="height:60%"><?php echo $LANG["involved_monthly_paypal"] ?></p>
+                    <div style="height:10%">
                     <?php include './button_paypal.php' ?>
+                    </div>
             </div>
             <div class="col-sm-4">
-                    <button class="btn btn-outline-success my-2 my-sm-0">Mail</button>
+                    <h4 style="height:20%"><?php echo $LANG["involved_partner_title"] ?></h4>
+                    <p style="height:60%"><?php echo $LANG["involved_partner"] ?></p>
+                    <button style="height:21%" class="btn btn-outline-success my-2 my-sm-0">Mail</button>
             </div>
         </div>
     </div>

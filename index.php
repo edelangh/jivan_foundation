@@ -5,6 +5,10 @@
         "404" => "./page_404.php",
         "index" => "./page_index.php",
         "involved" => "./page_involved.php",
+        "who_what" => "./page_who_what.php",
+        "who_team" => "./page_who_team.php",
+        "who_partner" => "./page_who_partner.php",
+        "who_story" => "./page_who_story.php",
     )
 ?>
 <!DOCTYPE html>
