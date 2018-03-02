@@ -1,7 +1,7 @@
 <div class="container body-content">
     <div class="container row body-content-part quotes">
         <div class="col-sm-12">
-            <h3><?php echo $LANG["involved_title"] ?></h3>
+            <h2><?php echo $LANG["involved_title"] ?></h2>
         </div>
         <hr align="center" style="padding: 2em 2em" width="90%">
         <div class="container row">

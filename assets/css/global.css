@@ -175,10 +175,11 @@ h1 {
     color: #ffbb80;
 }
 
-.body-content-part h3 {
-    color: #ffbb80;
-}
-.body-content-part h4 {
+.body-content-part h1,
+.body-content-part h2,
+.body-content-part h3,
+.body-content-part h4,
+.body-content-part h5 {
     color: #ffbb80;
 }
 
