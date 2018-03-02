@@ -9,13 +9,25 @@ $LANG = array(
     "title_who_sub_behind" => "The people behind",
     "title_who_sub_assoc" => "The association",
     "title_get_involved" => "GET INVOLVED",
+    "share" => "share",
     "quotes_title" => "A child is a child",
     "quotes_text" =>
 "Children have not asked to be born in a slum, to leprosy parents or in a cast of rag pickers.
 A child has not chosen to do degrading or humiliating jobs, and hence should have equal rights to succeed in life, to be loved and to be happy. Education is a powerful way of achieving it",
-    "quotes_foot" => "Give back children their dignity.",
-    "missions_title" => "Missions",
-    "missions_text" =>
+"quotes_foot" => "Give back children their dignity.",
+    "result_title" => "Results (Achievements – highlights)",
+    "result_body" => 
+"Since 1995
+1025 children received education
+150 completed high school
+225 are enrolled in classes today
+CTA - Discover more >>> What we do",
+    "missions_title" => "Mission / activity (new need) highlight",
+    "missions_body" =>
+"To continue providing children with education in the slums of New Delhi this year we need to acquire the building in which the Sangita Vidya Mandir Education Centre is located since 2006, otherwise that building is going to be sold by our landlord.
+See how you can help us so we can keep the school at its’ current location. 
+CTA - Give some support >>> Get involved (page)",
+    "jivan_missions_text" =>
 "Jivan’s mission is to support unprivileged children in India by providing them with an opportunity for education
 and self-development.
 In 1995 Jivan created the Sangita Vidya Mandir Education Centre in the slums of New Delhi and Rishikesh. The
@@ -25,6 +37,37 @@ We not only provide education but also to accompany the children in their develo
 smiles to their faces and confidence to their hearts.
 It’s a journey that we do together with the children, their parents when they are there and the team of the
 education center since 23 years.",
+    "who_what_title" => "", // whithout title
+    "who_what_body_part_1" =>
+    "Jivan Association caritative is based in Switzerland and its members are actively supporting SVM since 1996, previously under the name of Shanti Delhi from 1997 till 2006.",
+    "who_what_body_part_2" => "
+<p>The association operates as an independent organisation and has no affiliation to any political or religious group. The funds required for its projects are generated through the sales of handicrafts, sponsors and donations.</p> 
+<p>Through its action, Jivan has perpetuated the charitable work started in 1973 by Sophie Rombaut, who has worked till 2002 in Delhi and Rishikesh near children and families living in the slums and on the footpaths.</p>
+<p>In order to ensure a legal status in India, the people employed by SVM are represented by Manav Sewa Jan Samavik Charitable Society recognized by the Indian Government as a charitable society and registered under the Foreign Contribution Registration Act (FCRA).</p>
+",
+    "who_team_title" => "Our team",
+    "anita_desc" => "Anita has been involved since 1996 from the day she met Sophie, during these 22 years Anita has done everything to support and grow this project. She has created Shanti Delhi and now Jivan where she is the President. Anita has opened and runs a small Indian handicract shop in Le Locle contributing 100% of the profits to the project.",
+    "aslam_desc" => "Aslam joined the school as a teacher in 1995 the year it was opened by Sophie Rombaut.  He was then living with his family in the slum where the school was opened. He very soon decided he would dedicate his life to this cause and today after 23 years Aslam is still in the project as the principal. He is married and has 6 children and decided to call his last son Sufi after Sophie.",
+    "jeremie_desc" => "Jérémie is the son of Sophie and has been involved in her projects since a young age of 12, first as her translator but gradually taking more responsibilities to help her. After Sophie left is 2002 he decided to continue her projects managing the team in India. In parallel he completed his engineering and business education and later worked for a French multinational. 
+",
+    "who_partner_title" => "Our Partners",
+    "who_partner_body" =>
+"We work hand in hand with 
+AIDE AUX PLUS DEMUNIS, Marseille, supporting the Mateshwari Charitable Dispensary in Rishikesh
+
+We are supported by
+STIFTUNG KINDERHILFE DES SWISSAIR PERSONNALS (Foundation of the employees of Swissair to help children in need), Zurich, since 1999
+THE CENTURY TRUST, Bangalore, since 2016
+ART’HENIA SHOP, Lausanne, since 2017",
+    "who_story_title" => "Our story",
+    "who_story_body" =>
+"<p>It was just 45 years ago that Sophie Rombaut as a young medical professional arrived in India after being invited by her professor. Deeply touched by the need when she entered in the slum of Shadipur Depot in Delhi she immediately decided that she had to do something to help. The Shadipur depot slum was organised in 2 parts one side as “the healthy” as it was called, and the other part inhabited by the leprosy patients. She started with some Indian friends a small class for children under black tarpaulin sheet. She was deeply convinced that by educating a child you can educate a generation to follow. But she soon realised that the children from the other part of the slum would not be allowed to join as their parents were leprosy. As for her a child is a child and he has not asked to be born to leprosy patients, in a slum or in a low cast, it was extremely unfair to not give them equal rights. But in India leprosy even if not transmitted by heredity, it remained a big taboo. Hence, she decided to open a second school in the leprosy side. It is there that she realised a severe need for medical assistance especially as no doctor would ever go to a leprosy colony and even less for women who would not show to a male doctor. Hence it became evident that she needed to act and therefore she started a medical consultation for women that would happen at the school site and the school hours. And this was just the beginning of what would be the journey of her life over the next 30 years till 2002.</p>
+<p>The activities in the slums spread to other parts of Delhi and eventually she had created 7 schools taking care of 700 children in different slums. In parallel she continued to bring medical help to leprosy patients in Shadipur and at night on a footpath near the Gurudwara Bangla Sahib, where a permanent group would be allowed to gather after 23.00. It was difficult to bring real medical facilities in these conditions and therefore she had been looking for a land to build a real hospital. After an extensive search, she eventually found a land in 1993 in Rishikesh where the Mateshwari Hospital was built. Several groups of leprosy patients were treated and reinserted into society by teaching them jobs like gardening and cloth spinning. As one of the schools the Sangita Vidhya Mandir (SVM) school was created in 1995 in the slum of ITO area of New Delhi. This slum running over several kilometres under water supply pipes and on the bank of the river Yamuna counted several hundreds of people living there. The school was started with 5 teachers and 6 classes and counted 80 children the day it opened. In 1997 she created the Shanti Delhi.</p>
+<p>As these activities grew Sophie needed more resources to support them. She would get help from friends and build support by regularly sharing about her work on gatherings and small conferences organised for her in France and Belgium. It was in a first conference that was organised for her in Le Locle area of Switzerland that she met with Mrs Anita Bula. Anita immediately felt a deep connection with Sophie and her work, and she immediately decided to support her.  She created Shanti Delhi an association in Switzerland in 1997 to support Sophie’s work through personal donors and sale of Indian handicrafts at fairs. Shanti Delhi approach Swiss Air and in 1999 The Swiss Air Foundation for Children in Need started to support the school with an annual sponsor that has been continuing till this date. </p>
+<p>With the growing support and the need on the ground it was decided in 2000 to add new classes so that the students could at least reach up to the high school examination, which would allow them to get a basic job or obtain a small government loan helping them start a basic earning activity. In 2006 the slums of ITO were demolished as Delhi prepared to receive the Commonwealth Games and the government decided to relocate the slums to the outskirts of Delhi. The population however decided to stay on footpaths or small rented rooms around. We decided to continue the school and rented a small building in the nearby Ramesh Park area. The school would also offer a hostel facility for those children who didn’t have their parents or who couldn’t find an accommodation. It is also in this year that Shanti Delhi becomes Jivan Association Caritative. </p>
+<p>In 2009 our first batch of students reach the intermediary exam and some of them enter the University of Delhi. Students who didn’t go to university were also given opportunity to get training in drywall installation and create their company thanks to a partnership with Lafarge in India that was then establishing its gypsum business in the country. The first partnership firms were created in 2010 and are in activity till date. 
+In 2015 SVM celebrated its 20 years of existence and 1000 students had been through the school since its creation. Many of them could secure better opportunities offering a better life for them and their families.</p>
+<p>Till date 1025 students have been through the SVM education program, 225 are currently enrolled and more than 150 reached university over all these years and could get into jobs such as engineering, medicine, accountant, technical skilled work and even music. As over the years the slum which was razed down in 2006 started to resettle we also felt we needed to go back closer to the children living there and hence in 2017 we decided to start a new morning and evening class in the slum.</p>",
     "involved_title" => "We are grateful for your support no matter how small it is",
     "involved_once_title" => "Paypal / Cb",
     "involved_once_paypal" => 
