@@ -10,11 +10,11 @@
             <hr align="center" width="90%">
             <div style="font-size: 1.3em">
                 <h4>Anita BULA</h5>
-                <?php echo $LANG["anita_desc"]; ?>
+                <p><?php echo $LANG["anita_desc"]; ?></p>
                 <h4>Aslam ISLAMUDDIN</h5>
-                <?php echo $LANG["aslam_desc"]; ?>
+                <p><?php echo $LANG["aslam_desc"]; ?></p>
                 <h4>Jérémie ROMBAUT</h5>
-                <?php echo $LANG["jeremie_desc"]; ?>
+                <p><?php echo $LANG["jeremie_desc"]; ?></p>
             </div>
         </div>
     </div>
