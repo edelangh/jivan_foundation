@@ -74,3 +74,25 @@ end header
 .body-content-part h4 {
     color: #ffccb3;
 }
+
+/*
+** FOOTER
+*/
+
+.fa {
+  padding: 20px 20px 20px 20px;
+  font-size: 30px;
+  min-width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
