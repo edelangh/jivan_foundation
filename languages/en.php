@@ -43,7 +43,7 @@ education center since 23 years.",
 <p>Through its action, Jivan has perpetuated the charitable work started in 1973 by Sophie Rombaut, who has worked till 2002 in Delhi and Rishikesh near children and families living in the slums and on the footpaths.</p>
 <p>In order to ensure a legal status in India, the people employed by SVM are represented by Manav Sewa Jan Samavik Charitable Society recognized by the Indian Government as a charitable society and registered under the Foreign Contribution Registration Act (FCRA).</p>
 ",
-    "who_team_title" => "Our team",
+    "who_team_title" => "Meet the people who help Jivan grow",
     "anita_name" => "Anita BULA",
     "anita_desc" => "Anita has been involved since 1996 from the day she met Sophie, during these 22 years Anita has done everything to support and grow this project. She has created Shanti Delhi and now Jivan where she is the President. Anita has opened and runs a small Indian handicract shop in Le Locle contributing 100% of the profits to the project.",
     "aslam_name" => "Aslam ISLAMUDDIN",

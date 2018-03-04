@@ -146,7 +146,6 @@ End container padding
 /* TODO: hardcoded */
 .body-content {
     margin-top: 60px;
-    min-height: 1000px;
 }
 
 @media screen and (min-width: 400px) {
@@ -172,12 +171,27 @@ h1, h2, h3, h4, h5 {
     color: #ffbb80;
 }
 
-img.profile {
+.profile {
+    padding-top: 1em;
+}
+
+.profile > h4 {
+    text-align: center;
+    padding-top: 1em;
+}
+
+.profile > p{
+    text-align: justify;
+    font-size: 0.9em;
+}
+
+.profile > img {
     border-radius: 50%;
     max-width: 200px;
     max-width: 200px;
+    display: block;
+    margin: auto;
 }
-
 
 /*
 ** FOOTER
