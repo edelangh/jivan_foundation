@@ -171,6 +171,18 @@ h1, h2, h3, h4, h5 {
     color: #ffbb80;
 }
 
+form.lang {
+    padding-right: 2em;
+}
+
+select.lang {
+    -webkit-appearance: none;
+    background-color: #ffccb3;
+    color: #f6f3e2;
+    border: none;
+    border-radius: 1em;
+}
+
 .profile {
     padding-top: 1em;
 }

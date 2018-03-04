@@ -74,10 +74,10 @@ $HEADER = array(
             }
             ?>
         </ul>
-        <form class="navbar-form pull-left">
-            <select name="" id="" class="form-control">
-                <option value="en">en</option>
-                <option value="fr">fr</option>
+        <form class="navbar-form pull-left lang">
+            <select name="" id="" style="" class="lang form-control">
+                <option value="en">EN</option>
+                <option value="fr">FR</option>
             </select>
         </form>
         <form class="form-inline mt-2 mt-md-0" onsubmit="window.location.href='?page=involved'; return false;">
