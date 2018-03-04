@@ -10,24 +10,21 @@ $LANG = array(
     "title_who_sub_assoc" => "The association",
     "title_get_involved" => "GET INVOLVED",
     "share" => "share",
-    "donate" => "Donate",
+    "donate" => "DONATE",
     "quotes_title" => "A child is a child",
     "quotes_text" =>
 "Children have not asked to be born in a slum, to leprosy parents or in a cast of rag pickers.
-A child has not chosen to do degrading or humiliating jobs, and hence should have equal rights to succeed in life, to be loved and to be happy. Education is a powerful way of achieving it",
-"quotes_foot" => "Give back children their dignity.",
+A child has not chosen to do degrading or humiliating jobs, and hence should have equal rights to succeed in life, to be loved and to be happy. Education is a powerful way of achieving it.",
+    "quotes_title_2" => "It belongs to each one of us to give back children their dignity.",
     "result_title" => "Results (Achievements – highlights)",
     "result_body" => 
 "Since 1995
 1025 children received education
 150 completed high school
-225 are enrolled in classes today
-CTA - Discover more >>> What we do",
-    "missions_title" => "Mission / activity (new need) highlight",
+225 are enrolled in classes today",
     "missions_body" =>
 "To continue providing children with education in the slums of New Delhi this year we need to acquire the building in which the Sangita Vidya Mandir Education Centre is located since 2006, otherwise that building is going to be sold by our landlord.
-See how you can help us so we can keep the school at its’ current location. 
-CTA - Give some support >>> Get involved (page)",
+See how you can help us so we can keep the school at its’ current location.",
     "jivan_missions_text" =>
 "Jivan’s mission is to support unprivileged children in India by providing them with an opportunity for education
 and self-development.
@@ -72,11 +69,6 @@ In 2015 SVM celebrated its 20 years of existence and 1000 students had been thro
     "involved_once_title" => "Paypal / Cb",
     "involved_once_paypal" => 
 "Give to Jivan through the PayPal Giving Fund. PayPal generously covers all transaction fees so 100% of your donation goes to Jivan.",
-    "involved_title_child" => "A child is a child",
-    "index_para_1" => "A child has not chosen to do degrading or humiliating jobs, and hence should have equal rights to succeed in life, to be loved and to be happy. Education is a powerful way of achieving it.
-    ",
-    "index_para_2" => "Children have not asked to be born in a slum, to leprosy parents or in a cast of rag pickers. 
-    ",
     "involved_monthly_title" => "Monthly",
     "involved_monthly_paypal" => "Give to Jivan monthly",
     "involved_partner_title" => "Partner",

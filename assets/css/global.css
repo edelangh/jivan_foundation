@@ -149,17 +149,15 @@ End container padding
     min-height: 1000px;
 }
 
+@media screen and (min-width: 400px) {
 .body-content {
-  padding: 6rem 1.5rem;
-  text-align: center;
+    padding: 6rem 1.5rem;
 }
-
-.body-content-part > * {
-    color: #98838f;
 }
 
 .quotes {
-    color: #c9b5ac;
+    color: #98838f;
+    font-size: 1.3em;
 }
 
 h1, h2, h3, h4, h5 {
@@ -174,11 +172,11 @@ h1 {
     color: #ffbb80;
 }
 
-.body-content-part h1,
-.body-content-part h2,
-.body-content-part h3,
-.body-content-part h4,
-.body-content-part h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     color: #ffbb80;
 }
 
