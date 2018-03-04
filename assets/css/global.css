@@ -168,17 +168,16 @@ p, .navbar {
     font-family: 'arconregular';
 }
 
-h1 {
+h1, h2, h3, h4, h5 {
     color: #ffbb80;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-    color: #ffbb80;
+img.profile {
+    border-radius: 50%;
+    max-width: 200px;
+    max-width: 200px;
 }
+
 
 /*
 ** FOOTER

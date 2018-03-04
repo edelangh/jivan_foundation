@@ -44,8 +44,11 @@ education center since 23 years.",
 <p>In order to ensure a legal status in India, the people employed by SVM are represented by Manav Sewa Jan Samavik Charitable Society recognized by the Indian Government as a charitable society and registered under the Foreign Contribution Registration Act (FCRA).</p>
 ",
     "who_team_title" => "Our team",
+    "anita_name" => "Anita BULA",
     "anita_desc" => "Anita has been involved since 1996 from the day she met Sophie, during these 22 years Anita has done everything to support and grow this project. She has created Shanti Delhi and now Jivan where she is the President. Anita has opened and runs a small Indian handicract shop in Le Locle contributing 100% of the profits to the project.",
+    "aslam_name" => "Aslam ISLAMUDDIN",
     "aslam_desc" => "Aslam joined the school as a teacher in 1995 the year it was opened by Sophie Rombaut.  He was then living with his family in the slum where the school was opened. He very soon decided he would dedicate his life to this cause and today after 23 years Aslam is still in the project as the principal. He is married and has 6 children and decided to call his last son Sufi after Sophie.",
+    "jeremie_name" => "Jérémie ROMBAUT",
     "jeremie_desc" => "Jérémie is the son of Sophie and has been involved in her projects since a young age of 12, first as her translator but gradually taking more responsibilities to help her. After Sophie left is 2002 he decided to continue her projects managing the team in India. In parallel he completed his engineering and business education and later worked for a French multinational. 
 ",
     "who_partner_title" => "Our Partners",
