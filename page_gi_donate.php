@@ -5,18 +5,12 @@
         </div>
         <hr align="center" style="padding: 2em 2em" width="90%">
         <div class="container row">
-            <div class="col-sm-4">
+            <div class="col-sm-8">
                     <h4 style="height:20%"><?php echo $LANG["involved_once_title"] ?></h4>
                     <p style="height:60%"><?php echo $LANG["involved_once_paypal"] ?></p>
-                    <div style="height:10%">
+                    <div style="height:10%; display: flex;">
                     <?php include './button_paypal.php' ?>
-                    </div>
-            </div>
-            <div class="col-sm-4">
-                    <h4 style="height:20%"><?php echo $LANG["involved_monthly_title"] ?></h4>
-                    <p style="height:60%"><?php echo $LANG["involved_monthly_paypal"] ?></p>
-                    <div style="height:10%">
-                    <?php include './button_paypal.php' ?>
+                    <?php include './button_paypal_subscribe.php' ?>
                     </div>
             </div>
             <div class="col-sm-4">

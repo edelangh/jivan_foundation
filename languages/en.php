@@ -14,12 +14,23 @@ $LANG = array(
     "gi_title_3" => "Work together",
     "share" => "SHARE",
     "donate" => "DONATE",
+    "subscribe" => "SUBSCRIBE MONTHLY",
     "gi_text_1" => "We propose various ways for one-time and recurrent donation and are truly grateful for your support, no matter how small it is.",
     "gi_text_2" => "If you feel motivated, you can also help us by making some waves around you - for example by creating an event to speak about our project and encourage your friends to join the cause. ",
     "gi_text_3" => "We are always eager to find synergies with other non-profit organizations and NGOs. If you have or work for such structures and think we could put our efforts together, do not hesitate to let us know.",
     "gi_bottom_1" => "Give now",
     "gi_bottom_2" => "Join the cause",
     "gi_bottom_3" => "Let's collaborate",
+    "gi_ambassador" => "If you feel motivated, you can also help us by making some waves around you - for example by creating an event to speak about our project and encourage your friends to join the cause. 
+<br/>
+For example last month Elodie, an active member since several years from Marseille, organised an event inviting her friends, colleagues and family for an afternoon event that included a sale of Indian handicrafts, a small food stall and a short video presentation of the association. She was able to collect 1070€ on that day that was immediately invested to build a new classroom.
+<br/>
+Please, feel free to tell us about your idea and let’s see how we can make more good together.",
+    "gi_contact" => "Contacts us",
+    "work_together" =>
+    "We are always eager to find synergies with other non-profit organizations and NGOs. If you have or work for such structures and think we could put our efforts together, do not hesitate to let us know.
+<br/>
+As a corporation you can bring us your support through a monthly, quarterly or annual participation in the operating expenses as part of the Corporate Social Responsibility (CSR) of your organization in order to strengthen our operating budget and help us improve the quality of care. We could also collaborate to organise an internal fundraising event  for a specific project we are working on, such as helping us acquiring the building of the school. To discuss the details of a potential collaboration, please contact us by filling out the following form.",
     "quotes_title" => "A child is a child",
     "quotes_text" =>
 "Children have not asked to be born in a slum, to leprosy parents or in a cast of rag pickers.
@@ -81,8 +92,6 @@ In 2015 SVM celebrated its 20 years of existence and 1000 students had been thro
     "involved_once_title" => "Paypal / Cb",
     "involved_once_paypal" => 
 "Give to Jivan through the PayPal Giving Fund. PayPal generously covers all transaction fees so 100% of your donation goes to Jivan.",
-    "involved_monthly_title" => "Monthly",
-    "involved_monthly_paypal" => "Give to Jivan monthly",
     "involved_cheque_title" => "Check",
     "involved_cheque" =>
     "Please make your check payable to \"Jivan association Caritative\"<br/>
