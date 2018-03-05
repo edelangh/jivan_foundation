@@ -30,6 +30,10 @@ $HEADER = array(
     2 => array(
         "title" => $LANG["title_get_involved"],
         "url" => "?page=gi_land"
+    ),
+    3 => array(
+        "title" => $LANG["title_get_touch"],
+        "url" => "?page=gi_touch"
     )
 );
 

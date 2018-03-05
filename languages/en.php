@@ -9,6 +9,7 @@ $LANG = array(
     "title_who_sub_behind" => "The people behind",
     "title_who_sub_assoc" => "The association",
     "title_get_involved" => "GET INVOLVED",
+    "title_get_touch" => "GET IN TOUCH",
     "gi_title_1" => "Support the children",
     "gi_title_2" => "Become an ambassador",
     "gi_title_3" => "Work together",
@@ -27,6 +28,13 @@ For example last month Elodie, an active member since several years from Marseil
 <br/>
 Please, feel free to tell us about your idea and let’s see how we can make more good together.",
     "gi_contact" => "Contacts us",
+    "gi_touch" => "Or send send us a message to<br/>
+jivansvm.ch@gmail.com<br/>
+<br/>
+Jivan Charitable Association<br/>
+Grande-Rue 21<br/>
+Le Locle, Switzerland<br/>
++41 79 74 29 885",
     "work_together" =>
     "We are always eager to find synergies with other non-profit organizations and NGOs. If you have or work for such structures and think we could put our efforts together, do not hesitate to let us know.
 <br/>
