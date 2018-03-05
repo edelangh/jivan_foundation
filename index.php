@@ -10,6 +10,7 @@
         "who_team" => "./page_who_team.php",
         "who_partner" => "./page_who_partner.php",
         "who_story" => "./page_who_story.php",
+        "gi_land" => "./page_gi_landing.php",
     )
 ?>
 <!DOCTYPE html>

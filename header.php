@@ -29,7 +29,7 @@ $HEADER = array(
     ),
     2 => array(
         "title" => $LANG["title_get_involved"],
-        "url" => "?page=involved"
+        "url" => "?page=gi_land"
     )
 );
 
