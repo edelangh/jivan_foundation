@@ -27,6 +27,10 @@
     height: 64px;
 }
 
+.justify {
+    text-align: justify;
+}
+
 #main-page {
 }
 
@@ -224,4 +228,16 @@ select.lang {
 .fa-facebook {
   background: #3B5998;
   color: white;
+}
+
+
+.stat-row > span  {
+    font-size: 1.8em;
+}
+
+.img-slide {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
