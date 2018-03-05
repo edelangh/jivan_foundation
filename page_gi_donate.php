@@ -20,8 +20,8 @@
                     </div>
             </div>
             <div class="col-sm-4">
-                    <h4 style="height:20%"><?php echo $LANG["involved_partner_title"] ?></h4>
-                    <p style="height:60%"><?php echo $LANG["involved_partner"] ?></p>
+                    <h4 style="height:20%"><?php echo $LANG["involved_cheque_title"] ?></h4>
+                    <p style="height:60%"><?php echo $LANG["involved_cheque"] ?></p>
                     <button style="height:21%" class="btn btn-outline-success my-2 my-sm-0">DOWNLOAD</button>
             </div>
         </div>

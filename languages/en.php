@@ -83,6 +83,10 @@ In 2015 SVM celebrated its 20 years of existence and 1000 students had been thro
 "Give to Jivan through the PayPal Giving Fund. PayPal generously covers all transaction fees so 100% of your donation goes to Jivan.",
     "involved_monthly_title" => "Monthly",
     "involved_monthly_paypal" => "Give to Jivan monthly",
-    "involved_partner_title" => "Partner",
-    "involved_partner" => "Become partner by send us an email",
+    "involved_cheque_title" => "Check",
+    "involved_cheque" =>
+    "Please make your check payable to \"Jivan association Caritative\"<br/>
+    <br/>
+Jivan Association Caritative<br/>
+Iban: CH5100766000102923535Et",
 );
