@@ -48,9 +48,9 @@
         </div>
         <div class="col-sm-2"><p></br></p></div>
         <div class="col-sm-4 img-show">
-            <div class="img-slide" style="background-image: url('assets/imgs/index_bck.jpg')"></div>
-            <div class="img-slide" style="background-image: url('assets/imgs/anita.jpg')"></div>
-            <div class="img-slide" style="background-image: url('assets/imgs/index_bck.jpg')"></div>
+            <div class="img-slide" style="background-image: url('assets/imgs/slide1.jpg')"></div>
+            <div class="img-slide" style="background-image: url('assets/imgs/slide2.jpg')"></div>
+            <div class="img-slide" style="background-image: url('assets/imgs/slide3.jpg')"></div>
         </div>
     </div>
     

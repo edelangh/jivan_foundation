@@ -176,15 +176,14 @@ h1, h2, h3, h4, h5 {
 }
 
 form.lang {
-    padding-right: 2em;
+    padding-right: 1em;
+    background: none;
 }
 
 select.lang {
     -webkit-appearance: none;
-    background-color: #ffccb3;
-    color: #f6f3e2;
     border: none;
-    border-radius: 1em;
+    background: none;
 }
 
 .profile {
