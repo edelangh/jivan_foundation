@@ -98,4 +98,12 @@ In 2015 SVM celebrated its 20 years of existence and 1000 students had been thro
     <br/>
 Jivan Association Caritative<br/>
 Iban: CH5100766000102923535Et",
+    "story_link_label" => "Discover our story",
+    "stat-label-1" => "children received education",
+    "stat-amount-1" => "1025",
+    "stat-label-2" => "completed high school",
+    "stat-amount-2" => "150",
+    "stat-amount-3" => "225",
+    "stat-label-3" => "are enrolled in classes today",
+    "stat-global-label" => "Since 1995",
 );
