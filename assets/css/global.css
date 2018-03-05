@@ -162,15 +162,16 @@ End container padding
     font-size: 1.3em;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'butlerregular';
-}
-
 p, .navbar {
     font-family: 'arconregular';
 }
 
+p {
+   text-align: justify;
+}
+
 h1, h2, h3, h4, h5 {
+    font-family: 'butlerregular';
     color: #ffbb80;
 }
 
@@ -195,7 +196,7 @@ select.lang {
     padding-top: 1em;
 }
 
-.profile > p{
+.profile > p {
     text-align: justify;
     font-size: 0.9em;
 }

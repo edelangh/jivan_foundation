@@ -12,7 +12,7 @@ $(document).ready(function() {
             
     });
     showDivs();
-    window.setInterval(() => plusDivs(1), 1000);
+    window.setInterval(() => plusDivs(1), 5000);
 });
 
 

@@ -1,6 +1,6 @@
 
 <div class="container body-content">
-    <div class="row body-content-part">
+    <div class="row body-content-part quotes">
         <div class="col-sm-0 col-md-1"></div>
         <div style="text-align: left;" class="index-param col-sm-12 col-md-10">
             <h1><?php echo $LANG["gi_title_1"]; ?></h1>

@@ -3,7 +3,7 @@
     <div class="row body-content-part quotes">
         <div style="margin-top: 60px;text-align: left;" class="index-param col-sm-6">
             <h1><?php echo $LANG["quotes_title"]; ?></h1>
-            <p style="text-align: justify; ">
+            <p>
                 <?php echo $LANG["quotes_text"]; ?>
                 </br>
                 </br>
@@ -44,7 +44,7 @@
         </h2>
         </div>
         <div class="col-sm-6">
-            <p style="text-align: justify;"><?php echo $LANG["missions_body"]; ?></p>
+            <p><?php echo $LANG["missions_body"]; ?></p>
         </div>
         <div class="col-sm-2"><p></br></p></div>
         <div class="col-sm-4 img-show">
