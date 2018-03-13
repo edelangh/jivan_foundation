@@ -278,13 +278,6 @@ button:focus {
     color: #98838f;
 }
 
-
-
-/* TODO: hardcoded */
-.body-content {
-    margin-top: 60px;
-}
-
 @media screen and (min-width: 400px) {
 .body-content {
     padding: 6rem 1.5rem;
