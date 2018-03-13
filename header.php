@@ -4,10 +4,6 @@ $HEADER = array(
     1 => array(
         "title" => $LANG["title_who_we_are"],
         "submenu" => array(
-            0 => array(
-                "title" => $LANG["title_who_sub_what"],
-                "url" => "?page=who_what",
-            ),
             1 => array(
                 "title" => $LANG["title_who_sub_story"],
                 "url" => "?page=who_story",
@@ -15,10 +11,6 @@ $HEADER = array(
             2 => array(
                 "title" => $LANG["title_who_sub_behind"],
                 "url" => "?page=who_team",
-            ),
-            3 => array(
-                "title" => $LANG["title_who_sub_assoc"],
-                "url" => "?page=who_partner",
             ),
         ),
         "url" => "?"
