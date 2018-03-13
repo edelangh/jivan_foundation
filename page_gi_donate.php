@@ -1,9 +1,8 @@
 <div class="container body-content">
     <div class="container row body-content-part quotes">
         <div class="col-sm-12">
-            <h2><?php echo $LANG["involved_title"] ?></h2>
+            <h2 style="padding-bottom: 2em;"><?php echo $LANG["involved_title"] ?></h2>
         </div>
-        <hr align="center" style="padding: 2em 2em" width="90%">
         <div class="container row">
             <div class="col-sm-8">
                     <h4><?php echo $LANG["involved_once_title"] ?></h4>
@@ -16,14 +15,17 @@
         </div>
         <div style="padding-top: 1em;" class="container row">
             <div class="col-sm-8">
-                    <div style="display: flex;">
-                    <?php include './button_paypal.php' ?>
-                    <span style="padding: .5em;"> </span>
-                    <?php include './button_paypal_subscribe.php' ?>
-                    </div>
+      
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-secondary">5$</button>
+                    <button type="button" class="btn btn-secondary">10$</button>
+                    <button type="button" class="btn btn-secondary">15$</button>
+                    <button type="button" class="btn btn-secondary">20$</button>
+                    <button type="button" class="btn btn-secondary">Custom</button>
+                </div>
             </div>
             <div class="col-sm-4">
-                    <button class="btn btn-outline-success my-2 my-sm-0">DOWNLOAD</button>
+                    <button class="btn btn-outline-success my-2 my-sm-0">Bank details</button>
             </div>
         </div>
     </div>

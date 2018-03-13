@@ -1,10 +1,6 @@
 <?php
 
 $HEADER = array(
-    0 => array(
-        "title" => $LANG["title_what_we_do"],
-        "url" => "?"
-    ),
     1 => array(
         "title" => $LANG["title_who_we_are"],
         "submenu" => array(
@@ -79,7 +75,7 @@ $HEADER = array(
             ?>
         </ul>
         <form class="navbar-form pull-left lang">
-            <select name="" id="" style="" class="lang form-control">
+            <select name="" id="" style="color: #98838f;" class="lang form-control">
                 <option value="en">EN</option>
                 <option value="fr">FR</option>
             </select>

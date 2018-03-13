@@ -9,7 +9,7 @@ $LANG = array(
     "title_who_sub_behind" => "The people behind",
     "title_who_sub_assoc" => "The association",
     "title_get_involved" => "GET INVOLVED",
-    "title_get_touch" => "GET IN TOUCH",
+    "title_get_touch" => "CONTACT US",
     "gi_title_1" => "Support the children",
     "gi_title_2" => "Become an ambassador",
     "gi_title_3" => "Work together",
@@ -28,7 +28,7 @@ For example last month Elodie, an active member since several years from Marseil
 <br/>
 Please, feel free to tell us about your idea and let’s see how we can make more good together.",
     "gi_contact" => "Contacts us",
-    "gi_touch" => "Or send send us a message to<br/>
+    "gi_touch" => "
 jivansvm.ch@gmail.com<br/>
 <br/>
 Jivan Charitable Association<br/>
@@ -101,10 +101,7 @@ In 2015 SVM celebrated its 20 years of existence and 1000 students had been thro
 "Give to Jivan through the PayPal Giving Fund. PayPal generously covers all transaction fees so 100% of your donation goes to Jivan.",
     "involved_cheque_title" => "Check",
     "involved_cheque" =>
-    "Please make your check payable to \"Jivan association Caritative\"<br/>
-    <br/>
-Jivan Association Caritative<br/>
-Iban: CH5100766000102923535Et",
+    "Please make your check payable to \"Jivan association Caritative\"",
     "quote_end" => "It belongs to each one of us to give back children their dignity.",
     "story_link_label" => "Discover Jivan",
     "stat-label-1" => "children received education",
