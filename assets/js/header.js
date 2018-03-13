@@ -2,8 +2,8 @@ $(document).ready(function() {
     $(window).scroll(function() {
         if ($(window).scrollTop() >= 10)
             $(".header").css({
-                'padding-top': '2em',
-                'padding-bottom': '2em',
+                'padding-top': '1em',
+                'padding-bottom': '1em',
             });
         else 
             $(".header").css({
