@@ -84,7 +84,7 @@ $HEADER = array(
                 <option value="fr">FR</option>
             </select>
         </form>
-        <form class="form-inline mt-2 mt-md-0" onsubmit="window.location.href='?page=involved'; return false;">
+        <form class="form-inline mt-2 mt-md-0" onsubmit="window.location.href='?page=gi_donate'; return false;">
             <button class="btn btn-donate btn-outline-success my-2 my-sm-0" type="submit">
                 <?php echo $LANG["donate"]; ?>
             </button>

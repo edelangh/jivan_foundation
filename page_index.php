@@ -1,9 +1,9 @@
 
 <div class="container body-content">
-    <div class="row body-content-part quotes onepage">
-        <div style="margin-top: 60px;text-align: left;" class="index-param col-sm-6">
-            <h1><?php echo $LANG["quotes_title"]; ?></h1>
+    <div style="padding-top: inherit;" class="row body-content-part quotes onepage">
+        <div style="text-align: left;" class="index-param col-sm-6">
             <p>
+                <h1><?php echo $LANG["quotes_title"]; ?></h1>
                 <?php echo $LANG["quotes_text"]; ?>
                 </br>
                 </br>
@@ -11,13 +11,11 @@
                     <?php echo $LANG["story_link_label"]; ?>
                 </a></b>
             </p>
-
-    
         </div>
         <div class="col-sm-2"></div>
-        <div class="col-sm-4">
-            <img src="assets/imgs/index_bck.jpg"></img>
-        </div>
+	    <div class="col-sm-4">
+	      <img src="assets/imgs/index_bck.jpg" width="100%" />
+	    </div>
     </div>
    
     <div class="row quotes onepage">
@@ -40,7 +38,7 @@
     <br />
     <div class="row quotes onepage">
         <div class="col-sm-12">
-        <h2>
+        <h2 style="padding-bottom:2em;">
             <?php echo $LANG["quotes_title_2"]; ?>       
         </h2>
         </div>
