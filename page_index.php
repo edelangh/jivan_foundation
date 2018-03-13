@@ -2,20 +2,25 @@
 <div class="container body-content">
     <div style="padding-top: inherit;" class="row body-content-part quotes onepage">
         <div style="text-align: left;" class="index-param col-sm-6">
-            <p>
+            <blockquote>
                 <h1><?php echo $LANG["quotes_title"]; ?></h1>
-                <?php echo $LANG["quotes_text"]; ?>
-                </br>
-                </br>
-                <b><a href="?page=who_story">
+		<cite><div class="justify">
+		    <?php echo $LANG["quotes_text"]; ?>
+		    <h3>
+		      <?php echo $LANG["quote_end"]; ?>
+		    </h3>
+                  </br>
+                  </br>
+                  <b><a href="?page=who_story">
                     <?php echo $LANG["story_link_label"]; ?>
-                </a></b>
-            </p>
-        </div>
-        <div class="col-sm-2"></div>
-	    <div class="col-sm-4">
-	      <img src="assets/imgs/index_bck.jpg" width="100%" />
-	    </div>
+		  </a></b>
+		</div></cite>
+            </blockquote>
+	</div>
+        <div class="col-sm-1"></div>
+	<div class="col-sm-5">
+	  <img style="margin: 15px;" class="img-sepia" src="assets/imgs/index_bck.jpg" width="100%" />
+	</div>
     </div>
    
     <div class="row quotes onepage">
@@ -55,13 +60,13 @@
 	  </ol>
 	  <div class="carousel-inner">
 	    <div class="carousel-item active">
-	      <img class="d-block w-100" src="assets/imgs/slide1.jpg">
+	      <img class="img-sepia d-block w-100" src="assets/imgs/slide1.jpg">
 	    </div>
 	    <div class="carousel-item">
-	      <img class="d-block w-100" src="assets/imgs/slide2.jpg">
+	      <img class="img-sepia d-block w-100" src="assets/imgs/slide2.jpg">
 	    </div>
 	    <div class="carousel-item">
-	      <img class="d-block w-100" src="assets/imgs/slide3.jpg">
+	      <img class="img-sepia d-block w-100" src="assets/imgs/slide3.jpg">
 	    </div>
 	  </div>
 	<!--

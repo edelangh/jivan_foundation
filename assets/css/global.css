@@ -153,6 +153,32 @@ Container padding
 End container padding
 */
 
+/*
+ * blockquote
+*/
+
+blockquote {
+    margin: 0.25em 0;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: relative;
+}
+
+blockquote:before {
+    padding-left: 10px;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -10px;
+    top: -10px;
+}
+
+blockquote cite {
+}
+
+blockquote cite div:before {
+    content: "\2014 \2009";
+}
 
 /*
  * Carousel
@@ -270,6 +296,11 @@ select.lang {
 
 .stat-row > span  {
     font-size: 1.8em;
+}
+
+.img-sepia {
+  -webkit-filter: sepia(100%); /* Safari 6.0 - 9.0 */
+  filter: sepia(100%);
 }
 
 .img-slide, .img-slide2 {

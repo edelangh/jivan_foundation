@@ -41,8 +41,7 @@ Le Locle, Switzerland<br/>
 As a corporation you can bring us your support through a monthly, quarterly or annual participation in the operating expenses as part of the Corporate Social Responsibility (CSR) of your organization in order to strengthen our operating budget and help us improve the quality of care. We could also collaborate to organise an internal fundraising event  for a specific project we are working on, such as helping us acquiring the building of the school. To discuss the details of a potential collaboration, please contact us by filling out the following form.",
     "quotes_title" => "A child is a child",
     "quotes_text" =>
-"Children have not asked to be born in a slum, to leprosy parents or in a cast of rag pickers.
-A child has not chosen to do degrading or humiliating jobs, and hence should have equal rights to succeed in life, to be loved and to be happy. Education is a powerful way of achieving it.",
+"Children have not asked to be born in a slum, to leprosy parents or in a cast of rag pickers.<br/><br/>A child has not chosen to do degrading or humiliating jobs, and hence should have equal rights to succeed in life, to be loved and to be happy. Education is a powerful way of achieving it.",
     "quotes_title_2" => "It belongs to each one of us to give back children their dignity.",
     "result_title" => "Results (Achievements – highlights)",
     "result_body" => 
@@ -106,7 +105,8 @@ In 2015 SVM celebrated its 20 years of existence and 1000 students had been thro
     <br/>
 Jivan Association Caritative<br/>
 Iban: CH5100766000102923535Et",
-    "story_link_label" => "Discover our story",
+    "quote_end" => "It belongs to each one of us to give back children their dignity.",
+    "story_link_label" => "Discover Jivan",
     "stat-label-1" => "children received education",
     "stat-amount-1" => "1025",
     "stat-label-2" => "completed high school",
