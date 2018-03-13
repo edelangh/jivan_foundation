@@ -1,10 +1,10 @@
 
 <div class="container body-content">
     <div style="padding-top: inherit;" class="row body-content-part quotes onepage">
-        <div style="text-align: left;" class="index-param col-sm-6">
-            <blockquote>
-                <h1><?php echo $LANG["quotes_title"]; ?></h1>
-		<cite><div class="justify">
+      <div style="text-align: left;" class="index-param col-sm-6">
+        <blockquote>
+          <h1><?php echo $LANG["quotes_title"]; ?></h1>
+		  <cite><div class="justify">
 		    <?php echo $LANG["quotes_text"]; ?>
 		    <h3>
 		      <?php echo $LANG["quote_end"]; ?>
@@ -13,16 +13,18 @@
                   </br>
                   <b><a href="?page=who_story">
                     <?php echo $LANG["story_link_label"]; ?>
-		  </a></b>
-		</div></cite>
-            </blockquote>
-	</div>
-        <div class="col-sm-1"></div>
-	<div class="col-sm-5">
-	  <img style="margin: 15px;" class="img-sepia" src="assets/imgs/index_bck.jpg" width="100%" />
-	</div>
+		    </a></b>
+		   </div></cite>
+         </blockquote>
+	  </div>
+      <div class="col-sm-1"></div>
+	  <div class="col-sm-5">
+	    <img style="margin: 15px;" class="img-sepia" src="assets/imgs/index_bck.jpg" width="100%" />
+	  </div>
     </div>
-   
+    <div style="padding-top: inherit;" class="row quotes onepage">
+      <?php include_once "./timeline.php"; ?>
+    </div>
     <div class="row quotes onepage">
         <div class="col-sm-12">
             <h1><?php echo $LANG["stat-global-label"]; ?></h1>
@@ -52,7 +54,7 @@
         </div>
 	<div class="col-sm-1"><p></br></p></div>
         <div class="col-sm-5 img-show">
-	<div id="carousel" class="carousel slide" data-ride="carousel">
+	<div id="carousel" class="carousel carousel-fade" data-ride="carousel">
 	  <ol class="carousel-indicators">
 	    <li data-target="#carousel" data-slide-to="0" class="active"></li>
 	    <li data-target="#carousel" data-slide-to="1"></li>
