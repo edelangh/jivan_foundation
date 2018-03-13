@@ -1,6 +1,6 @@
 
 
-
+<!--
 <div id="fb-root"></div>
 <script src="assets/js/facebook_button.js"></script>
 
@@ -15,12 +15,11 @@
                 data-mobile-iframe="true">
                 <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse"
                 class="fa fa-facebook fb-xfbml-parse-ignore">
-                    <!--
-                    -->
-                        <span style="padding: 10px "><?php echo $LANG["share"]; ?><span>
+                        <span style="padding: 10px ">< ?php echo $LANG["share"]; ?><span>
                 </a>
             </div>
         </div>
     </div>
 </div>
 </footer>
+-->
