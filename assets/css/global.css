@@ -131,10 +131,30 @@ header
 
 
 .header {
-    padding:1em 2em;
+    padding:1em g2em;
     transition: .5s all;
 }
 
+.dropdown-menu {
+    background: #f6f3e1;
+    border: none;
+    min-width: 215px;
+}
+
+.dropdown-item {
+    padding: 0.4em 1em;
+    color: #98838f;
+    font-size: 1.2rem;
+    transition: .5s padding-left;
+}
+
+.dropdown-item:hover {
+    padding-left: 2em;
+}
+a:hover, .dropdown-item:hover {
+    background-color: transparent;
+    color: #ffbb80;
+}
 /*
 end header
 */
@@ -216,11 +236,15 @@ html, body, .carousel, .carousel-inner, .carousel-item {
     color: #FFFFFF;
 }
 
-.btn-donate {
+.btn-donate:hover,.btn-outline-success:hover, .btn-secondary:hover {
+    background-color: #ffccb3 !important;
+}
+
+.btn-secondary, .btn-donate, .btn-outline-success {
     background-color: #98838f;
     color: #f6f3e2;
     padding: .5em 1.3em;
-    border-color: #98838f;
+    border: none;
     border-radius: 1em;
 }
 
@@ -230,6 +254,7 @@ html, body, .carousel, .carousel-inner, .carousel-item {
     margin-top: 1em;
     background-color: transparent;
     border: none;
+    color: #98838f;
 }
 
 input:focus,
@@ -240,20 +265,20 @@ button:focus {
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-    color: pink;
-  }
+    color: #98838f;
+    font-weight: 100;
+    font-size: .9em;
+}
   
 
 #mail-mail-area {
     width: 100%;
     background-color: transparent;
     border: none;
-    
+    color: #98838f;
 }
 
-.btn-donate:hover {
-    background-color: #ffccb3 !important;
-}
+
 
 /* TODO: hardcoded */
 .body-content {

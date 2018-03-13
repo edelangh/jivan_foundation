@@ -1,17 +1,9 @@
 <?php
 
 $HEADER = array(
-    0 => array(
-        "title" => $LANG["title_what_we_do"],
-        "url" => "?"
-    ),
     1 => array(
         "title" => $LANG["title_who_we_are"],
         "submenu" => array(
-            0 => array(
-                "title" => $LANG["title_who_sub_what"],
-                "url" => "?page=who_what",
-            ),
             1 => array(
                 "title" => $LANG["title_who_sub_story"],
                 "url" => "?page=who_story",
@@ -19,10 +11,6 @@ $HEADER = array(
             2 => array(
                 "title" => $LANG["title_who_sub_behind"],
                 "url" => "?page=who_team",
-            ),
-            3 => array(
-                "title" => $LANG["title_who_sub_assoc"],
-                "url" => "?page=who_partner",
             ),
         ),
         "url" => "?"
@@ -79,7 +67,7 @@ $HEADER = array(
             ?>
         </ul>
         <form class="navbar-form pull-left lang">
-            <select name="" id="" style="" class="lang form-control">
+            <select name="" id="" style="color: #98838f;" class="lang form-control">
                 <option value="en">EN</option>
                 <option value="fr">FR</option>
             </select>
