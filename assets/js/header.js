@@ -12,8 +12,6 @@ $(document).ready(function() {
             });    
             
     });
-    showDivs();
-    window.setInterval(() => plusDivs(1), 5000);
 });
 
 
