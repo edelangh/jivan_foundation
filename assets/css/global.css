@@ -28,6 +28,8 @@ body {
 #main-logo {
     width: 64px;
     height: 64px;
+    -webkit-transition: width 1s, height 1s; /* For Safari 3.1 to 6.0 */
+    transition: width 1s, height 1s;
 }
 
 .justify {
@@ -159,6 +161,10 @@ a:hover, .dropdown-item:hover {
     background-color: transparent;
     color: #ffbb80;
 }
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: transparent;
+}
+
 /*
 end header
 */

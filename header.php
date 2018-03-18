@@ -35,7 +35,7 @@ $HEADER = array(
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav mr-auto" style="width: 100%">
             <?php
             foreach ($HEADER as $ITEM) {
                 if (isset($ITEM["submenu"])) {
@@ -65,13 +65,18 @@ $HEADER = array(
                 }
             }
             ?>
+	</ul>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a style="color: #97838f;"  class="nav-link dropdown-toggle" data-hover="dropdown" href="<?php echo $ITEM["link"]; ?>" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    EN
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+	        	<a class="dropdown-item" href="#lang=EN">EN</a>
+	        	<a class="dropdown-item" href="#lang=FR">FR</a>
+                </div>
+	    </li>
         </ul>
-        <form class="navbar-form pull-left lang">
-            <select name="" id="" style="color: #98838f;" class="lang form-control">
-                <option value="en">EN</option>
-                <option value="fr">FR</option>
-            </select>
-        </form>
         <form class="form-inline mt-2 mt-md-0" onsubmit="window.location.href='?page=gi_donate'; return false;">
             <button class="btn btn-donate btn-outline-success my-2 my-sm-0" type="submit">
                 <?php echo $LANG["donate"]; ?>
