@@ -2,8 +2,8 @@
     $TITLE = $LANG["who_team_title"];
 ?>
 
-<div class="container body-content">
-  <div style="padding-top: inherit;" class="row body-content-part quotes onepage">
+<div class="body-content">
+  <div style="padding-top: 10vh"class="container onepage">
     <h2><?php echo $TITLE; ?></h2>
     <div class="row quotes">
         <?php foreach (array("anita", "jeremie", "aslam") as $key => $name) { ?>
