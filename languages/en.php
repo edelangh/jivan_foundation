@@ -124,4 +124,50 @@ Till date 1025 students have been through the SVM education program, 225 are cur
     "stat-amount-3" => "225",
     "stat-label-3" => "are enrolled in classes today",
     "stat-global-label" => "Since 1995",
+    "timeline" => array(
+	    array(
+		    "date" => "1973",
+		    "desc" => "Sophie Rombaut arrives in the first slum in New Delhi",
+		    "img" => "./assets/imgs/anita.jpg"),
+	    array(
+		    "date" => "1995",
+		    "desc" => "SVM starts in the slum of ITO from class 1 to 6",
+		    "img" => "./assets/imgs/anita.jpg"),
+	    array(
+		    "date" => "1996",
+		    "desc" => "Anita Bula meets Sophie Rombaut, Shanti Delhi created",
+		    "img" => "./assets/imgs/anita.jpg"),
+	    array(
+		    "date" => "1999",
+		    "desc" => "Swiss Air starts to sponsor the project",
+		    "img" => "./assets/imgs/anita.jpg"),
+	    array(
+		    "date" => "2000",
+		    "desc" => "New classes added",
+		    "img" => "./assets/imgs/anita.jpg"),
+	    array(
+		    "date" => "2006",
+		    "desc" => "Slum demolished and SVM school relocated to Laxmi nagar",
+		    "img" => "./assets/imgs/anita.jpg"),
+	    array(
+		    "date" => "2006",
+		    "desc" => "Shanti Delhi becomes Jivan",
+		    "img" => "./assets/imgs/anita.jpg"),
+	    array(
+		    "date" => "2009",
+		    "desc" => "First batch of students reach high school",
+		    "img" => "./assets/imgs/anita.jpg"),
+	    array(
+		    "date" => "2012",
+		    "desc" => "2 group of students create their company",
+		    "img" => "./assets/imgs/anita.jpg"),
+	    array(
+		    "date" => "2015",
+		    "desc" => "SVM school celebrate 20 years and 1000 students till date",
+		    "img" => "./assets/imgs/anita.jpg"),
+	    array(
+		    "date" => "2017",
+		    "desc" => "New class in slum near SVM school",
+		    "img" => "./assets/imgs/anita.jpg"),
+    )
 );

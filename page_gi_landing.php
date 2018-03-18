@@ -14,7 +14,7 @@
     </div>
     <div class="row quotes">
         <div class="col-sm-0 col-md-6"></div>
-        <div style="margin-top: 60px;text-align: right;" class="index-param col-sm-12 col-md-6">
+        <div style="text-align: right;" class="index-param col-sm-12 col-md-6">
             <h2><?php echo $LANG["gi_title_2"]; ?></h2>
             <p style="direction: rtl">
                 <?php echo $LANG["gi_text_2"]; ?>
@@ -25,7 +25,7 @@
         </div>
     </div>
     <div class="row quotes">
-        <div style="margin-top: 60px;text-align: left;" class="index-param col-sm-12 col-md-6">
+        <div style="text-align: left;" class="index-param col-sm-12 col-md-6">
             <h2><?php echo $LANG["gi_title_3"]; ?></h2>
             <p>
                 <?php echo $LANG["gi_text_3"]; ?>

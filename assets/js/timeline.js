@@ -18,7 +18,7 @@
         if (i == itemLength - 2 && pos > min + $(this).height() / 2) {
           selectors.item.removeClass(selectors.activeClass);
           selectors.item.last().addClass(selectors.activeClass);
-        } else if (pos <= max - 40 && pos >= min) {
+        } else if (min - 200 <= pos && pos <= max + 400) {
           selectors.item.removeClass(selectors.activeClass);
           $(this).addClass(selectors.activeClass);
         }
