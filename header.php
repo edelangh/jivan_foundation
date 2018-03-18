@@ -41,7 +41,7 @@ $HEADER = array(
                 if (isset($ITEM["submenu"])) {
             ?>
                     <li class="nav-item dropdown">
-                        <a style="color: #97838f;"  class="nav-link dropdown-toggle" href="<?php echo $ITEM["link"]; ?>" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a style="color: #97838f;"  class="nav-link dropdown-toggle" data-hover="dropdown" href="<?php echo $ITEM["link"]; ?>" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <?php echo $ITEM["title"]; ?>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">

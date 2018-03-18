@@ -151,6 +151,10 @@ header
 .dropdown-item:hover {
     padding-left: 2em;
 }
+
+.dropdown-toggle::after {
+    content: none;
+}
 a:hover, .dropdown-item:hover {
     background-color: transparent;
     color: #ffbb80;
