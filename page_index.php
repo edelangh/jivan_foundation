@@ -16,11 +16,11 @@
 		    </a></b>
 		   </div></cite>
          </blockquote>
-	  </div>
+      </div>
       <div class="col-sm-1"></div>
-	  <div class="col-sm-5">
-	    <img style="margin: 15px;" class="img-sepia" src="assets/imgs/index_bck.jpg" width="100%" />
-	  </div>
+      <div class="col-sm-5">
+        <img style="margin: 15px;" class="img-sepia" src="assets/imgs/index_bck.jpg" width="100%" />
+      </div>
     </div>
     <div style="padding-top: inherit;" class="row quotes onepage">
       <?php include_once "./timeline.php"; ?>

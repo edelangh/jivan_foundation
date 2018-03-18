@@ -14,3 +14,27 @@ $(document).ready(function() {
     });
 });
 
+/*  sidebar */
+
+var $el, $ps, $up, totalHeight;
+
+$(".sidebar-box .button").click(function() {
+
+  totalHeight = 0
+
+  $el = $(this);
+  $p  = $el.parent();
+  $up = $p.parent();
+
+  $up
+    .css({
+      // Set height to prevent instant jumpdown when max height is removed
+      "height": $up.find('description').height(),
+      "max-height": 9999
+    });
+
+  // fade out read-more
+  $p.addClass("hide");
+  return false;
+
+});

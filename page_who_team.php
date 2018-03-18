@@ -3,21 +3,20 @@
 ?>
 
 <div class="container body-content">
-    <h1><?php echo $TITLE; ?></h1>
-    <hr align="center" width="90%">
+  <div style="padding-top: inherit;" class="row body-content-part quotes onepage">
+    <h2><?php echo $TITLE; ?></h2>
     <div class="row quotes">
         <?php foreach (array("anita", "jeremie", "aslam") as $key => $name) { ?>
         <div style="text-align: left" class="col-sm-4 col-md-4 profile">
-            <img align="center" src=<?php echo "assets/imgs/".$name."_crop.jpg";?>></img>
-            <h4><?php echo $LANG[$name."_name"] ?></h4>
-            <p><?php echo $LANG[$name."_desc"]; ?></p>
+            <img class="img-sepia" align="center" src=<?php echo "assets/imgs/".$name."_crop.jpg";?>></img>
+            <h3 class="title-name"><?php echo $LANG[$name."_name"] ?></h3>
+	    <div class="sidebar-box">
+	       <p class="description"><?php echo $LANG[$name."_desc"]; ?></p>
+               <p class="read-more"><a href="#" class="btn btn-donate btn-outline-success button">Read More</a></p>
+            </div>
         </div>
         <?php } ?>
     </div>
+  </div>
 </div>
-<h4>Aslam ISLAMUDDIN</h5>
 
-<!--            <p><?php echo $LANG["aslam_desc"]; ?></p>
-            <h4>Jérémie ROMBAUT</h5>
-            <p><?php echo $LANG["jeremie_desc"]; ?></p>
--->

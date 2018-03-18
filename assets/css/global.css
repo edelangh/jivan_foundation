@@ -334,20 +334,20 @@ select.lang {
     padding-top: 1em;
 }
 
-.profile > h4 {
+.profile > .title-name {
     text-align: center;
     padding-top: 1em;
 }
 
 .profile > p {
     text-align: justify;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
 .profile > img {
     border-radius: 50%;
-    max-width: 200px;
-    max-width: 200px;
+    max-width: 150px;
+    max-width: 150px;
     display: block;
     margin: auto;
 }
@@ -389,4 +389,33 @@ select.lang {
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+/* sidebar */
+.sidebar-box {
+  max-height: 9.6em;
+  position: relative;
+  overflow: hidden;
+  animation: max-height 2s;
+  -o-animation: max-height 2s;
+}
+
+.sidebar-long {
+  max-height: 60vh;
+}
+
+.sidebar-box .read-more {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  margin: 0; padding: 30px 0;
+
+  /* "transparent" only works here because == rgba(0,0,0,0) */
+  background-image: linear-gradient(to bottom, transparent, #f6f3e1);
+}
+
+.hide, .hidden {
+  visibility: hidden;
 }
