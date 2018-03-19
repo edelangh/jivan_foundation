@@ -80,6 +80,20 @@
         </div>
       </div>
     </div>
+    <div class="row quotes onepage">
+      <div class="col-sm-12">
+        <h2><?php echo $LANG["partner_t1"]; ?></h2>
+        <ul>
+          <li class="partner"><?php echo $LANG["partner_0"]; ?></li>
+        </ul>
+        <h2><?php echo $LANG["partner_t2"]; ?></h2>
+        <ul>
+          <li class="partner"><?php echo $LANG["partner_1"]; ?></li>
+          <li class="partner"><?php echo $LANG["partner_2"]; ?></li>
+          <li class="partner"><?php echo $LANG["partner_3"]; ?></li>
+        </ul>
+      </div>
+    </div>
     <div class="row quotes onepage" style="margin-bottom: 20vh" >
       <div class="col-sm-12">
         <h2>
