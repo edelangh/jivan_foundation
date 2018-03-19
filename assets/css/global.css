@@ -237,6 +237,9 @@ html, body, .carousel, .carousel-inner, .carousel-item {
   left: 0;
 }
 
+.onepage-tile {
+    background: rgb(246, 243, 225) !important;
+}
 
 /*
  * out Carousel fade

@@ -7,13 +7,13 @@
           <cite>
             <div class="justify">
               <?php echo $LANG["quotes_text"]; ?>
-              <h3>
+              <h3 style="    padding-top: 1em;">
                 <?php echo $LANG["quote_end"]; ?>
               </h3>
               </br>
               </br>
               <b>
-                <a href="?page=who_story">
+                <a class="btn-outline-success btn"  href="?page=who_story">
                 <?php echo $LANG["story_link_label"]; ?>
                 </a>
               </b>
@@ -86,7 +86,7 @@
       <div class="col-sm-6">
         <p><?php echo $LANG["missions_body"]; ?></p>
               <b>
-                <a href="?page=gi_donate">
+                <a class="btn-outline-success btn" href="?page=gi_donate">
                 <?php echo $LANG["support"]; ?>
                 </a>
               </b>
