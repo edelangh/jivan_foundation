@@ -80,14 +80,12 @@ education center since 23 years.",
     "jeremie_name" => "Jérémie ROMBAUT",
     "jeremie_desc" => "Jérémie is the son of Sophie and has been involved in her projects since a young age of 12, first as her translator but gradually taking more responsibilities to help her. After Sophie left is 2002 he decided to continue her projects managing the team in India. In parallel he completed his engineering and business education and later worked for a French multinational. 
 ",
-    "who_partner_title" => "Our Partners",
-    "who_partner_t1" =>"We work hand in hand with",
-    "who_partner_b1" => "AIDE AUX PLUS DEMUNIS, Marseille, supporting the Mateshwari Charitable Dispensary in Rishikesh",
-    "who_partner_t2" => "We are supported by",
-    "who_partner_b2" =>
-"STIFTUNG KINDERHILFE DES SWISSAIR PERSONNALS (Foundation of the employees of Swissair to help children in need), Zurich, since 1999<br/>
-THE CENTURY TRUST, Bangalore, since 2016<br/>
-ART’HENIA SHOP, Lausanne, since 2017",
+    "partner_t1" =>"We work hand in hand with",
+    "partner_0" => "AIDE AUX PLUS DEMUNIS, Marseille, supporting the Mateshwari Charitable Dispensary in Rishikesh",
+    "partner_t2" => "We are supported by",
+    "partner_1" => "STIFTUNG KINDERHILFE DES SWISSAIR PERSONNALS, Zurich, since 1999",
+    "partner_2" => "THE CENTURY TRUST, Bangalore, since 2016",
+    "partner_3" => "ART’HENIA SHOP, Lausanne, since 2017",
     "who_story_title" => "Our story",
     "who_story_body" =>
 "

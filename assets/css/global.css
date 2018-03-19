@@ -371,6 +371,10 @@ p.profile {
     margin-right: 10px;
 }
 
+li.partner {
+    padding-bottom: 0.8em;
+}
+
 /*
 ** FOOTER
 */
