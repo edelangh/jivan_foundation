@@ -13,6 +13,7 @@ $LANG = array(
     "gi_title_1" => "Support the children",
     "gi_title_2" => "Become an ambassador",
     "gi_title_3" => "Work together",
+    "support" => "Give some support",
     "share" => "SHARE",
     "donate" => "DONATE",
     "subscribe" => "SUBSCRIBE MONTHLY",

@@ -29,35 +29,69 @@
     <div style="padding-top: inherit;" class="row quotes onepage">
       <?php include_once "./timeline.php"; ?>
     </div>
-    <div class="row quotes onepage">
+    <div class="onepage quotes">
+      <div class="row">
         <div class="col-sm-12">
-            <h1><?php echo $LANG["stat-global-label"]; ?></h1>
-        </div> 
-        <div class="stat-row col-sm-4">
-            <span><?php echo $LANG["stat-amount-1"]; ?></span>
-            <p><?php echo $LANG["stat-label-1"]; ?></p>
-        </div>
-        <div class="stat-row col-sm-4">
-            <span><?php echo $LANG["stat-amount-2"]; ?></span>
-            <p><?php echo $LANG["stat-label-2"]; ?></p>
-        </div>
-        <div class="stat-row col-sm-4">
-            <span><?php echo $LANG["stat-amount-3"]; ?></span>
-            <p><?php echo $LANG["stat-label-3"]; ?></p>
+          <h1><?php echo $LANG["stat-global-label"]; ?></h1>
         </div>
       </div>
-      <br />
-      <div class="row quotes onepage">
-        <div class="col-sm-12">
+      </br>
+      </br>
+      </br>
+      <div class="row">
+        <div class="col-md-4">
+         <div class="circle">
+           <svg class="circle_draw">
+             <circle cx="50%" cy="50%" r="50%" fill="#98838f" />
+             Sorry, your browser does not support inline SVG.  
+           </svg> 
+            <div class="circle_content">
+              <div><?php echo $LANG["stat-amount-1"]; ?></div>
+              <p><?php echo $LANG["stat-label-1"]; ?></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+         <div class="circle">
+           <svg class="circle_draw">
+             <circle cx="50%" cy="50%" r="50%" fill="#98838f" />
+             Sorry, your browser does not support inline SVG.  
+           </svg> 
+            <div class="circle_content">
+              <div><?php echo $LANG["stat-amount-2"]; ?></div>
+              <p><?php echo $LANG["stat-label-2"]; ?></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+         <div class="circle">
+           <svg class="circle_draw">
+             <circle cx="50%" cy="50%" r="50%" fill="#98838f" />
+             Sorry, your browser does not support inline SVG.  
+           </svg> 
+            <div class="circle_content">
+              <div><?php echo $LANG["stat-amount-3"]; ?></div>
+              <p><?php echo $LANG["stat-label-3"]; ?></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row quotes onepage" style="margin-bottom: 20vh" >
+      <div class="col-sm-12">
         <h2 style="padding-bottom:2em;">
           <?php echo $LANG["quotes_title_2"]; ?>       
         </h2>
-        </div>
-        <div class="col-sm-6">
-          <p><?php echo $LANG["missions_body"]; ?></p>
       </div>
-      <div class="col-sm-1"><p></br></p></div>
-      <div class="col-sm-5 img-show">
+      <div class="col-sm-6">
+        <p><?php echo $LANG["missions_body"]; ?></p>
+              <b>
+                <a href="?page=gi_donate">
+                <?php echo $LANG["support"]; ?>
+                </a>
+              </b>
+      </div>
+      <div class="col-sm-5 img-show" style="margin-left: 15px">
         <div id="carousel" class="carousel carousel-fade" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carousel" data-slide-to="0" class="active"></li>

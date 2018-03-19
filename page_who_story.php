@@ -6,8 +6,7 @@
 <div class="body-content">
   <div class="container onepage">
     <div class="row quotes">
-      <div class="col-sm-0 col-md-1"></div>
-        <div style="text-align: left" class="col-sm-12 col-md-10">
+        <div style="text-align: left" class="col-sm-12 col-md-12">
           <h2><?php echo $TITLE; ?></h2>
           <div class="sidebar-box sidebar-long">
             <p style="font-size: 1.2em" class="description">
