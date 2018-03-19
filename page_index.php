@@ -5,8 +5,8 @@
         <blockquote>
           <h1><?php echo $LANG["quotes_title"]; ?></h1>
           <cite>
-            <div class="justify">
-              <?php echo $LANG["quotes_text"]; ?>
+            <div>
+              <p><?php echo $LANG["quotes_text"]; ?></p>
               <h3>
                 <?php echo $LANG["quote_end"]; ?>
               </h3>
@@ -28,6 +28,9 @@
     </div>
     <div style="padding-top: inherit;" class="row quotes onepage">
       <?php include_once "./timeline.php"; ?>
+      <a href="?page=who_story" style="width: 100%; text-align: center;">
+        <?php echo $LANG["discover"]; ?>
+      </a>
     </div>
     <div class="onepage quotes">
       <div class="row">
@@ -42,7 +45,7 @@
         <div class="col-md-4">
          <div class="circle">
            <svg class="circle_draw">
-             <circle cx="50%" cy="50%" r="50%" fill="#98838f" />
+             <circle cx="50%" cy="50%" r="45%" fill="#98838f" />
              Sorry, your browser does not support inline SVG.  
            </svg> 
             <div class="circle_content">
@@ -54,7 +57,7 @@
         <div class="col-md-4">
          <div class="circle">
            <svg class="circle_draw">
-             <circle cx="50%" cy="50%" r="50%" fill="#98838f" />
+             <circle cx="50%" cy="50%" r="45%" fill="#98838f" />
              Sorry, your browser does not support inline SVG.  
            </svg> 
             <div class="circle_content">
@@ -66,7 +69,7 @@
         <div class="col-md-4">
          <div class="circle">
            <svg class="circle_draw">
-             <circle cx="50%" cy="50%" r="50%" fill="#98838f" />
+             <circle cx="50%" cy="50%" r="45%" fill="#98838f" />
              Sorry, your browser does not support inline SVG.  
            </svg> 
             <div class="circle_content">
@@ -79,7 +82,7 @@
     </div>
     <div class="row quotes onepage" style="margin-bottom: 20vh" >
       <div class="col-sm-12">
-        <h2 style="padding-bottom:2em;">
+        <h2>
           <?php echo $LANG["quotes_title_2"]; ?>       
         </h2>
       </div>

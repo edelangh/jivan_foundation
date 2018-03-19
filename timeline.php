@@ -8,7 +8,7 @@
 <!--        <h2 class="timeline__content-title"><?php echo $event["date"]; ?></h2> -->
 	<p class="timeline__content-desc">
 	        <h2><?php echo $event["date"]; ?></h2>
-		<?php echo $event["desc"]; ?>
+		<p><?php echo $event["desc"]; ?></p>
 	</p>
       </div>
     </div>

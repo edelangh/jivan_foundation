@@ -11,7 +11,7 @@
             <img class="img-sepia" align="center" src=<?php echo "assets/imgs/".$name."_crop.jpg";?>></img>
             <h3 class="title-name"><?php echo $LANG[$name."_name"] ?></h3>
 	    <div class="sidebar-box">
-	       <p class="description"><?php echo $LANG[$name."_desc"]; ?></p>
+	       <p class="description profile"><?php echo $LANG[$name."_desc"]; ?></p>
                <p class="read-more"><a href="#" class="btn btn-donate btn-outline-success button">Read More</a></p>
             </div>
         </div>

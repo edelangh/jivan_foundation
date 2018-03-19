@@ -157,6 +157,11 @@ header
 .dropdown-toggle::after {
     content: none;
 }
+
+a {
+   transition: color 0.3s;
+}
+
 a:hover, .dropdown-item:hover {
     background-color: transparent;
     color: #ffbb80;
@@ -210,7 +215,7 @@ blockquote:before {
 blockquote cite {
 }
 
-blockquote cite div:before {
+blockquote cite div > p:before {
     content: "\2014 \2009";
 }
 
@@ -316,11 +321,13 @@ body {
 
 p {
    text-align: justify;
+   line-height: 1.9em;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'butlerregular';
     color: #ffbb80;
+    margin-bottom: 1em;
 }
 
 form.lang {
@@ -343,9 +350,9 @@ select.lang {
     padding-top: 1em;
 }
 
-.profile > p {
+p.profile {
     text-align: justify;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
 .profile > img {
@@ -468,7 +475,7 @@ select.lang {
     padding-bottom: 0px
   }
   .circle_content > p {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 }
 

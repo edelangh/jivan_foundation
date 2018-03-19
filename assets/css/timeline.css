@@ -32,9 +32,9 @@
   }
 }
 .timeline-item {
-  padding: 100px 0; /* <-- space between element */
-  opacity: .3;
-  filter: blur(2px);
+  padding: 75px 0; /* <-- space between element */
+  opacity: 0.5;
+  filter: blur(1px);
   transition: filter .5s;
   transition: opacity .5s;
   box-sizing: border-box;

@@ -1,10 +1,10 @@
 
 <div class="body-content">
-  <div class="container onepage">
+  <div style="padding-top: 5vh;" class="container onepage">
     <div class="row quotes">
         <div style="text-align: left;" class="index-param col-sm-12 col-md-6">
             <h2><?php echo $LANG["gi_title_1"]; ?></h2>
-            <p>
+            <p style="text-align: left">
                 <?php echo $LANG["gi_text_1"]; ?>
             </p>
             <h3><a href="?page=gi_donate">
@@ -16,7 +16,7 @@
         <div class="col-sm-0 col-md-6"></div>
         <div style="text-align: right;" class="index-param col-sm-12 col-md-6">
             <h2><?php echo $LANG["gi_title_2"]; ?></h2>
-            <p style="direction: rtl">
+            <p style="text-align: right">
                 <?php echo $LANG["gi_text_2"]; ?>
             </p>
             <h3><a href="?page=gi_ambassador">
@@ -27,7 +27,7 @@
     <div class="row quotes">
         <div style="text-align: left;" class="index-param col-sm-12 col-md-6">
             <h2><?php echo $LANG["gi_title_3"]; ?></h2>
-            <p>
+            <p style="text-align: left">
                 <?php echo $LANG["gi_text_3"]; ?>
             </p>
             <h3><a href="?page=gi_work">
