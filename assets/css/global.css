@@ -9,6 +9,10 @@ cite {
 ** Font
 */
 
+.nav-link {
+    z-index: 99999999;
+}
+
 .spacer {
     padding: 4em;
 }

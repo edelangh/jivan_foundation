@@ -8,7 +8,7 @@
       <?php echo $LANG["quote_end"]; ?>
   </h3>
 
-  <div class="timeline">
+  <div style="z-index: 9999999; pointer-events: none;" class="timeline">
    <?php foreach ($LANG["timeline"] as $event) { ?>
     <div class="timeline-item" data-text="">
       <div class="timeline__content">
