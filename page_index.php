@@ -28,9 +28,11 @@
     </div>
     <div style="padding-top: inherit;" class="row quotes onepage">
       <?php include_once "./timeline.php"; ?>
-      <a href="?page=who_story" style="width: 100%; text-align: center;">
-        <?php echo $LANG["discover"]; ?>
-      </a>
+      <p style="text-align: center; width: 100%;">
+        <a style=" background-color: #f6f3e1;" class="blink" href="?page=who_story" >
+          <?php echo $LANG["discover"]; ?>
+        </a>
+      </p>
     </div>
     <div class="onepage quotes">
       <div class="row">
@@ -93,7 +95,7 @@
           <li class="partner"><?php echo $LANG["partner_3"]; ?></li>
         </ul>
         <b>
-          <a href="?page=gi_work">
+          <a class="blink" href="?page=gi_work">
           <?php echo $LANG["support_us"]; ?>
           </a>
         </b>
