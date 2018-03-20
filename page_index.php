@@ -7,12 +7,13 @@
           <cite>
             <div>
               <p><?php echo $LANG["quotes_text"]; ?></p>
-              <h3>
+              <h3 style="color: #98838f">
                 <?php echo $LANG["quote_end"]; ?>
               </h3>
-              </br>
-              </br>
-              <b>
+              <div style="text-align: right; width: 100%;">
+                <bold style="line-height: 2.7;">Sophie Rombaut</bold>
+              </div>
+              <b >
                 <a class="blink" href="?page=who_story">
                 <?php echo $LANG["story_link_label"]; ?>
                 </a>
@@ -22,8 +23,8 @@
         </blockquote>
       </div>
       <div class="col-sm-1"></div>
-      <div class="col-sm-5">
-        <img style="margin: 15px;" class="img-sepia" src="assets/imgs/index_bck.jpg" width="100%" />
+      <div class="col-sm-5" width="100%">
+        <img style="margin: 15px; float: right;" class="img-sepia" src="assets/imgs/index_bck.jpg" />
       </div>
     </div>
     <div style="padding-top: inherit;" class="row quotes onepage">

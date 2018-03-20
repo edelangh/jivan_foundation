@@ -184,11 +184,9 @@ Container padding
 */
 
 .body-content > .onepage:nth-child(1) {
-    padding-top: 10vh;
 }
 
 .onepage {
-    padding-top: 20vh;
     min-height: 80vh;
 }
 
@@ -343,7 +341,6 @@ p {
 h1, h2, h3, h4, h5 {
     font-family: 'butlerregular';
     color: #ffbb80;
-    margin-bottom: 1em;
 }
 
 form.lang {
