@@ -176,7 +176,7 @@ header
 }
 
 a {
-   transition: color 0.3s;
+    transition: color 0.3s;
 }
 
 a:hover, .dropdown-item:hover {
@@ -566,4 +566,18 @@ li.partner {
 
 .circle_content > p {
   text-align: center;
+}
+
+.blink {
+    text-transform: uppercase;
+    font-size: .8em;
+    border: 3px solid #ffbb80;
+    border-radius: 1em;
+    padding: .8em;
+    color: #98838f;
+}
+
+.blink:hover {
+    text-decoration: none;
+    color: #ffbb80;
 }

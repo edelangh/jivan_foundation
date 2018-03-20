@@ -21,11 +21,11 @@
 .timeline:before {
   position: absolute;
   left: 50%;
-  width: 1px;
+  width: 5px;
   height: 100%;
   margin-left: -1px;
   content: "";
-  background: #98838f;
+  background: #ffbb80;
 }
 @media only screen and (max-width: 767px) {
   .timeline:before {
