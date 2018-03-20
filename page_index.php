@@ -92,6 +92,11 @@
           <li class="partner"><?php echo $LANG["partner_2"]; ?></li>
           <li class="partner"><?php echo $LANG["partner_3"]; ?></li>
         </ul>
+        <b>
+          <a href="?page=gi_work">
+          <?php echo $LANG["support_us"]; ?>
+          </a>
+        </b>
       </div>
     </div>
     <div class="row quotes onepage" style="margin-bottom: 20vh" >

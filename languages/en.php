@@ -14,6 +14,7 @@ $LANG = array(
     "gi_title_2" => "Become an ambassador",
     "gi_title_3" => "Work together",
     "support" => "Give some support",
+    "support_us" => "Support us",
     "discover" => "Discover our story",
     "share" => "SHARE",
     "donate" => "DONATE",
