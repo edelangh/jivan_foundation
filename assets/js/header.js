@@ -8,13 +8,19 @@ $(document).ready(function() {
             $(".navbar").css({
                 'font-size': '.8em',
             });
+            $(".btn").css({
+                'font-size': '12px',
+            });
         } else { 
             $("#main-logo").css({
                 'width': '64px',
                 'height': '64px',
             });
-            $(".navbar").css({
+            $(".navbar", ".btn").css({
                 'font-size': '1em',
+            });
+            $(".btn").css({
+                'font-size': '16px',
             });
         }
     });

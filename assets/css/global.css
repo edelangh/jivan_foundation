@@ -30,6 +30,10 @@ cite {
 #ffccb3`
 */
 
+.btn {
+	transition: font-size 1s;
+}
+
 #main-logo {
     width: 64px;
     height: 64px;
