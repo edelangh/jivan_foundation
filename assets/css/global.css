@@ -487,6 +487,7 @@ li.partner {
   overflow: hidden;
   animation: max-height 2s;
   -o-animation: max-height 2s;
+  margin-bottom: 10vh;
 }
 
 .sidebar-long {
