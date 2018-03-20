@@ -13,7 +13,7 @@
               </br>
               </br>
               <b>
-                <a href="?page=who_story">
+                <a class="blink" href="?page=who_story">
                 <?php echo $LANG["story_link_label"]; ?>
                 </a>
               </b>

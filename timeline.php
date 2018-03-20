@@ -1,5 +1,9 @@
 <!-- http://freefrontend.com/css-timelines/ -->
 <div class="timeline-container" id="timeline-1">
+<h3 style="text-align: center;">
+                <?php echo $LANG["quote_end"]; ?>
+      </h3>
+
   <div class="timeline">
    <?php foreach ($LANG["timeline"] as $event) { ?>
     <div class="timeline-item" data-text="">
