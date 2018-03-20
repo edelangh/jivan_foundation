@@ -29,11 +29,24 @@ cite {
 /* Main page\
 #ffccb3`
 */
+
 #main-logo {
     width: 64px;
     height: 64px;
     -webkit-transition: width 1s, height 1s; /* For Safari 3.1 to 6.0 */
     transition: width 1s, height 1s;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    max-width: 32px;
+    max-height: 32px;
+  }
+
+
+  a.logo, #main-logo {
+      display: none;
+  }
 }
 
 .justify {
@@ -183,8 +196,44 @@ end header
 Container padding
 */
 
-.body-content > .onepage:nth-child(1) {
-    padding-top: 10vh;
+@media only screen and (max-height: 850px) {
+  .body-content > .onepage:nth-child(1) {
+      padding-top: 7vh;
+  }
+
+  .main-img {
+  	width: 75%;
+  }
+
+}
+
+@media only screen and (min-height: 851px) {
+  .body-content > .onepage:nth-child(1) {
+      padding-top: 8vh;
+  }
+
+  .main-img {
+  	width: 100%;
+  }
+}
+
+@media only screen and (min-height: 800px) {
+  p {
+    line-height: 1.6em;
+  }
+}
+
+@media screen and (min-height: 900px) {
+
+  p {
+    line-height: 1.9em;
+  }
+
+}
+
+.main-img {
+    margin: auto;
+    display: block;
 }
 
 .onepage {
@@ -203,7 +252,6 @@ End container padding
 blockquote {
     margin: 0.25em 0;
     padding: 0.35em 40px;
-    line-height: 1.45;
     position: relative;
 }
 
@@ -239,6 +287,7 @@ blockquote cite div > p:before {
 html, body, .carousel, .carousel-inner, .carousel-item {
   width: 100%;
   height: 100%;
+  min-height: 220px;
 }
 .carousel {
   position: absolute;
@@ -337,7 +386,11 @@ body {
 
 p {
    text-align: justify;
-   line-height: 1.9em;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
 }
 
 h1, h2, h3, h4, h5 {

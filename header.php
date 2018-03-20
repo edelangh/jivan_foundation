@@ -28,11 +28,13 @@ $HEADER = array(
 ?>
 <header>
     <nav style="background-color: #f6f3e1 !important;" class="header navbar navbar-expand-md  fixed-top ">
-        <a class="navbar-brand" href="?">
-            <img id="main-logo" alt="Jivan" src="./assets/imgs/logo-jivan.png"/>
+        <a class="navbar-brand logo" href="?">
+            <img id="main-logo" class="logo" alt="Jivan" src="./assets/imgs/logo-jivan.png"/>
         </a>
        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+	<span class="navbar-toggler-icon">
+            <img class="logo" alt="Jivan" src="./assets/imgs/logo-jivan.png"/>
+	</span>
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto" style="width: 100%">
