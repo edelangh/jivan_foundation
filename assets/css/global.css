@@ -1,6 +1,10 @@
 body {
 	padding-bottom: 3em;
 }
+
+cite {
+ font-style: initial;
+}
 /*
 ** Font
 */
