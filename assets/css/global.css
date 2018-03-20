@@ -154,7 +154,7 @@ header
 
 
 .header {
-    padding:1em g2em;
+    padding:1em 2em;
     transition: .5s all;
 }
 
@@ -169,10 +169,6 @@ header
     color: #98838f;
     font-size: 1.2rem;
     transition: .5s padding-left;
-}
-
-.dropdown-item:hover {
-    padding-left: 2em;
 }
 
 .dropdown-toggle::after {
@@ -379,8 +375,8 @@ button:focus {
 
 @media screen and (min-width: 768px) {
   .navbar-expand-md .navbar-nav .nav-link {
-    padding-right: 1rem;
-    padding-left: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
   }
 }
 
