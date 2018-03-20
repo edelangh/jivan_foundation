@@ -1,5 +1,6 @@
 <div class="body-content">
-  <div class="container onepage">
+  <div class="container">
+
     <div class="row quotes">
       <div style="text-align: left;" class="index-param col-sm-6">
         <blockquote>
@@ -27,12 +28,19 @@
         <img style="margin: 15px; float: right;" class="img-sepia" src="assets/imgs/index_bck.jpg" />
       </div>
     </div>
-    <div style="padding-top: inherit;" class="row quotes onepage">
+
+    <div class="spacer"></div>
+
+    <div class="row quotes onepage">
       <?php include_once "./timeline.php"; ?>
-      <a href="?page=who_story" style="width: 100%; text-align: center;">
+      <p style="width:100%; text-align: center;"><a class="blink" href="?page=who_story" style="text-align: center;">
         <?php echo $LANG["discover"]; ?>
       </a>
+      </p>
     </div>
+
+    <div class="spacer"></div>
+    
     <div class="onepage quotes">
       <div class="row">
         <div class="col-sm-12">
@@ -81,6 +89,9 @@
         </div>
       </div>
     </div>
+
+    <div class="spacer"></div>
+    
     <div class="row quotes onepage">
       <div class="col-sm-12">
         <h2><?php echo $LANG["partner_t1"]; ?></h2>
@@ -94,28 +105,30 @@
           <li class="partner"><?php echo $LANG["partner_3"]; ?></li>
         </ul>
         <b>
-          <a href="?page=gi_work">
+          <a class="blink" href="?page=gi_work">
           <?php echo $LANG["support_us"]; ?>
           </a>
         </b>
       </div>
     </div>
+
+    <div class="spacer"></div>
+    
     <div class="row quotes onepage" style="margin-bottom: 20vh" >
-      <div class="col-sm-12">
+      <div class="col-sm-5">
         <h2>
           <?php echo $LANG["quotes_title_2"]; ?>       
         </h2>
-      </div>
-      <div class="col-sm-6">
         <p><?php echo $LANG["missions_body"]; ?></p>
-              <b>
-                <a href="?page=gi_donate">
-                <?php echo $LANG["support"]; ?>
-                </a>
-              </b>
+        <b>
+          <a style="line-height: 5;" class="blink" href="?page=gi_donate">
+          <?php echo $LANG["support"]; ?>
+          </a>
+        </b>
       </div>
-      <div class="col-sm-5 img-show" style="margin-left: 15px">
-        <div id="carousel" class="carousel carousel-fade" data-ride="carousel">
+      <div class="col-sm-1"></div>
+      <div width="100%" class="col-sm-6 img-show">
+        <div style="float:right;" id="carousel" class="carousel carousel-fade" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carousel" data-slide-to="0" class="active"></li>
             <li data-target="#carousel" data-slide-to="1"></li>
