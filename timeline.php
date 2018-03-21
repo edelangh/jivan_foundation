@@ -1,14 +1,9 @@
 <!-- http://freefrontend.com/css-timelines/ -->
 <div class="timeline-container" id="timeline-1">
-  <h3 style="    border-bottom: 10px solid #ffbb80;
-    text-align: center;
-    padding: 1em;
-    margin: 1em 10%;
-    width: 80%;">
+  <h3 style="text-align: center; padding: 1em; margin: 1em 10%; width: 80%;">
       <?php echo $LANG["quote_end"]; ?>
   </h3>
-
-  <div style="z-index: 9999999; pointer-events: none;" class="timeline">
+  <div style="z-index: 1035; pointer-events: none;" class="timeline">
    <?php foreach ($LANG["timeline"] as $event) { ?>
     <div class="timeline-item" data-text="">
       <div class="timeline__content">

@@ -87,7 +87,7 @@ education center since 23 years.",
     "partner_1" => "STIFTUNG KINDERHILFE DES SWISSAIR PERSONNALS, Zurich, since 1999",
     "partner_2" => "THE CENTURY TRUST, Bangalore, since 2016",
     "partner_3" => "ART’HENIA SHOP, Lausanne, since 2017",
-    "who_story_title" => "Our story",
+    "who_story_title" => "It’s been a long journey…",
     "who_story_body" =>
 "
 It was just 45 years ago that Sophie Rombaut as a young medical professional arrived in India after being invited by her professor. Deeply touched by the need when she entered in the slum of Shadipur Depot in Delhi she immediately decided that she had to do something to help. The Shadipur depot slum was organised in 2 parts one side as “the healthy” as it was called, and the other part inhabited by the leprosy patients. 
