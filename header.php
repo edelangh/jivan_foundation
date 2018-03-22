@@ -1,6 +1,10 @@
 <?php
 
 $HEADER = array(
+    0 => array(
+      "title" => $LANG["title_what_we_do"],
+      "url" => "?page=gi_do"
+    ),
     1 => array(
         "title" => $LANG["title_who_we_are"],
         "submenu" => array(
