@@ -103,9 +103,40 @@
     padding-bottom: 40px;
   }
 }
-.timeline__img {
-  max-width: 100%;
+
+.timeline-item--active > div > div > img {
+	transition: padding ease 1s;
+	padding: 0px!important;
 }
+
+.timeline-item:nth-child(even) > div > .img_container {
+    position: absolute;
+    left: -25vw;
+    top: 0;
+    text-align: right;
+}
+
+.img_container {
+    width: 20vw;
+    height: 30vh;
+    position: absolute;
+    left: 116%;
+    top: 0;
+    /* background-color: red; */
+}
+
+@media screen and (max-width: 900px) {
+	.img_container {
+		display: none;
+	}
+}
+
+.img_container > img {
+	padding: 10px; /* transition */
+	max-width: 100%;
+	max-height: 100%;
+}
+
 .timeline-container {
   width: 100%;
   position: relative;
