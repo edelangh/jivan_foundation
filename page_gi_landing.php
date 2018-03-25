@@ -9,11 +9,11 @@
             <p style="text-align: left">
                 <?php echo $LANG["gi_text_1"]; ?>
             </p>
-            <h3>
+            <b>
                 <a class="blink" href="?page=gi_donate">
                     <?php echo $LANG["gi_bottom_1"]; ?>
                 </a>
-            </h3>
+            </b>
         </div>
         <div width="100%" class="col-sm-0 col-md-6">
             <img style="padding-top: 1em;  float: right;"src="assets/imgs/img_puz.png"></img>
@@ -28,9 +28,9 @@
             <p style="text-align: right">
                 <?php echo $LANG["gi_text_2"]; ?>
             </p>
-            <h3><a class="blink" href="?page=gi_ambassador">
+            <b><a class="blink" href="?page=gi_ambassador">
                 <?php echo $LANG["gi_bottom_2"]; ?>
-                </a></h3>
+                </a></b>
         </div>
     </div>
     <div class="row quotes">
@@ -39,11 +39,11 @@
             <p style="text-align: left">
                 <?php echo $LANG["gi_text_3"]; ?>
             </p>
-            <h3>
+            <b>
             <a class="blink" href="?page=gi_work">
                 <?php echo $LANG["gi_bottom_3"]; ?>
             </a>
-            </h3>
+            </b>
         </div>
         <div width="100%" class="col-sm-0 col-md-6">
             <img style="padding-top: 1em; float: right;"src="assets/imgs/wave.png"></img>

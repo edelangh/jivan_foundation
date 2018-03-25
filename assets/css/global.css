@@ -42,6 +42,13 @@ cite {
 	transition: font-size 1s;
 }
 
+.btn-outline-success {
+    color: #ffcc03;
+    background-color: transparent;
+    background-image: none;
+    border-color: #ffcc03;
+}
+
 #main-logo {
     width: 64px;
     height: 64px;
