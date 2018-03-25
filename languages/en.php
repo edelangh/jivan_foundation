@@ -30,14 +30,17 @@ $LANG = array(
 For example last month Elodie, an active member since several years from Marseille, organised an event inviting her friends, colleagues and family for an afternoon event that included a sale of Indian handicrafts, a small food stall and a short video presentation of the association. She was able to collect 1070€ on that day that was immediately invested to build a new classroom.
 <br/>
 Please, feel free to tell us about your idea and let’s see how we can make more good together.",
-    "gi_contact" => "Contacts us",
+    "gi_contact" => "Jivan Charitable Association",
     "gi_touch" => "
-jivansvm.ch@gmail.com<br/>
+    Grande-Rue 21<br/>
+    Le Locle, Switzerland<br/>    
 <br/>
-Jivan Charitable Association<br/>
-Grande-Rue 21<br/>
-Le Locle, Switzerland<br/>
-+41 79 74 29 885",
++41 79 74 29 885
+<br/>
+<br/>
+
+jivansvm.ch@gmail.com<br/>
+",
     "work_together" =>
     "We are always eager to find synergies with other non-profit organizations and NGOs. If you have or work for such structures and think we could put our efforts together, do not hesitate to let us know.
 <br/>
