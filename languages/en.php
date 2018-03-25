@@ -45,7 +45,7 @@ As a corporation you can bring us your support through a monthly, quarterly or a
     "quotes_title" => "A child is a child",
     "quotes_text" =>
 "Children have not asked to be born in a slum, to leprosy parents or in a cast of rag pickers.<br/><br/>A child has not chosen to do degrading or humiliating jobs, and hence should have equal rights to succeed in life, to be loved and to be happy. Education is a powerful way of achieving it.",
-    "quotes_title_2" => "It belongs to each one of us to give back children their dignity.",
+"quotes_title_2" => "Sangita Vidya Mandir (SVM) Education Centre in New Delhi since 1995",
     "result_title" => "Results (Achievements – highlights)",
     "result_body" => 
 "Since 1995

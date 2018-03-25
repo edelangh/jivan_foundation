@@ -7,7 +7,7 @@
             <p style="text-align: left">
                 <?php echo $LANG["gi_text_1"]; ?>
             </p>
-            <h3><a href="?page=gi_donate">
+            <h3><a class="blink" href="?page=gi_donate">
                 <?php echo $LANG["gi_bottom_1"]; ?>
             </h3></a>
         </div>
@@ -19,7 +19,7 @@
             <p style="text-align: right">
                 <?php echo $LANG["gi_text_2"]; ?>
             </p>
-            <h3><a href="?page=gi_ambassador">
+            <h3><a class="blink" href="?page=gi_ambassador">
                 <?php echo $LANG["gi_bottom_2"]; ?>
             </h3></a>
         </div>
@@ -30,7 +30,7 @@
             <p style="text-align: left">
                 <?php echo $LANG["gi_text_3"]; ?>
             </p>
-            <h3><a href="?page=gi_work">
+            <h3><a class="blink" href="?page=gi_work">
                 <?php echo $LANG["gi_bottom_3"]; ?>
             </h3></a>
 	</div>
