@@ -61,6 +61,14 @@ cite {
   }
 }
 
+.letter-bg {
+    background-image: url("/assets/imgs/img.png");
+    background-size: 70px;
+    background-repeat: repeat;
+    font-size: 20px;
+    line-height: 40px;
+}
+
 .justify {
     text-align: justify;
 }

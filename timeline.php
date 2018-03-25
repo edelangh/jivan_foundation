@@ -7,7 +7,9 @@
    <?php foreach ($LANG["timeline"] as $event) { ?>
     <div class="timeline-item" data-text="">
       <div class="timeline__content">
-<!--        <img class="timeline__img img-sepia" src="<?php echo $event["img"]; ?>"/> -->
+	<div class="img_container">
+          <img class="timeline__img img-sepia" src="<?php echo $event["img"]; ?>"/>
+        </div>
 <!--        <h2 class="timeline__content-title"><?php echo $event["date"]; ?></h2> -->
 	<p class="timeline__content-desc">
 	        <h2><?php echo $event["date"]; ?></h2>
