@@ -43,7 +43,7 @@
   <div class="container onepage quotes">
     <div class="row">
       <div class="col-sm-12">
-        <h1 class="title"><?php echo $LANG["stat-global-label"]; ?></h1>
+        <h1 class="title"><?php echo $LANG["circle_title"]; ?></h1>
       </div>
     </div>
     <div class="row">
@@ -84,8 +84,12 @@
         </div>
       </div>
       <div class="col-md-3">
-        <h2><?php echo $LANG["circle_title"] ?></h2>
         <p><?php echo $LANG["circle"] ?></p>
+        <b>
+          <a style="line-height: 5;" class="blink" href="?page=gi_donate">
+          <?php echo $LANG["read_our_story"]; ?>
+          </a>
+        </b>
       </div>
     </div>
   <div class="spacer"></div>
@@ -94,12 +98,12 @@
     <div class="row quotes">
       <div class="col-md-5">
         <h2>
-          <?php echo $LANG["quotes_title_2"]; ?>       
+          <?php echo $LANG["today_need_help"]; ?>       
         </h2>
         <p><?php echo $LANG["missions_body"]; ?></p>
         <b>
           <a style="line-height: 5;" class="blink" href="?page=gi_donate">
-          <?php echo $LANG["support"]; ?>
+          <?php echo $LANG["support_us"]; ?>
           </a>
         </b>
       </div>
@@ -128,24 +132,32 @@
       </div>
     </div>
     <div class="spacer"></div>
-    <div class="row quotes onepage">
-      <div class="col-sm-12">
-        <h2><?php echo $LANG["partner_t1"]; ?></h2>
-        <ul>
-          <li class="partner"><?php echo $LANG["partner_0"]; ?></li>
-        </ul>
-        <h2><?php echo $LANG["partner_t2"]; ?></h2>
-        <ul>
-          <li class="partner"><?php echo $LANG["partner_1"]; ?></li>
-          <li class="partner"><?php echo $LANG["partner_2"]; ?></li>
-          <li class="partner"><?php echo $LANG["partner_3"]; ?></li>
-        </ul>
+      <div class="row quotes onepage">
+        <div class="col-sm-6">
+          <table class="partner">
+            <tr>
+              <td><?php echo $LANG["partner_0"]; ?></td>
+              <td><?php echo $LANG["partner_1"]; ?></td>
+            </tr>
+            <tr>
+              <td><?php echo $LANG["partner_2"]; ?></td>
+              <td><?php echo $LANG["partner_3"]; ?></td>
+            </tr>
+          </table>
+        </div>
+      <div class="col-md-1">
+      </div>
+      <div class="col-md-5">
+        <h2>
+          <?php echo $LANG["partner_title"]; ?>       
+        </h2>
+        <p><?php echo $LANG["partner_hand"]; ?></p>
         <b>
-          <a class="blink" href="?page=gi_work">
-          <?php echo $LANG["support_us"]; ?>
+          <a style="line-height: 5;" class="blink" href="?page=gi_touch">
+          <?php echo $LANG["title_get_touch"]; ?>
           </a>
         </b>
       </div>
-    </div>
+      </div>
   </div>
 </div>

@@ -219,9 +219,14 @@ end header
 Container padding
 */
 
+@media only screen and (max-height: 767px) {
+  .navbar-toggler {
+    padding: initial;
+  }
+}
 @media only screen and (max-height: 850px) {
   .body-content > .onepage:nth-child(1) {
-      padding-top: 7vh;
+      padding-top: 10vh;
   }
 
   .main-img {
@@ -609,4 +614,19 @@ li.partner {
     text-decoration: none;
     color: #ffccb3;
     background-color: #f6f3e1;
+}
+
+table.partner {
+	width: 100%;
+	height: 50%;
+	margin: 30px;
+}
+
+table.partner > tbody > tr {
+	display: flex;
+	width: 100%;
+}
+table.partner > tbody > tr > td {
+	width: 50%;
+	display: inline-flex;
 }
