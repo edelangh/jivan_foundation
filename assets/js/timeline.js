@@ -14,11 +14,12 @@
       selectors.item.each(function(i) {
         min = $(this).offset().top;
         max = $(this).height() + $(this).offset().top;
+	var height = $(window).height();
         var that = $(this);
         if (i == itemLength - 2 && pos > min + $(this).height() / 2) {
           selectors.item.removeClass(selectors.activeClass);
           selectors.item.last().addClass(selectors.activeClass);
-        } else if (min - 200 <= pos && pos <= max + 400) {
+        } else if (min - height/3 <= pos && pos <= max + height/3*2) {
           selectors.item.removeClass(selectors.activeClass);
           $(this).addClass(selectors.activeClass);
         }

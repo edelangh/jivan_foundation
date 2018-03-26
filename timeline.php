@@ -10,7 +10,6 @@
 	<div class="img_container">
           <img class="timeline__img img-sepia" src="<?php echo $event["img"]; ?>"/>
         </div>
-<!--        <h2 class="timeline__content-title"><?php echo $event["date"]; ?></h2> -->
 	<p class="timeline__content-desc">
 	        <h2><?php echo $event["date"]; ?></h2>
 		<p><?php echo $event["desc"]; ?></p>
