@@ -1,6 +1,6 @@
 
-<div style="max-width: 60vw; margin-left: calc(15vw - 1em);"  class="body-content">
-  <div style="padding-top: 5vh;" class="container onepage">
+<div class="body-content">
+  <div class="container onepage">
     <div class="row quotes">
         <div style="text-align: left;" class="index-param col-sm-12 col-md-6">
             <h2>
@@ -16,12 +16,12 @@
             </b>
         </div>
         <div width="100%" class="col-sm-0 col-md-6">
-            <img style="padding-top: 1em;  float: right;"src="assets/imgs/img_puz.png"></img>
+            <img style="padding: 1em;  float: right;"src="assets/imgs/img_puz.png"></img>
         </div>
     </div>
     <div class="row quotes">
     <div width="100%" class="col-sm-0 col-md-6">
-            <img style="padding-top: 1em; float: left;"src="assets/imgs/img_hand.png"></img>
+            <img style="padding: 1em; float: left;"src="assets/imgs/img_hand.png"></img>
         </div>
         <div style="text-align: right;" class="index-param col-sm-12 col-md-6">
             <h2><?php echo $LANG["gi_title_2"]; ?></h2>
@@ -46,7 +46,7 @@
             </b>
         </div>
         <div width="100%" class="col-sm-0 col-md-6">
-            <img style="padding-top: 1em; float: right;"src="assets/imgs/wave.png"></img>
+            <img style="padding: 1em; float: right;"src="assets/imgs/wave.png"></img>
         </div>
 	</div>
   </div>
