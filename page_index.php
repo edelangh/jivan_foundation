@@ -47,7 +47,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-3">
         <div class="circle">
           <svg class="circle_draw">
             <circle cx="50%" cy="50%" r="45%" fill="#98838f" />
@@ -59,7 +59,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-3">
         <div class="circle">
           <svg class="circle_draw">
             <circle cx="50%" cy="50%" r="45%" fill="#98838f" />
@@ -71,7 +71,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-3">
         <div class="circle">
           <svg class="circle_draw">
             <circle cx="50%" cy="50%" r="45%" fill="#98838f" />
@@ -83,12 +83,16 @@
           </div>
         </div>
       </div>
+      <div class="col-md-3">
+        <h2><?php echo $LANG["circle_title"] ?></h2>
+        <p><?php echo $LANG["circle"] ?></p>
+      </div>
     </div>
   <div class="spacer"></div>
   </div>
   <div class="container onepage">
     <div class="row quotes">
-      <div class="col-sm-5">
+      <div class="col-md-5">
         <h2>
           <?php echo $LANG["quotes_title_2"]; ?>       
         </h2>
@@ -99,23 +103,25 @@
           </a>
         </b>
       </div>
-      <div class="col-sm-1"></div>
-      <div width="100%" class="col-sm-6 img-show">
-        <div style="float:right;" id="carousel" class="carousel carousel-fade" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel" data-slide-to="1"></li>
-            <li data-target="#carousel" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="img-sepia d-block w-100" src="assets/imgs/slide1.jpg">
-            </div>
-            <div class="carousel-item">
-              <img class="img-sepia d-block w-100" src="assets/imgs/slide2.jpg">
-            </div>
-            <div class="carousel-item">
-              <img class="img-sepia d-block w-100" src="assets/imgs/slide3.jpg">
+      <div class="col-md-1"></div>
+      <div class="col-md-5">
+        <div class="img-show">
+          <div style="float:right;" id="carousel" class="carousel carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel" data-slide-to="1"></li>
+              <li data-target="#carousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="img-sepia d-block w-100" src="assets/imgs/slide1.jpg">
+              </div>
+              <div class="carousel-item">
+                <img class="img-sepia d-block w-100" src="assets/imgs/slide2.jpg">
+              </div>
+              <div class="carousel-item">
+                <img class="img-sepia d-block w-100" src="assets/imgs/slide3.jpg">
+              </div>
             </div>
           </div>
         </div>

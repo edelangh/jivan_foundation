@@ -112,6 +112,8 @@ In 2015 SVM celebrated its 20 years of existence and 1000 students had been thro
 </br></br>
 Till date 1025 students have been through the SVM education program, 225 are currently enrolled and more than 150 reached university over all these years and could get into jobs such as engineering, medicine, accountant, technical skilled work and even music. As over the years the slum which was razed down in 2006 started to resettle we also felt we needed to go back closer to the children living there and hence in 2017 we decided to start a new morning and evening class in the slum.
 ",
+    "circle_title" => "Since 1995...",
+    "circle" => "It's a long journey that we've been doing together with the children, their parents, - when they can be there - and the team of Sangita Vidya Mandir (SVM) Education Centre.",
     "involved_title" => "We are grateful for your support no matter how small it is",
     "involved_once_title" => "Paypal / Cb",
     "involved_once_paypal" => 
