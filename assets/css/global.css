@@ -204,7 +204,7 @@ a {
 
 a:hover, .dropdown-item:hover {
     background-color: transparent;
-    color: #ffbb80;
+    color: #ffccb3;
 }
 .dropdown-item:focus, .dropdown-item:hover {
     background-color: transparent;
@@ -230,19 +230,25 @@ Container padding
 
 }
 
+@media only screen and (min-height: 80px) {
+  p {
+    line-height: 1.1em;
+  }
+  .main-img {
+  	width: 75%;
+  }
+}
+
 @media only screen and (min-height: 851px) {
+  p {
+    line-height: 1.6em;
+  }
   .body-content > .onepage:nth-child(1) {
       padding-top: 8vh;
   }
 
   .main-img {
   	width: 100%;
-  }
-}
-
-@media only screen and (min-height: 800px) {
-  p {
-    line-height: 1.6em;
   }
 }
 
@@ -418,7 +424,7 @@ p {
 
 h1, h2, h3, h4, h5 {
     font-family: 'butlerregular';
-    color: #ffbb80;
+    color: #ffccb3;
 }
 
 form.lang {
@@ -594,7 +600,7 @@ li.partner {
 .blink {
     text-transform: uppercase;
     font-size: .8em;
-    border: 3px solid #ffbb80;
+    border: 3px solid #ffccb3;
     border-radius: 1em;
     padding: .8em;
     color: #98838f;
@@ -603,6 +609,6 @@ li.partner {
 
 .blink:hover {
     text-decoration: none;
-    color: #ffbb80;
+    color: #ffccb3;
     background-color: #f6f3e1;
 }

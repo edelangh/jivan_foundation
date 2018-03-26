@@ -13,7 +13,7 @@
 
               <?php echo $BODY; ?>
             </p>
-            <p class="read-more"><a href="#" class="btn btn-donate btn-outline-success button">Read More</a></p>
+            <p class="read-more"><a href="#" class="btn btn-donate btn-outline-success button">READ MORE</a></p>
           </div>
        </div>
     </div>

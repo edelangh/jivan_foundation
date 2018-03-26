@@ -8,7 +8,7 @@
         <textarea class="letter-bg" style="margin-top: 0px; "id="mail-text-area" placeholder="Your message" autofocus></textarea>
         <input id="mail-mail-area" type="email" placeholder="Your email address" ></input>
         <p></p>
-        <button class="btn btn-donate btn-outline-success my-2 my-sm-0" type="submit">Send</button>
+        <button class="btn btn-donate btn-outline-success my-2 my-sm-0" type="submit">SEND</button>
         </form>
       </div>
       <div style="color: #98838f;" class="col-sm-4">

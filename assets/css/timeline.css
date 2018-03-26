@@ -110,24 +110,35 @@
 }
 
 .timeline-item:nth-child(even) > div > .img_container {
-    position: absolute;
-    left: -25vw;
-    top: 0;
-    text-align: right;
+	top: 0;
+	text-align: right;
 }
-
 .img_container {
-    width: 20vw;
-    height: 30vh;
-    position: absolute;
-    left: 116%;
-    top: 0;
-    /* background-color: red; */
+	position: absolute;
+	left: 116%;
+	top: 0;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 700px) {
 	.img_container {
 		display: none;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	.timeline-item:nth-child(even) > div > .img_container {
+		position: absolute;
+		left: -42vw;
+	}
+	.img_container {
+		width: 38vw;
+		height: 50vh;
+	}
+}
+
+@media screen and (min-height: 700px) {
+	.img_container {
+		height: 38vh;
 	}
 }
 

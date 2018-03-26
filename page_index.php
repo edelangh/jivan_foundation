@@ -1,5 +1,5 @@
 <div class="body-content">
-  <div style="padding-top: 2em;"class="container">
+  <div style="padding-top: 10vh;" class="container">
 
     <div class="row quotes">
       <div style="text-align: left;" class="index-param col-sm-6">
