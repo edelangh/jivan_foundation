@@ -22,10 +22,12 @@
   position: absolute;
   left: 50%;
   width: 10px;
-  height: 96%;
+  height: calc(100% + 7em);
   margin-left: -1px;
+  margin-top: -1em;
   content: "";
   background: #ffccb3;
+  z-index: -99999;
 }
 
 @media only screen and (max-width: 767px) {
