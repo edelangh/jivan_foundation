@@ -14,11 +14,6 @@
               <div style="text-align: right; width: 100%;">
                 <bold style="line-height: 2.7;">Sophie Rombaut</bold>
               </div>
-              <b >
-                <a class="blink" href="?page=who_story">
-                <?php echo $LANG["story_link_label"]; ?>
-                </a>
-              </b>
             </div>
           </cite>
         </blockquote>
@@ -89,7 +84,7 @@
       <div class="col-md-3">
         <p><?php echo $LANG["circle"] ?></p>
         <b>
-          <a style="line-height: 5;" class="blink" href="?page=gi_donate">
+          <a style="line-height: 5;" class="blink" href="?page=who_story">
           <?php echo $LANG["read_our_story"]; ?>
           </a>
         </b>
@@ -113,6 +108,8 @@
       <div class="col-md-1"></div>
       <div class="col-md-5">
         <div class="img-show">
+	  <img class="img-sepia d-block w-100" src="assets/imgs/slide1.jpg">
+          <!--
           <div style="float:right;" id="carousel" class="carousel carousel-fade" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carousel" data-slide-to="0" class="active"></li>
@@ -121,7 +118,6 @@
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img class="img-sepia d-block w-100" src="assets/imgs/slide1.jpg">
               </div>
               <div class="carousel-item">
                 <img class="img-sepia d-block w-100" src="assets/imgs/slide2.jpg">
@@ -130,7 +126,8 @@
                 <img class="img-sepia d-block w-100" src="assets/imgs/slide3.jpg">
               </div>
             </div>
-          </div>
+	  </div>
+          -->
         </div>
       </div>
     </div>

@@ -1,8 +1,14 @@
 <!-- http://freefrontend.com/css-timelines/ -->
+<h3 style="text-align: center; padding: 1em; margin: 1em 10%; width: 80%;">
+    <?php echo $LANG["timeline_title"]; ?>
+</h3>
+<p style="text-align: center" ><?php echo $LANG["timeline_p"]?></p>
+<b>
+  <a class="blink" href="?page=who_story">
+  <?php echo $LANG["timeline_cta"]; ?>
+  </a>
+</b>
 <div class="timeline-container" id="timeline-1">
-  <h3 style="text-align: center; padding: 1em; margin: 1em 10%; width: 80%;">
-      <?php echo $LANG["timeline_title"]; ?>
-  </h3>
   <div style="pointer-events: none;" class="timeline">
    <?php foreach ($LANG["timeline"] as $event) { ?>
     <div class="timeline-item" data-text="">
