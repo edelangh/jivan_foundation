@@ -22,9 +22,9 @@
   position: absolute;
   left: 50%;
   width: 10px;
-  height: calc(100% + 7em);
+  height: 100%;
   margin-left: -1px;
-  margin-top: -1em;
+  margin-top: 1em;
   content: "";
   background: #ffccb3;
   z-index: -99999;
