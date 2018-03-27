@@ -9,7 +9,7 @@
   </a>
 </b>
 <div class="timeline-container" id="timeline-1">
-  <div style="z-index: 1035; pointer-events: none;" class="timeline">
+  <div style="pointer-events: none;" class="timeline">
    <?php foreach ($LANG["timeline"] as $event) { ?>
     <div class="timeline-item" data-text="">
       <div class="timeline__content">

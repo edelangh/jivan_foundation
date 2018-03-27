@@ -16,10 +16,7 @@
         max = $(this).height() + $(this).offset().top;
 	var height = $(window).height();
         var that = $(this);
-        if (i == itemLength - 2 && pos > min + $(this).height() / 2) {
-          selectors.item.removeClass(selectors.activeClass);
-          selectors.item.last().addClass(selectors.activeClass);
-        } else if (min - height/3 <= pos && pos <= max + height/3*2) {
+       if (min - height/3 <= pos && pos <= max + height/3*2) {
           selectors.item.removeClass(selectors.activeClass);
           $(this).addClass(selectors.activeClass);
         }
@@ -30,3 +27,6 @@
 
 $("#timeline-1").timeline();
 
+function hasClass(element, clas) {
+  return (' ' + element.className + ' ').indexOf(' ' + clas+ ' ') > -1;
+}
