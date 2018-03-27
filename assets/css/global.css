@@ -9,6 +9,7 @@ cite {
 ** Font
 */
 
+
 .nav-link {
     z-index: 99999999;
 }
@@ -627,6 +628,7 @@ li.partner {
     border-radius: 1em;
     padding: .8em;
     color: #ffccb3;
+    background-color: #f6f3e1;
 }
 
 .blink:hover {
@@ -651,3 +653,4 @@ table.partner > tbody > tr > td {
 	display: inline-flex;
 	font-size: 0.8em;
 }
+

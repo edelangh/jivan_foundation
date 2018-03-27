@@ -2,7 +2,7 @@
   <div style="padding-top: 10vh;" class="container">
 
     <div class="row quotes">
-      <div style="text-align: left;" class="index-param col-sm-6">
+      <div style="text-align: left;" class="index-param col-md-6 col-sm-12">
         <blockquote>
           <h1><?php echo $LANG["quotes_title"]; ?></h1>
           <cite>
@@ -18,8 +18,8 @@
           </cite>
         </blockquote>
       </div>
-      <div class="col-sm-1"></div>
-      <div class="col-sm-5">
+      <div class="col-sm-12 col-md-1"></div>
+      <div class="col-sm-12 col-md-5">
         <img style="margin: 15px; float: right;" class="img-sepia main-img" src="assets/imgs/index_bck.jpg" />
       </div>
     </div>
