@@ -13,6 +13,7 @@ $LANG = array(
     "gi_title_1" => "Support the children",
     "gi_title_2" => "Become an ambassador",
     "gi_title_3" => "Work together",
+    "gi_title_4" => "Help us build the future",
     "support" => "Give some support",
     "support_us" => "Support us",
     "discover" => "Discover our story",
@@ -21,12 +22,12 @@ $LANG = array(
     "share" => "SHARE",
     "donate" => "DONATE",
     "subscribe" => "SUBSCRIBE MONTHLY",
-    "gi_text_1" => "We propose various ways for one-time and recurrent donation and are truly grateful for your support, no matter how small it is",
+    "gi_text_1" => "We propose various ways for one-time and recurrent donation and are truly grateful for your support, no matter how small it is, We need 4000€ every month to pay the teachers, cover the food expenses, buy books and take care of our 250 students at SVM.",
     "gi_text_2" => "If you feel motivated, you can also help us by making some waves around you - for example by creating an event to speak about our project and encourage your friends to join the cause",
     "gi_text_3" => "We are always eager to find synergies with other non-profit organizations and NGOs. If you have or work for such structures and think we could put our efforts together, do not hesitate to let us know",
-    "gi_bottom_1" => "Give now",
-    "gi_bottom_2" => "Join the cause",
-    "gi_bottom_3" => "Let's collaborate",
+    "gi_text_4" => "We have to purchase the building we are using for the SVM Education Centre since 2005. It is essential for us to stay in the school so that we can keep our students. The owner has decided to sell his property and we urgently need to find a solution before December 2018. It will cost us 80,000€. We are grateful for any support - whether it is big or small - that will help us continue our journey.",
+    "gi_bottom_1" => "GIVE NOW",
+    "gi_bottom_2" => "CONTACT US",
     "gi_ambassador" => "If you feel motivated, you can also help us by making some waves around you - for example by creating an event to speak about our project and encourage your friends to join the cause. 
 <br/>
 For example last month Elodie, an active member since several years from Marseille, organised an event inviting her friends, colleagues and family for an afternoon event that included a sale of Indian handicrafts, a small food stall and a short video presentation of the association. She was able to collect 1070€ on that day that was immediately invested to build a new classroom.
@@ -90,11 +91,12 @@ education center since 23 years.",
     "partner_hand" => "We work hand in hand with Aide aux plus démunis, and are kindly supported by a handful of partners. Would you like to support our cause, collaborate ?\nLet us know!",
     "partner_t1" =>"We work hand in hand with",
     "partner_t2" => "We are supported by",
-    "partner_0" => "AIDE AUX PLUS DEMUNIS</br>Marseille, supporting the Mateshwari Charitable Dispensary in Rishikesh",
-    "partner_1" => "STIFTUNG KINDERHILFE DES SWISSAIR PERSONNALS</br>Zurich</br>since 1999",
-    "partner_2" => "THE CENTURY TRUST</br>Bangalore</br>since 2016",
-    "partner_3" => "ART’HENIA SHOP</br>Lausanne</br>since 2017",
+    "partner_0" => "AIDE AUX PLUS DEMUNIS",
+    "partner_1" => "STIFTUNG KINDERHILFE<br/>DES SWISSAIR PERSONNALS",
+    "partner_2" => "THE CENTURY TRUST",
+    "partner_3" => "ART’HENIA SHOP",
     "who_story_title" => "It’s been a long journey…",
+    "who_story_title2" => "And the journey continues…",
     "who_story_body" =>
 "
 It was just 45 years ago that Sophie Rombaut as a young medical professional arrived in India after being invited by her professor. Deeply touched by the need when she entered in the slum of Shadipur Depot in Delhi she immediately decided that she had to do something to help. The Shadipur depot slum was organised in 2 parts one side as “the healthy” as it was called, and the other part inhabited by the leprosy patients. 
