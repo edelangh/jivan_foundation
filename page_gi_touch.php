@@ -4,7 +4,7 @@
     <div class="row quotes">
       <div class="col-sm-8" style="text-align: center;">
         <form action="#">
-        <h3 style="text-align: left;">Dear jivan foundation,</h3>
+	<h3 style="text-align: left;"><?php echo $LANG["dear"]; ?></h3>
         <textarea class="letter-bg" style="margin-top: 0px; "id="mail-text-area" placeholder="Your message" autofocus></textarea>
         <input id="mail-mail-area" type="email" placeholder="Your email address" ></input>
         <p></p>

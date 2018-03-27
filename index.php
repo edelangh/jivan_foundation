@@ -9,9 +9,9 @@
         "who_story" => "./page_who_story.php",
         "gi_land" => "./page_gi_landing.php",
         "gi_donate" => "./page_gi_donate.php",
-        "gi_ambassador" => "./page_gi_ambassador.php",
-        "gi_work" => "./page_gi_work.php",
-        "gi_touch" => "./page_gi_touch.php",
+        /*"gi_ambassador" => "./page_gi_ambassador.php",
+	"gi_work" => "./page_gi_work.php",*/
+	"gi_touch" => "./page_gi_touch.php",
         "gi_do" => "./page_gi_we_do.php"
     )
 ?>

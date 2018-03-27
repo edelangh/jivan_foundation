@@ -28,7 +28,7 @@
             <p style="text-align: right">
                 <?php echo $LANG["gi_text_2"]; ?>
             </p>
-            <b><a class="blink" href="?page=gi_ambassador">
+            <b><a class="blink" href="?page=gi_touch">
                 <?php echo $LANG["gi_bottom_2"]; ?>
                 </a></b>
         </div>
@@ -40,7 +40,7 @@
                 <?php echo $LANG["gi_text_3"]; ?>
             </p>
             <b>
-            <a class="blink" href="?page=gi_work">
+            <a class="blink" href="?page=gi_touch">
                 <?php echo $LANG["gi_bottom_3"]; ?>
             </a>
             </b>
