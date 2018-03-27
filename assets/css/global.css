@@ -9,6 +9,7 @@ cite {
 ** Font
 */
 
+
 .nav-link {
     z-index: 99999999;
 }
@@ -630,3 +631,4 @@ table.partner > tbody > tr > td {
 	width: 50%;
 	display: inline-flex;
 }
+

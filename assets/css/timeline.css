@@ -29,6 +29,10 @@
 }
 
 @media only screen and (max-width: 767px) {
+  .img_container {
+    width: 30vw;
+    height: 50vh;
+  }
   .timeline:before {
     left: 40px;
   }
@@ -116,7 +120,7 @@
 	}
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 870px) {
 	.img_container {
 		display: none;
 	}
