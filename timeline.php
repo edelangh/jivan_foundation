@@ -3,7 +3,7 @@
   <h3 style="text-align: center; padding: 1em; margin: 1em 10%; width: 80%;">
       <?php echo $LANG["timeline_title"]; ?>
   </h3>
-  <div style="z-index: 1035; pointer-events: none;" class="timeline">
+  <div style="pointer-events: none;" class="timeline">
    <?php foreach ($LANG["timeline"] as $event) { ?>
     <div class="timeline-item" data-text="">
       <div class="timeline__content">

@@ -33,7 +33,10 @@
 
     <div class="row quotes onepage">
       <?php include_once "./timeline.php"; ?>
-      <p style="width:100%; text-align: center; z-index: 1050"><a class="blink" href="?page=who_story" style="text-align: center;">
+      <p style="width:100%; text-align: center;"><a style="text-align: center;
+    position: absolute;
+    left: calc(50% - 7.5em);
+    width: 15em;"class="blink" href="?page=who_story" style="text-align: center;">
         <?php echo $LANG["discover"]; ?>
       </a>
       </p>
