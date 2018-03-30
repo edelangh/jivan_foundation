@@ -24,7 +24,27 @@ $(document).ready(function() {
             });
         }
     });
+
+    resize();
+    window.onresize = function(event) {
+        resize();
+    };    
 });
+
+function resize() {
+
+    if (parseInt($("body").css("width")) >= 750) {
+    $(".hidden-mob").each(function( index ) {
+        $( this ).css({"display": "initial"});
+    });
+    }
+    else
+    {
+    $(".hidden-mob").each(function( index ) {
+        $( this ).css({"display": "none"});
+    });
+    }
+}
 
 /*  sidebar */
 

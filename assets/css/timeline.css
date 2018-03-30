@@ -38,6 +38,10 @@
   .timeline:before {
     left: 40px;
   }
+  .timeline {
+    max-width: none !important;
+    min-width: 0 !important;
+  }
 }
 .timeline-item {
   padding: 75px 0; /* <-- space between element */
