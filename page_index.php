@@ -40,49 +40,37 @@
   </div>
   <div class="container onepage quotes">
     <div class="row">
-      <div class="col-sm-12">
-        <h1 class="title"><?php echo $LANG["circle_title"]; ?></h1>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-3">
-        <div class="circle">
-          <svg class="circle_draw">
-            <circle cx="50%" cy="50%" r="45%" fill="#98838f" />
-            Sorry, your browser does not support inline SVG.  
-          </svg>
-          <div class="circle_content">
-            <div><?php echo $LANG["stat-amount-1"]; ?></div>
-            <p><?php echo $LANG["stat-label-1"]; ?></p>
+      <div class="col-md-6">
+        <div class="circle-container">
+        <div class="circle-bo circle-bo-1">
+            <div class="circle circle-1">
+              <div class="circle_content">
+                <div><?php echo $LANG["stat-amount-1"]; ?></div>
+                <p><?php echo $LANG["stat-label-1"]; ?></p>
+              </div>
+            </div>
+          </div>
+          <div class="circle-bo circle-bo-2">
+            <div class="circle circle-2">
+              <div class="circle_content">
+                <div><?php echo $LANG["stat-amount-2"]; ?></div>
+                <p><?php echo $LANG["stat-label-2"]; ?></p>
+              </div>
+            </div>
+          </div>
+          <div class="circle-bo circle-bo-3">
+            <div class="circle circle-3">
+              <div class="circle_content">
+                <div><?php echo $LANG["stat-amount-3"]; ?></div>
+                <p><?php echo $LANG["stat-label-3"]; ?></p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-md-3">
-        <div class="circle">
-          <svg class="circle_draw">
-            <circle cx="50%" cy="50%" r="45%" fill="#98838f" />
-            Sorry, your browser does not support inline SVG.  
-          </svg>
-          <div class="circle_content">
-            <div><?php echo $LANG["stat-amount-2"]; ?></div>
-            <p><?php echo $LANG["stat-label-2"]; ?></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="circle">
-          <svg class="circle_draw">
-            <circle cx="50%" cy="50%" r="45%" fill="#98838f" />
-            Sorry, your browser does not support inline SVG.  
-          </svg>
-          <div class="circle_content">
-            <div><?php echo $LANG["stat-amount-3"]; ?></div>
-            <p><?php echo $LANG["stat-label-3"]; ?></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <p><?php echo $LANG["circle"] ?></p>
+      <div class="col-md-6" style="text-align: right;">
+      <h1 class="circle-header title"><?php echo $LANG["circle_title"]; ?></h1>        
+        <p style="text-align: right;"><?php echo $LANG["circle"] ?></p>
         <b>
           <a style="line-height: 5;" class="blink" href="?page=who_story">
           <?php echo $LANG["read_our_story"]; ?>
