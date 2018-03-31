@@ -1,7 +1,7 @@
-<h3 style="text-align: center; padding: 1em; margin: 1em 10%; width: 80%;">
+<h3 class="timeline-h3-1">
    <?php echo $LANG["timeline_title"]; ?>
 </h3>
-<p style="text-align: center" >
+<p class="timeline-text-1" >
    <?php echo $LANG["timeline_p"]?>
    </br>	   
 	</br>	   
@@ -22,7 +22,7 @@
             ?>
             <p class="timeline__content-desc">
             	<h2><?php echo $event["date"]; ?></h2>
-            	<p><?php echo $event["desc"]; ?></p>
+            	<p class="center-mob"><?php echo $event["desc"]; ?></p>
             </p>
          </div>
       	</div>

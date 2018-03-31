@@ -68,9 +68,9 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6" style="text-align: right;">
-      <h1 class="circle-header title"><?php echo $LANG["circle_title"]; ?></h1>        
-        <p style="text-align: right;"><?php echo $LANG["circle"] ?></p>
+      <div class="col-md-6 cricle-align-right">
+      <h1 class="cricle-align-right circle-header title"><?php echo $LANG["circle_title"]; ?></h1>        
+        <p class="cricle-align-right"><?php echo $LANG["circle"] ?></p>
         <b>
           <a style="line-height: 5;" class="blink" href="?page=who_story">
           <?php echo $LANG["read_our_story"]; ?>
