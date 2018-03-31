@@ -13,9 +13,10 @@ cite {
 .nav-link {
     z-index: 99999999;
 }
-
-.spacer {
-    padding: 4em;
+@media only screen and (min-width: 767px) {
+    .spacer {
+        padding: 4em;
+    }
 }
 
 @font-face {
@@ -607,6 +608,8 @@ li.partner {
     }
 }
 
+
+/* @resp*/
 @media screen and (min-width: 780px) {
     
     .cricle-align-right {
