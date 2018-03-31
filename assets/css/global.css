@@ -123,6 +123,7 @@ cite {
 .index-param { /* gi_land */
     text-align: center;
     line-height: 1em;
+    padding-top: 1em;
 }
 
 .index-param > p {
@@ -242,10 +243,6 @@ Container padding
   }
 }
 @media only screen and (max-height: 850px) {
-  .body-content > .onepage:nth-child(1) {
-      padding-top: 10vh;
-  }
-
   .main-img {
   	width: 80%;
   }
@@ -287,11 +284,18 @@ Container padding
     display: block;
 }
 
-.onepage {
-    padding-top:10vh;
-    min-height: 80vh;
+@media only screen and (min-width: 767px) {
+    .onepage {
+        padding-top:10vh;
+        min-height: 80vh;
+    }
 }
 
+
+.onepage-mob {
+    padding-top:10vh;
+    min-height: 80vh;
+}   
 /*
 End container padding
 */

@@ -1,5 +1,5 @@
 <div class="body-content">
-  <div style="padding-top: 10vh;" class="container">
+  <div style="padding-top: 10vh; min-height: 80vh" class="container">
 
     <div class="row quotes">
       <div style="text-align: left;" class="index-param col-md-6 col-sm-12">
@@ -26,7 +26,7 @@
 
     <div class="spacer"></div>
 
-    <div class="row quotes onepage">
+    <div class="row quotes onepage-mob">
       <?php include_once "./timeline.php"; ?>
       <p style="width:100%; text-align: center;"><a style="text-align: center;
     position: absolute;
@@ -38,7 +38,7 @@
     </div>
     <div class="spacer"></div>
   </div>
-  <div class="container onepage quotes">
+  <div class="container onepage-mob quotes">
     <div class="row">
       <div class="col-md-6">
         <div class="circle-container">
@@ -81,7 +81,7 @@
   <div class="spacer"></div>
   <div class="spacer"></div>
   </div>
-  <div class="container onepage">
+  <div class="container onepage-mob">
     <div class="row quotes">
       <div class="col-md-5">
         <h2>
@@ -121,7 +121,7 @@
       </div>
     </div>
     <div class="spacer"></div>
-      <div class="row quotes onepage">
+      <div class="row quotes onepage-mob">
         <div class="col-sm-6">
           <table class="partner">
             <tr>
