@@ -53,16 +53,16 @@
           <div class="circle-bo circle-bo-2">
             <div class="circle circle-2">
               <div class="circle_content">
-                <div><?php echo $LANG["stat-amount-2"]; ?></div>
-                <p><?php echo $LANG["stat-label-2"]; ?></p>
+                <div><?php echo $LANG["stat-amount-3"]; ?></div>
+                <p><?php echo $LANG["stat-label-3"]; ?></p>
               </div>
             </div>
           </div>
           <div class="circle-bo circle-bo-3">
             <div class="circle circle-3">
               <div class="circle_content">
-                <div><?php echo $LANG["stat-amount-3"]; ?></div>
-                <p><?php echo $LANG["stat-label-3"]; ?></p>
+                <div><?php echo $LANG["stat-amount-2"]; ?></div>
+                <p><?php echo $LANG["stat-label-2"]; ?></p>
               </div>
             </div>
           </div>
