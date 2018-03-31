@@ -595,6 +595,9 @@ li.partner {
     .circle-bo {
         display: inline-block;
     }
+    .circle-bo-3 {
+        margin-top: -21px;
+    }
     .circle {
         max-width:  9em;
         max-height: 9em;
