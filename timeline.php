@@ -12,12 +12,14 @@
 
 <div class="timeline-container" id="timeline-1">
    <div style="pointer-events: none;" class="timeline">
-      <?php foreach ($LANG["timeline"] as $event) { ?>
+      <?php $first = 1; foreach ($LANG["timeline"] as $event) { ?>
       	<div class="timeline-item" data-text="">
          <div class="timeline__content">
-            <div class="img_container">
+           <?php if ($first == 0) { ?><div class="img_container">
                <img class="timeline__img img-sepia" src="<?php echo $event["img"]; ?>"/>
-            </div>
+           </div><?php }
+           $first = 0
+            ?>
             <p class="timeline__content-desc">
             	<h2><?php echo $event["date"]; ?></h2>
             	<p><?php echo $event["desc"]; ?></p>
