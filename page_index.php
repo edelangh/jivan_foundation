@@ -18,9 +18,9 @@
           </cite>
         </blockquote>
       </div>
-      <div class="col-sm-12 col-md-1"></div>
-      <div  class="hidden-mob col-sm-12 col-md-5">
-        <img style="margin: 15px; float: right;" class="img-sepia main-img" src="assets/imgs/index_bck.jpg" />
+      <div class="col-sm-0 col-md-1"></div>
+      <div  class="col-sm-12 col-md-5">
+        <img class="img-sepia main-img" src="assets/imgs/index_bck.jpg" />
       </div>
     </div>
 
