@@ -8,6 +8,9 @@ $(document).ready(function() {
             $(".navbar").css({
                 'font-size': '.8em',
             });
+            $(".dropdown-item").css({
+                'font-size': '1em',
+            });
             $(".btn").css({
                 'font-size': '12px',
             });
@@ -18,6 +21,9 @@ $(document).ready(function() {
             });
             $(".navbar").css({
                 'font-size': '1em',
+            });
+            $(".dropdown-item").css({
+                'font-size': '1.2em',
             });
             $(".btn").css({
                 'font-size': '16px',

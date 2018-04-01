@@ -216,6 +216,11 @@ header
     content: none;
 }
 
+a:hover, .dropdown-toggle:hover {
+    background-color: transparent;
+    color: #ffccb3!important;
+}
+
 a {
     transition: color 0.3s;
 }
