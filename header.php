@@ -41,7 +41,12 @@ $HEADER = array(
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mr-auto" style="width: 100%">
-        <?php
+        <li class="nav-item d-md-none">
+          <a class="nav-link" href="?page=home">
+            HOME
+          </a>
+        </li>
+<?php
           foreach ($HEADER as $ITEM) {
               if (isset($ITEM["submenu"])) {
           ?>

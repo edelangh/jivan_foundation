@@ -274,7 +274,6 @@ Container padding
 
   .main-img {
   	width: 100%;
-        margin: 15px;
         float: right;
   }
 }
@@ -307,12 +306,13 @@ End container padding
  * blockquote
 */
 
-blockquote {
+@media only screen and (min-width: 767px) {
+  blockquote {
     margin: 0.25em 0;
     padding: 0.35em 40px;
     position: relative;
+  }
 }
-
 blockquote:before {
     padding-left: 10px;
     content: "\201C";
