@@ -15,8 +15,12 @@
         min = $(this).offset().top;
         max = $(this).height() + $(this).offset().top;
 	var height = $(window).height();
+        var width  = $(window).width();
         var that = $(this);
-       if (min - height/3 <= pos && pos <= max + height/3*2) {
+        if (width < 768) {
+          $(this).addClass(selectors.activeClass);
+        }
+        else if (min - height/3 <= pos && pos <= max + height/3*2) {
           selectors.item.removeClass(selectors.activeClass);
           $(this).addClass(selectors.activeClass);
         }

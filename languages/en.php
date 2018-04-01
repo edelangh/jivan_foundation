@@ -92,9 +92,9 @@ education center since 23 years.",
     "partner_t1" =>"We work hand in hand with",
     "partner_t2" => "We are supported by",
     "partner_0" => "AIDE AUX PLUS DEMUNIS",
-    "partner_1" => "STIFTUNG KINDERHILFE<br/>DES SWISSAIR PERSONNALS",
+    "partner_1" => "STIFTUNG KINDERHILFE<br/>DES SWISSAIR PERSONNALS", // imgs logo
     "partner_2" => "THE CENTURY TRUST",
-    "partner_3" => "ART’HENIA SHOP",
+    "partner_3" => "ART’HENIA SHOP", // imgs logo
     "who_story_title" => "It’s been a long journey…",
     "who_story_title2" => "And the journey continues…",
     "who_story_body" =>

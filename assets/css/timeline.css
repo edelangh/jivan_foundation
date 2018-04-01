@@ -158,6 +158,14 @@
 	width: 100%;
 }
 
+@media only screen and (max-width: 767px) {
+  .img_container {
+    width: 100%;
+    height: fit-content;
+  }
+}
+
+
 @media only screen and (min-width: 767px) {
 	.timeline-item:nth-child(odd) > .timeline__content > p,
 	.timeline-item:nth-child(odd) > .timeline__content > h2 {
@@ -165,22 +173,17 @@
 	}
 }
 
-@media screen and (max-width: 870px) {
-	.img_container {
-		display: none;
-	}
-}
-
-.timeline-item:nth-child(even) > div > .img_container {
+@media screen and (min-width: 870px) {
+  .timeline-item:nth-child(even) > div > .img_container {
 	top: 0;
 	text-align: right;
-}
-.img_container {
+  }
+  .img_container {
 	position: absolute;
 	left: 116%;
 	top: 0;
+  }
 }
-
 @media screen and (min-width: 700px) {
 	.timeline-item:nth-child(even) > div > .img_container {
 		position: absolute;

@@ -1,5 +1,5 @@
 
-<div class="body-content">
+<div class="body-content" style="padding-bottom: 30px">
   <div class="container onepage">
     <div class="row quotes">
         <div class="index-param col-sm-12 col-md-6">
@@ -27,7 +27,6 @@
             <b><a class="blink" href="?page=gi_touch"><?php echo $LANG["gi_bottom_2"]; ?></a></b>
         </div>
     </div>
-    <div class="spacer"></div>
   </div>
 </div>
 

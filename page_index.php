@@ -20,7 +20,7 @@
       </div>
       <div class="col-sm-0 col-md-1"></div>
       <div  class="col-sm-12 col-md-5">
-        <img class="img-sepia main-img" src="assets/imgs/index_bck.jpg" />
+        <img class="main-img" src="assets/imgs/index_bck.jpg" />
       </div>
     </div>
 
@@ -125,18 +125,20 @@
         <div class="col-sm-6">
           <table class="partner">
             <tr>
-              <td><?php echo $LANG["partner_0"]; ?></td>
-              <td><?php echo $LANG["partner_1"]; ?></td>
+              <!--<td><?php echo $LANG["partner_1"]; ?></td>-->
+              <td><img style="width: 100%; height: 100%" src="/assets/imgs/logo-swissair.png" /></td>
+              <td><div><?php echo $LANG["partner_0"]; ?></div></td>
             </tr>
             <tr>
-              <td><?php echo $LANG["partner_2"]; ?></td>
-              <td><?php echo $LANG["partner_3"]; ?></td>
+              <td><div><?php echo $LANG["partner_2"]; ?></div></td>
+              <!--<td><?php echo $LANG["partner_3"]; ?></td>-->
+              <td><img style="width: 100%; height: 100%; padding: 15px" src="/assets/imgs/logo-arthenia.png" /></td>
             </tr>
           </table>
         </div>
-      <div class="col-md-1">
+      <div class="col-sm-12 col-md-1">
       </div>
-      <div class="col-md-5">
+      <div class="col-sm-12 col-md-5">
         <h2>
           <?php echo $LANG["partner_title"]; ?>       
         </h2>

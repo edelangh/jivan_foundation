@@ -51,25 +51,6 @@ cite {
     border-color: #ffcc03;
 }
 
-#main-logo {
-    width: 64px;
-    height: 64px;
-    -webkit-transition: width 1s, height 1s; /* For Safari 3.1 to 6.0 */
-    transition: width 1s, height 1s;
-}
-
-@media screen and (max-width: 768px) {
-  .logo {
-    max-width: 32px;
-    max-height: 32px;
-  }
-
-
-  a.logo, #main-logo {
-      display: none;
-  }
-}
-
 .letter-bg {
     background-image: url("/assets/imgs/img.png");
     background-size: 70px;
@@ -193,10 +174,34 @@ a {
 header
 */
 
+#main-logo {
+    width: 64px;
+    height: 64px;
+    -webkit-transition: width 1s, height 1s; /* For Safari 3.1 to 6.0 */
+    transition: width 1s, height 1s;
+}
 
-.header {
+@media screen and (max-width: 768px) {
+  .logo {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .navbar-toggler-icon {
+    width: 2.5em;
+    height: 2.5em;
+  }
+
+  a.logo, #main-logo {
+      display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header {
     padding:1em 2em;
     transition: .5s all;
+  }
 }
 
 .dropdown-menu {
@@ -296,7 +301,7 @@ Container padding
 
 .onepage-mob {
     padding-top:10vh;
-    min-height: 80vh;
+    min-height: 90vh;
 }   
 /*
 End container padding
@@ -699,8 +704,12 @@ li.partner {
     background-color: #ffccb3;
 }
 
+table {
+  margin: auto;
+}
+
 table.partner {
-	width: 100%;
+	width: 70%;
 	height: 25%;
 	padding: 10%;
 }
@@ -715,4 +724,9 @@ table.partner > tbody > tr > td {
 	display: inline-flex;
 	font-size: 0.8em;
 }
-
+table.partner > tbody > tr > td > div {
+    width: 100%;
+    height: fit-content;
+    padding-top: 50%;
+    text-align: center;
+}
