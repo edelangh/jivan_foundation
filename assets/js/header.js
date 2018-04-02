@@ -11,7 +11,7 @@ $(document).ready(function() {
             $(".dropdown-item").css({
                 'font-size': '1em',
             });
-            $(".btn").css({
+            $("#head-donate").css({
                 'font-size': '12px',
             });
         } else { 
@@ -25,7 +25,7 @@ $(document).ready(function() {
             $(".dropdown-item").css({
                 'font-size': '1.2em',
             });
-            $(".btn").css({
+            $("#head-donate").css({
                 'font-size': '16px',
             });
         }

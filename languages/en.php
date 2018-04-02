@@ -73,7 +73,7 @@ It’s a journey that we do together with the children, their parents when they 
 education center since 23 years.",
     "who_what_title" => "", // whithout title
     "who_what_body_part_1" =>
-    "Jivan Association caritative is based in Switzerland and its members are actively supporting SVM since 1996, previously under the name of Shanti Delhi from 1997 till 2006.",
+    "<p>SVM Education Centre with the support of Jivan, Switzerland accompanies 225 children from the slums of New Delhi every year since 23 years. The school comprises 12 classes from Nursery to the High School, with the subjects dispensed in English, Hindi and Urdu. The purpose of SVM is not only to provide education but also to accompany the children in their development, tying to bring back smiles to their faces and confidence to their hearts.</p><p>Jivan Association caritative is based in Switzerland and its members are actively supporting SVM since 1996, previously under the name of Shanti Delhi from 1997 till 2006.</p>",
     "who_what_body_part_2" => "
 <p>The association operates as an independent organisation and has no affiliation to any political or religious group. The funds required for its projects are generated through the sales of handicrafts, sponsors and donations.</p> 
 <p>Through its action, Jivan has perpetuated the charitable work started in 1973 by Sophie Rombaut, who has worked till 2002 in Delhi and Rishikesh near children and families living in the slums and on the footpaths.</p>
@@ -119,6 +119,7 @@ In 2015 SVM celebrated its 20 years of existence and 1000 students had been thro
 Till date 1025 students have been through the SVM education program, 225 are currently enrolled and more than 150 reached university over all these years and could get into jobs such as engineering, medicine, accountant, technical skilled work and even music. As over the years the slum which was razed down in 2006 started to resettle we also felt we needed to go back closer to the children living there and hence in 2017 we decided to start a new morning and evening class in the slum.
 ",
     "circle_title" => "Since 1995...",
+    "circle_title_bottom" => "And all this would have been worth it even if it was only for one children to succeed.",
     "circle" => "It's a long journey that we've been doing together with the children, their parents, - when they can be there - and the team of Sangita Vidya Mandir (SVM) Education Centre.",
     "involved_title" => "We are grateful for your support no matter how small it is",
     "involved_once_title" => "Paypal / Cb",

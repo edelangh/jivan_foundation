@@ -109,7 +109,14 @@ cite {
 
 .index-param > p {
     text-align: center;
-    line-height: 1.2em;
+    line-height: 1.1em;
+    font-size: 1em;
+}
+
+@media only screen and (min-width: 767px) {
+  .index-param > p {
+    padding: 0em 2em;
+  }
 }
 
 .index-param > img {
@@ -188,13 +195,31 @@ header
   }
 
   .navbar-toggler-icon {
-    width: 2.5em;
-    height: 2.5em;
+    width: 2.4em;
+    height: 2.4em;
   }
 
   a.logo, #main-logo {
       display: none;
   }
+}
+
+.logo-mob {
+  max-height: 42px;
+}
+.logo-mob > img {
+  max-height: 42px;
+}
+
+.icon-bar {
+  margin: auto;
+  margin-top: 7px;
+  height: 1px;
+  border: #98838f solid 1px;
+  width: 60%;
+}
+.icon-bar:nth-child(1) {
+  margin-top: 12px;
 }
 
 @media screen and (min-width: 768px) {
@@ -223,7 +248,7 @@ header
 
 a:hover, .dropdown-toggle:hover {
     background-color: transparent;
-    color: #ffccb3!important;
+    color: #ffccb3;
 }
 
 a {
@@ -298,11 +323,15 @@ Container padding
     }
 }
 
+.mob-spacer {
+  min-height: 30vh;
+  width: 100%;
+}
 
 .onepage-mob {
     padding-top:10vh;
     min-height: 90vh;
-}   
+}
 /*
 End container padding
 */
@@ -314,17 +343,27 @@ End container padding
 @media only screen and (min-width: 767px) {
   blockquote {
     margin: 0.25em 0;
-    padding: 0.35em 40px;
+    padding: 0.35em 0.35em;
     position: relative;
   }
+
+  blockquote:before {
+    left: -20px;
+    top: 0px;
+  }
 }
+@media only screen and (max-width: 767px) {
+  blockquote:before {
+    left: -10px;
+    top: 10px;
+  }
+}
+
 blockquote:before {
     padding-left: 10px;
     content: "\201C";
-    font-size: 80px;
+    font-size: 60px;
     position: absolute;
-    left: -10px;
-    top: -10px;
 }
 
 blockquote cite {
@@ -582,9 +621,17 @@ li.partner {
 
 /* circle */
 
-.circle-header {
+@media screen and (min-width: 767px) {
+  .circle-header {
+    margin-top: 3em;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .circle-header {
+    margin-top: 0.5em;
     text-align: left;
-    margin-top: 3em !important;
+  }
 }
 
 .circle-container {
@@ -620,6 +667,18 @@ li.partner {
     }
 }
 
+@media screen and (min-width: 780px) {
+  .circle-title-bottom {
+    text-align: center;
+    margin-top: 5em;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .circle-title-bottom {
+    margin-top: 8em;
+  }
+}
 
 /* @resp*/
 @media screen and (min-width: 780px) {
@@ -668,9 +727,17 @@ li.partner {
 
     .circle-bo {
         position: absolute;
+        font-size: 0.8em;
     }
-
 }
+
+/* @resp*/
+@media screen and (min-width: 1400px) {
+    .circle-bo {
+        font-size: 1em;
+    }
+}
+
 .circle-container {
 }
 
@@ -688,17 +755,29 @@ li.partner {
   text-align: center;
 }
 
-.blink {
+a.blink {
     text-transform: uppercase;
     font-size: .8em;
     border: 3px solid #ffccb3;
     border-radius: 1em;
-    padding: .8em;
+    padding: .5em 1em;
     color: #ffccb3;
     background-color: #f6f3e1;
+    margin: 1em 0em;
 }
 
-.blink:hover {
+@media only screen and (max-width: 767px) {
+  div.blink { /*a.blink) {*/
+    width: 100%;
+    text-align: center;
+  }
+
+  a.blink {
+    margin: auto;
+  }
+}
+
+a.blink:hover {
     text-decoration: none;
     color: white;
     background-color: #ffccb3;

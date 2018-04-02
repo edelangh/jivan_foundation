@@ -36,9 +36,15 @@ $HEADER = array(
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon">
-        <img class="logo" alt="Jivan" src="./assets/imgs/logo-jivan.png"/>
+        <div class="icon-bar"></div>
+        <div class="icon-bar"></div>
+        <div class="icon-bar"></div>
+        <img class="d-none d-md-block logo" alt="Jivan" src="./assets/imgs/logo-jivan.png"/>
       </span>
     </button>
+    <div class="d-md-none logo-mob">
+        <img alt="Jivan" src="./assets/imgs/logo-jivan.png"/>
+    </div>
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mr-auto" style="width: 100%">
         <li class="nav-item d-md-none">
@@ -88,7 +94,7 @@ $HEADER = array(
         </li>
       </ul>
       <form class="form-inline mt-2 mt-md-0" onsubmit="window.location.href='?page=gi_donate'; return false;">
-        <button class="btn btn-donate btn-outline-success my-2 my-sm-0" type="submit">
+        <button id="head-donate" class="btn btn-donate btn-outline-success my-2 my-sm-0" type="submit">
         <?php echo $LANG["donate"]; ?>
         </button>
       </form>

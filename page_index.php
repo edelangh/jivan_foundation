@@ -28,14 +28,11 @@
 
     <div class="row quotes onepage-mob">
       <?php include_once "./timeline.php"; ?>
-      <p style="width:100%; text-align: center;"><a style="text-align: center;
-    position: absolute;
-    left: calc(50% - 7.5em);
-    width: 15em;"class="blink" href="?page=who_story" style="text-align: center;">
-        <?php echo $LANG["discover"]; ?>
-      </a>
-      </p>
+      <div style="width: 100%; text-align: center" class="blink">
+        <a class="blink" href="?page=who_story" style="text-align: center;"><?php echo $LANG["discover"]; ?></a>
+      </div>
     </div>
+    <div class="d-md-none" style="height: 20vh; width: 100%;"></div>
     <div class="spacer"></div>
   </div>
   <div class="container onepage-mob quotes">
@@ -69,16 +66,18 @@
         </div>
       </div>
       <div class="col-md-6 cricle-align-right">
-      <h1 class="cricle-align-right circle-header title"><?php echo $LANG["circle_title"]; ?></h1>        
+        <h1 class="cricle-align-right circle-header title"><?php echo $LANG["circle_title"]; ?></h1>        
         <p class="cricle-align-right"><?php echo $LANG["circle"] ?></p>
-        <b>
+        <div class="blink">
           <a style="line-height: 5;" class="blink" href="?page=who_story">
-          <?php echo $LANG["read_our_story"]; ?>
+            <?php echo $LANG["read_our_story"]; ?>
           </a>
-        </b>
+        </div>
       </div>
-    </div>
-  <div class="spacer"></div>
+      <div class="col-sm-12 circle-title-bottom">
+        <h3><?php echo $LANG["circle_title_bottom"]; ?></h3>
+      </div>
+    </div> <!-- end of row -->
   <div class="spacer"></div>
   </div>
   <div class="container onepage-mob">
@@ -87,12 +86,12 @@
         <h2>
           <?php echo $LANG["today_need_help"]; ?>       
         </h2>
-        <p><?php echo $LANG["missions_body"]; ?></p>
-        <b>
+        <p style="text-align: left;"><?php echo $LANG["missions_body"]; ?></p>
+        <div class="blink">
           <a style="line-height: 5;" class="blink" href="?page=gi_donate">
-          <?php echo $LANG["support_us"]; ?>
+            <?php echo $LANG["support_us"]; ?>
           </a>
-        </b>
+        </div>
       </div>
       <div class="col-md-1"></div>
       <div class="col-md-5">
@@ -136,19 +135,17 @@
             </tr>
           </table>
         </div>
-      <div class="col-sm-12 col-md-1">
+      <div class="d-sm-none d-md-block col-md-1">
       </div>
       <div class="col-sm-12 col-md-5">
         <h2>
           <?php echo $LANG["partner_title"]; ?>       
         </h2>
-        <p><?php echo $LANG["partner_hand"]; ?></p>
-        <b>
-          <a style="line-height: 5;" class="blink" href="?page=gi_touch">
-          <?php echo $LANG["title_get_touch"]; ?>
-          </a>
-        </b>
+        <p style="text-align: left"><?php echo $LANG["partner_hand"]; ?></p>
+        <div class="blink">
+          <a style="line-height: 5" class="blink" href="?page=gi_touch"><?php echo $LANG["title_get_touch"]; ?></a>
+        </div>
       </div>
-      </div>
+    </div>
   </div>
 </div>

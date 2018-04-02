@@ -6,7 +6,7 @@
         <div style="text-align: left" class="col-sm-12 col-md-10">
             <div>
 		<p><?php echo $LANG["work_together"]; ?></p>
-		<b><a href="?page=gi_touch"><?php echo $LANG["gi_contact"]; ?></a></b>
+		<a href="?page=gi_touch"><?php echo $LANG["gi_contact"]; ?></a>
             </div>
         </div>
     </div>
