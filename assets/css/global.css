@@ -652,6 +652,10 @@ li.partner {
     text-align: center;  
 }
 
+.circle_content > p {
+  line-height: 1.4em;
+}
+
 .circle {
     display: table-cell;
     vertical-align: middle;
@@ -793,7 +797,7 @@ a.blink {
 
 a.blink:hover {
     text-decoration: none;
-    color: white;
+    color: #f6f3e1;
     background-color: #ffccb3;
 }
 

@@ -1,5 +1,14 @@
 <?php
-    require "languages/en.php";
+    if ( ! session_id() ) @ session_start();
+    $LL = "en";
+    if (isset($_GET["lang"])
+      && ($_GET["lang"] == "fr" || $_GET["lang"] == "en")) {
+      $_SESSION["lang"] = $_GET["lang"];
+    }
+    if (isset($_SESSION["lang"])) {
+      $LL = $_SESSION["lang"];
+    }
+    require "languages/".$LL.".php";
 
     $PAGES = array(
         "404" => "./page_404.php",

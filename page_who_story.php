@@ -13,7 +13,7 @@
             <p class="description">
               <?php echo $BODY; ?>
             </p>
-            <p class="read-more"><a href="#" class="btn btn-donate btn-outline-success button">READ MORE</a></p>
+              <p class="read-more"><a href="#" class="btn btn-donate btn-outline-success button"><?php echo $LANG["read_more"]; ?></a></p>
             <h2><?php echo $TITLE2; ?></h2>          
           </div>
        </div>

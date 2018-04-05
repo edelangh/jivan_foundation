@@ -85,11 +85,11 @@ $HEADER = array(
       <ul class="navbar-nav mr-auto">
         <li class="nav-item dropdown">
           <a style="color: #97838f;"  class="nav-link dropdown-toggle" data-hover="dropdown" href="<?php echo $ITEM["link"]; ?>" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          EN
+          <?php echo strtoupper($LL);?>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#lang=EN">EN</a>
-            <a class="dropdown-item" href="#lang=FR">FR</a>
+            <a class="dropdown-item" href="?lang=en">EN</a>
+            <a class="dropdown-item" href="?lang=fr">FR</a>
           </div>
         </li>
       </ul>
