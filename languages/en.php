@@ -71,7 +71,7 @@ We not only provide education but also to accompany the children in their develo
 smiles to their faces and confidence to their hearts.
 It’s a journey that we do together with the children, their parents when they are there and the team of the
 education center since 23 years.",
-    "who_what_title" => "", // whithout title
+    "what_we_do_title" => "We are there for them", // whithout title
     "who_what_body_part_1" =>
     "<p>SVM Education Centre with the support of Jivan, Switzerland accompanies 225 children from the slums of New Delhi every year since 23 years. The school comprises 12 classes from Nursery to the High School, with the subjects dispensed in English, Hindi and Urdu. The purpose of SVM is not only to provide education but also to accompany the children in their development, tying to bring back smiles to their faces and confidence to their hearts.</p><p>Jivan Association caritative is based in Switzerland and its members are actively supporting SVM since 1996, previously under the name of Shanti Delhi from 1997 till 2006.</p>",
     "who_what_body_part_2" => "

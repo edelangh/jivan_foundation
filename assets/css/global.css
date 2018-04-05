@@ -181,6 +181,20 @@ a {
 header
 */
 
+
+@media screen and (max-width: 768px) {
+  .logo-index {
+    max-width: 80%;
+    padding-top: 10vh;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .logo-index {
+    max-width: 25%;
+    padding-top: 10vh;
+  }
+}
 #main-logo {
     width: 64px;
     height: 64px;

@@ -22,9 +22,10 @@
       <div  class="col-sm-12 col-md-5">
         <img class="main-img" src="assets/imgs/index_bck.jpg" />
       </div>
+      <div class="col-sm-12" style="text-align: center">
+        <img class="logo-index" src="assets/imgs/logo-index.png" />
+      </div>
     </div>
-
-    <div class="spacer"></div>
 
     <div class="row quotes onepage-mob">
       <?php include_once "./timeline.php"; ?>
