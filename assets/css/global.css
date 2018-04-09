@@ -109,26 +109,53 @@ cite {
 
 .index-param > p {
     text-align: center;
-    line-height: 1.1em;
-    font-size: 1em;
 }
 
+@media only screen and (max-width: 1400px) {
+  .index-param > img {
+    max-width: 20%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .index-param {
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+  }
+  .index-param > img {
+    max-width: 40%;
+  }
+}
 @media only screen and (min-width: 767px) {
+  .index-param > h2 {
+    font-size: 1.5rem;
+  }
   .index-param > p {
-    padding: 0em 2em;
+    padding: 0em 1.5em;
+    font-size: 0.9em;
+    line-height: 1.1em;
   }
 }
 
-.index-param > img {
-    margin: 0px auto 0px auto;
-    width: 30%;
+@media only screen and (min-width: 767px) and (max-width: 1400px) {
+  .landing_one {
+    padding-top: 0px!important;
+  }
+  .index-param {
+    padding-top: none;
+  }
 }
 
-.index-h3 {
-    text-align: left !important;
-}
-.index-h3-right {
-    text-align: right !important;
+@media only screen and (min-width: 1400px) {
+  .index-param > img {
+      margin: 0px auto 0px auto;
+      width: 30%;
+  }
+  .index-param > h2 {
+    font-size: 2rem;
+  }
+  .index-param > p {
+      font-size: 1em;
+  }
 }
 
 html {
@@ -181,18 +208,22 @@ a {
 header
 */
 
+.logo-index {
+    border: #98838f solid 1px;
+    border-radius: 50%;
+}
 
 @media screen and (max-width: 768px) {
   .logo-index {
     max-width: 80%;
-    padding-top: 10vh;
+    margin-top: 10vh;
   }
 }
 
 @media screen and (min-width: 768px) {
   .logo-index {
     max-width: 25%;
-    padding-top: 10vh;
+    margin-top: 10vh;
   }
 }
 #main-logo {
@@ -338,7 +369,7 @@ Container padding
 }
 
 .mob-spacer {
-  min-height: 30vh;
+  min-height: 20vh;
   width: 100%;
 }
 
