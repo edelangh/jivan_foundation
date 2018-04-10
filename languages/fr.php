@@ -13,6 +13,7 @@ $LANG = array(
     "gi_title_2" => "Devenez un ambassadeur",
     "gi_title_3" => "Travaillons ensemble",
     "gi_title_4" => "Aider nous à construire demain",
+    "send" => "Envoyé",
     "support" => "Give some support",
     "support_us" => "Nous aider",
     "discover" => "Découvrir notre projet",
@@ -52,8 +53,7 @@ jivansvm.ch@gmail.com<br/>
 As a corporation you can bring us your support through a monthly, quarterly or annual participation in the operating expenses as part of the <u>Corporate Social Responsibility</u> (CSR) of your organization in order to strengthen our operating budget and help us improve the quality of care. We could also collaborate to organise an internal fundraising event  for a specific project we are working on, such as helping us acquiring the building of the school. To discuss the details of a potential collaboration, please contact us by filling out the following form.",
     "quotes_title" => "A child is a child",
     "quotes_text" =>
-"« Aucun enfant n’a choisi de naître dans un bidonville et de grandir dans la misère. Aucun enfant n’a choisi de faire des travaux dégradants et humiliants pour survivre. Il appartient à chacun de nous de rendre leur dignité aux enfants oubliés, de les respecter, les aimer, leur permettre d’accéder à l’éducation et leur donner l’élan pour demain. »",
-    "quotes_title_2" => "It belongs to each one of us to give back children their dignity.",
+"Aucun enfant n’a choisi de naître dans un bidonville et de grandir dans la misère. Aucun enfant n’a choisi de faire des travaux dégradants et humiliants pour survivre.",
     "result_title" => "Results (Achievements – highlights)",
     "result_body" => 
 "Depuis 1995
@@ -117,9 +117,9 @@ En 2015, SVM a fêté ses 20 ans d’existence et plus de 1000 élèves avaient 
 Aujourd’hui, 1025 étudiants ont suivi le programme d’éducation SVM, 225 sont inscrits actuellement dans l’école, 150 ont accédé à l’université pendant toutes ces années pour obtenir des emplois dans l’ingénierie, la médecine, la comptabilité, le travail technique qualifié et même la musique.</br></br>
 Au fil des ans, le bidonville détruit en 2006 a commencé à se réinstaller et il était important pour tous ceux qui ont continué le travail de Sophie de se rapprocher des enfants qui y vivent et de faire quelque chose pour eux. Nous avons décidé en 2017 d’ouvrir une petite école, un cours le matin et le soir, dans ce nouveau bidonville.</br></br>
 ",
-    "circle_title" => "Since 1995...",
+    "circle_title" => "Depuis 1995...",
     "circle_title_bottom" => "…ET TOUT CELA AURAIT VALU LA PEINE MÊME SI C’ÉTAIT POUR UN SEUL ENFANT.",
-    "circle" => "It's a long journey that we've been doing together with the children, their parents, - when they can be there - and the team of Sangita Vidya Mandir (SVM) Education Centre.",
+    "circle" => "C’est un long voyage que nous faisons ensemble avec les élèves, avec leurs parents quand les enfants ne sont pas seuls et les enseignants de SVM.",
     "involved_title" => "We are grateful for your support no matter how small it is",
     "involved_once_title" => "Paypal / Cb",
     "involved_once_paypal" => 
@@ -127,7 +127,7 @@ Au fil des ans, le bidonville détruit en 2006 a commencé à se réinstaller et
     "involved_cheque_title" => "Check",
     "involved_cheque" =>
     "Please make your check payable to \"Jivan association Caritative\"",
-    "quote_end" => "It belongs to each one of us to give back children their dignity.",
+    "quote_end" => "Il appartient à chacun de nous de rendre leur dignité aux enfants oubliés, de les respecter, les aimer, leur permettre d’accéder à l’éducation et leur donner l’élan pour demain.",
     "today_need_help" => "Aujourd’hui on a besoin de votre aide",
     "stat-label-1" => "enfants ont reçu une éducation",
     "stat-amount-1" => "1025",

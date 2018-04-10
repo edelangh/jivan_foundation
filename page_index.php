@@ -126,13 +126,13 @@
           <table class="partner">
             <tr>
               <!--<td><?php echo $LANG["partner_1"]; ?></td>-->
-              <td><img style="width: 100%; height: 100%" src="/assets/imgs/logo-swissair.png" /></td>
+              <td><img style="width: 100%; height: 100%; padding: 20px" src="/assets/imgs/logo-swissair.png" /></td>
               <td><div><?php echo $LANG["partner_0"]; ?></div></td>
             </tr>
             <tr>
               <td><div><?php echo $LANG["partner_2"]; ?></div></td>
               <!--<td><?php echo $LANG["partner_3"]; ?></td>-->
-              <td><img style="width: 100%; height: 100%; padding: 15px" src="/assets/imgs/logo-arthenia.png" /></td>
+              <td><img style="width: 100%; height: 100%; padding: 20px" src="/assets/imgs/logo-arthenia.png" /></td>
             </tr>
           </table>
         </div>
