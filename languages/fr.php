@@ -29,8 +29,8 @@ $LANG = array(
     "gi_text_2" => "Vous pouvez également nous aider en faisant quelques vagues autour de vous - par exemple en créant un événement, parler de notre projet et encourager vos amis à rejoindre la cause des enfants.",
     "gi_text_3" => "Nous désirons créer des synergies avec d&#39;autres organisations à but non lucratif et des ONG. Si vous avez ou si vous travaillez pour de telles structures et pensez que nous pourrions réunir nos efforts, n&#39;hésitez pas à nous le faire savoir.",
     "gi_text_4" => "Le bail de l’école se termine en 2019 et le propriétaire souhaite vendre l’immeuble, 80’000 CHF sont nécessaire pour acheter les locaux. Il est essentiel que nous puissions maintenir l’école à son emplacement actuel pour ne pas perdre nos élèves.",
-    "gi_bottom_1" => "GIVE NOW",
-    "gi_bottom_2" => "CONTACT US",
+    "gi_bottom_1" => "DONATION",
+    "gi_bottom_2" => "NOUS CONTACTER",
     "gi_ambassador" => "If you feel motivated, you can also help us by making some waves around you - for example by creating an event to speak about our project and encourage your friends to join the cause. 
 <br/>
 For example last month Elodie, an active member since several years from Marseille, organised an event inviting her friends, colleagues and family for an afternoon event that included a sale of Indian handicrafts, a small food stall and a short video presentation of the association. She was able to collect 1070€ on that day that was immediately invested to build a new classroom.
