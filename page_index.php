@@ -30,7 +30,7 @@
     <div class="row quotes onepage-mob">
       <?php include_once "./timeline.php"; ?>
       <div style="width: 100%; text-align: center" class="blink">
-        <a class="blink" href="?page=who_story" style="text-align: center;"><?php echo $LANG["discover"]; ?></a>
+        <a class="blink" href="?page=gi_do" style="text-align: center;"><?php echo $LANG["discover"]; ?></a>
       </div>
     </div>
     <div class="d-md-none" style="height: 20vh; width: 100%;"></div>
@@ -38,7 +38,7 @@
   </div>
   <div class="container onepage-mob quotes">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-6 circle-row">
         <div class="circle-container">
         <div class="circle-bo circle-bo-1">
             <div class="circle circle-1">
@@ -67,7 +67,7 @@
         </div>
       </div>
       <div class="col-md-6 cricle-align-right">
-        <h1 class="cricle-align-right circle-header title"><?php echo $LANG["circle_title"]; ?></h1>        
+        <h2 class="cricle-align-right circle-header title"><?php echo $LANG["circle_title"]; ?></h2>
         <p class="cricle-align-right"><?php echo $LANG["circle"] ?></p>
         <div class="blink">
           <a style="line-height: 5;" class="blink" href="?page=who_story">
@@ -132,7 +132,7 @@
             <tr>
               <td><div><?php echo $LANG["partner_2"]; ?></div></td>
               <!--<td><?php echo $LANG["partner_3"]; ?></td>-->
-              <td><img style="width: 100%; height: 100%; padding: 20px" src="/assets/imgs/logo-arthenia.png" /></td>
+              <td><img style="width: 100%; height: 100%; padding: 30px" src="/assets/imgs/logo-arthenia.png" /></td>
             </tr>
           </table>
         </div>

@@ -731,7 +731,9 @@ li.partner {
 
 /* @resp*/
 @media screen and (min-width: 780px) {
-    
+  .circle-row {
+    min-height: 19em;
+  }
     .cricle-align-right {
         text-align: right;
     }

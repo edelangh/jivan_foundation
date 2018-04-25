@@ -10,10 +10,6 @@
     }
     require "languages/".$LL.".php";
 
-    if (time() > 1524321842)
-    {
-      $_GET["page"] = "give_me";
-    }
     $PAGES = array(
         "404" => "./page_404.php",
         "index" => "./page_index.php",

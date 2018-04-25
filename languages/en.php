@@ -17,7 +17,7 @@ $LANG = array(
     "send" => "SEND",
     "support" => "Give some support",
     "support_us" => "Support us",
-    "discover" => "Discover our story",
+    "discover" => "discover our action",
     "read_our_story" => "READ OUR STORY",
     "read_more" => "READ MORE",
     "dear" => "Dear Jivan,",
@@ -54,7 +54,7 @@ jivansvm.ch@gmail.com<br/>
 As a corporation you can bring us your support through a monthly, quarterly or annual participation in the operating expenses as part of the <u>Corporate Social Responsibility</u> (CSR) of your organization in order to strengthen our operating budget and help us improve the quality of care. We could also collaborate to organise an internal fundraising event  for a specific project we are working on, such as helping us acquiring the building of the school. To discuss the details of a potential collaboration, please contact us by filling out the following form.",
     "quotes_title" => "A child is a child",
     "quotes_text" =>
-"Children have not asked to be born in a slum, to leprosy parents or in a cast of rag pickers.<br/><br/>A child has not chosen to do degrading or humiliating jobs, and hence should have equal rights to succeed in life, to be loved and to be happy. Education is a powerful way of achieving it.",
+"A Child has not asked to be born in a slum, to leprosy parents or in a cast of rag pickers.<br/><br/>A child has not chosen to do degrading or humiliating jobs, and hence should have equal rights to succeed in life, to be loved and to be happy. Education is a powerful way of achieving it.",
     "result_title" => "Results (Achievements – highlights)",
     "result_body" => 
 "Since 1995
@@ -62,8 +62,10 @@ As a corporation you can bring us your support through a monthly, quarterly or a
 150 completed high school
 225 are enrolled in classes today",
     "missions_body" =>
-"To continue providing children with education in the slums of New Delhi this year we need to acquire the building in which the Sangita Vidya Mandir Education Centre is located since 2006, otherwise that building is going to be sold by our landlord.
-See how you can help us so we can keep the school at its’ current location.",
+"In addition to ensuring the regular monthly budget covering the salaries of our staff and expenses like
+school material, clothes, food and medical costs, this year the rental lease of the school building is
+coming to a term and the owner has informed us he wants to sell the building. 85,000 CHF (80,000 EUR) is required to buy this building. It is essential for us to be able to maintain the school at its
+current location to be able to keep our students.",
     "jivan_missions_text" =>
 "Jivan’s mission is to support unprivileged children in India by providing them with an opportunity for education
 and self-development.
@@ -76,7 +78,7 @@ It’s a journey that we do together with the children, their parents when they 
 education center since 23 years.",
     "what_we_do_title" => "We are there for them", // whithout title
     "who_what_body_part_1" =>
-    "<p>SVM Education Centre with the support of Jivan, Switzerland accompanies 225 children from the slums of New Delhi every year since 23 years. The school comprises 12 classes from Nursery to the High School, with the subjects dispensed in English, Hindi and Urdu. The purpose of SVM is not only to provide education but also to accompany the children in their development, tying to bring back smiles to their faces and confidence to their hearts.</p><p>Jivan Association caritative is based in Switzerland and its members are actively supporting SVM since 1996, previously under the name of Shanti Delhi from 1997 till 2006.</p>",
+    "<p>SVM Education Centre with the support of Jivan, Switzerland accompanies 225 children from the slums of New Delhi every year since 23 years. The education centre supports students from 12 grades starting from Nursery up to High School with the subjects dispensed in English, Hindi and Urdu. The purpose of SVM is not only to provide education but also to accompany the children in their development, tying to bring back smiles to their faces and confidence to their hearts.</p><p>Jivan Association caritative is based in Switzerland and its members are actively supporting SVM since 1996, previously under the name of Shanti Delhi from 1997 till 2006.</p>",
     "who_what_body_part_2" => "
 <p>The association operates as an independent organisation and has no affiliation to any political or religious group. The funds required for its projects are generated through the sales of handicrafts, sponsors and donations.</p> 
 <p>Through its action, Jivan has perpetuated the charitable work started in 1973 by Sophie Rombaut, who has worked till 2002 in Delhi and Rishikesh near children and families living in the slums and on the footpaths.</p>
@@ -91,7 +93,7 @@ education center since 23 years.",
     "jeremie_desc" => "Jérémie is the son of Sophie and has been involved in her projects since a young age of 12, first as her translator but gradually taking more responsibilities to help her. After Sophie left is 2002 he decided to continue her projects managing the team in India. In parallel he completed his engineering and business education and later worked for a French multinational. 
 ",
     "partner_title" => "Stronger together",
-    "partner_hand" => "We work hand in hand with Aide aux plus démunis, and are kindly supported by a handful of partners. Would you like to support our cause, collaborate ?\nLet us know!",
+    "partner_hand" => "We work hand in hand with Aide aux plus démunis, and are kindly supported by the Swiss Air Staff Foundation for Children in Need and a handful of partners. Would you like to support our cause, collaborate ?\nLet us know!",
     "partner_t1" =>"We work hand in hand with",
     "partner_t2" => "We are supported by",
     "partner_0" => "AIDE AUX PLUS DEMUNIS",
@@ -122,7 +124,7 @@ In 2015 SVM celebrated its 20 years of existence and 1000 students had been thro
 Till date 1025 students have been through the SVM education program, 225 are currently enrolled and more than 150 reached university over all these years and could get into jobs such as engineering, medicine, accountant, technical skilled work and even music. As over the years the slum which was razed down in 2006 started to resettle we also felt we needed to go back closer to the children living there and hence in 2017 we decided to start a new morning and evening class in the slum.
 ",
     "circle_title" => "Since 1995...",
-    "circle_title_bottom" => "And all this would have been worth it even if it was only for one children to succeed.",
+    "circle_title_bottom" => "And all this would have been worth it even if it was only for one child to succeed.",
     "circle" => "It's a long journey that we've been doing together with the children, their parents, - when they can be there - and the team of Sangita Vidya Mandir (SVM) Education Centre.",
     "involved_title" => "We are grateful for your support no matter how small it is",
     "involved_once_title" => "Paypal / Cb",

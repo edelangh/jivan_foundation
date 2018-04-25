@@ -12,7 +12,7 @@ $LANG = array(
     "gi_title_1" => "Soutenez les enfants",
     "gi_title_2" => "Devenez un ambassadeur",
     "gi_title_3" => "Travaillons ensemble",
-    "gi_title_4" => "Aider nous à construire demain",
+    "gi_title_4" => "Aidez nous à construire demain",
     "send" => "Envoyé",
     "support" => "Give some support",
     "support_us" => "Nous aider",
@@ -36,7 +36,7 @@ $LANG = array(
 For example last month Elodie, an active member since several years from Marseille, organised an event inviting her friends, colleagues and family for an afternoon event that included a sale of Indian handicrafts, a small food stall and a short video presentation of the association. She was able to collect 1070€ on that day that was immediately invested to build a new classroom.
 <br/>
 Please, feel free to tell us about your idea and let’s see how we can make more good together.",
-    "gi_contact" => "Jivan Charitable Association",
+    "gi_contact" => "Jivan Association caritative",
     "gi_touch" => "
     Grande-Rue 21<br/>
     Le Locle, Switzerland<br/>    
@@ -61,7 +61,7 @@ C’est un long voyage que nous faisons ensemble avec les élèves, avec leurs p
 1025 scolarisés par SVM
 225 inscrits aujourd’hui
 150 bacheliers",
-    "missions_body" => "Notre bail se termine en 2019 et notre propriétaire désire vendre son immeuble. Afin de pérenniser notre projet et éviter la délocalisation de l’école on doit faire l’acquisition du bâtiment.",
+    "missions_body" => "Notre bail se termine en 2019 et le propriétaire désire vendre son immeuble. Afin de pérenniser notre projet et éviter la délocalisation de l’école, nous devons faire l’acquisition du bâtiment.",
     "jivan_missions_text" =>
 "Jivan’s mission is to support unprivileged children in India by providing them with an opportunity for education
 and self-development.
@@ -72,7 +72,7 @@ We not only provide education but also to accompany the children in their develo
 smiles to their faces and confidence to their hearts.
 It’s a journey that we do together with the children, their parents when they are there and the team of the
 education center since 23 years.",
-    "what_we_do_title" => "On est là pour eux", // whithout title
+    "what_we_do_title" => "Nous sommes là pour eux", // whithout title
     "who_what_body_part_1" =>
     "<p>SVM Education Center, financée par Jivan Association caritative en Suisse, prend annuellement en charge depuis 22 ans 225 enfants des bidonvilles de New Delhi.
 L’école comprend douze degrés incluant le baccalauréat et l’enseignement est donné en Anglais, Hindi et Urdu. SVM n’a pas pour seul objectif l’instruction mais également l’accompagnement des enfants dans leur développement personnel, amener la confiance dans leur coeur et le sourire dans leur vie. C’est un voyage que nous faisons ensemble depuis 1996 avec les élèves, avec leurs parents quand les enfants ne sont pas seuls et les enseignants de SVM.</p>",
@@ -81,15 +81,16 @@ L’école comprend douze degrés incluant le baccalauréat et l’enseignement 
 <p>Par son action, Jivan perpétue l’œuvre caritative entreprise en 1973 par Sophie Rombaut qui a travaillé jusqu’en 2002 à Delhi et Rishikesh auprès des enfants et des familles vivant dans les bidonvilles et sur les trottoirs.</p>
 <p>Afin de leur assurer un statut légal en Inde, les personnes employées dans le cadre de SVM sont représentées par Manav Sewa Jan Samavik Charitable Society reconnue par le Gouvernement et au bénéfice, ainsi que Jivan, d’une FCRA (autorisation de transfert de fonds étrangers en Inde).</p>
 ",
-    "who_team_title" => "Ils font Jivan grandir",
+    "who_team_title" => "Ils font grandir Jivan",
     "anita_name" => "Anita BULA",
-    "anita_desc" => "Anita a été impliquée depuis le jour de sa rencontre avec Sophie en 1996. Durant ces 22 ans, Anita a travaillé pour l’amélioration de ce projet. Elle a créé Shanti Delhi, puis Jivan dont elle est la présidente. Elle a ouvert et gère une petite boutique indienne au Locle contribuant par ses bénéfices au soutien de l’école.",
+    "anita_desc" => "Anita a soutenu Sophie et s’est engagée pour la cause des enfants depuis le
+jour de leur rencontre en 1996. Durant ces 22 ans, Anita a travaillé pour l’amélioration de ce projet. Elle a créé Shanti Delhi, puis Jivan dont elle est la présidente. Elle a ouvert et gère une petite boutique indienne au Locle contribuant par ses bénéfices au soutien de l’école.",
     "aslam_name" => "Aslam ISLAMUDDIN",
     "aslam_desc" => "Aslam a rejoint l’école en 1995 en tant qu’enseignant lors de son ouverture par Sophie Rombaut. Il vivait avec sa famille dans le bidonville. Il a très vite décidé qu’il allait dédier sa vie à cette cause et aujourd’hui, après 23 ans, Aslam est toujours dans le projet en tant que principal. Il est marié et père de 5 enfants. Son dernier fils se prénomme Sufi en mémoire de Sophie",
     "jeremie_name" => "Jérémie ROMBAUT",
     "jeremie_desc" => "Jeremie, le fils de Sophie, a été impliqué dans les projets depuis l’âge de 12 ans, d’abord en tant que traducteur (indi-anglais) et progressivement en prenant plus de responsabilités pour l&#39;aider. Après le départ de Sophie en 2002, il a décidé de poursuivre ses projets en gérant l’équipe en Inde. Parallèlement, Jeremie a terminé ses études d’ingénieur et de management et travaillé ensuite pour une multinationale française.",
     "partner_title" => "Ensemble plus fort",
-    "partner_hand" => "On travaille main dans la main avec Aide aux plus démunis et somme soutenus par des partenaires généreux.Vous souhaitez nous soutenir, collaborer? Faites-nous savoir!",
+    "partner_hand" => "Nous travaillons main dans la main avec l’association &quot;Aide aux plus Démunis&quot; et somme soutenus par des partenaires généreux. Vous souhaitez nous soutenir, collaborer? Faites-le nous savoir !",
     "partner_t1" =>"We work hand in hand with",
     "partner_t2" => "We are supported by",
     "partner_0" => "AIDE AUX PLUS DEMUNIS",
@@ -99,13 +100,13 @@ L’école comprend douze degrés incluant le baccalauréat et l’enseignement 
     "who_story_title" => "C’était un long voyage...",
     "who_story_title2" => "Aujourd’hui l’histoire continue...",
     "who_story_body" =>
-"Il y a 45 ans, Sophie Rombaut, jeune étudiante en médecine tropicale, arriva en Inde invitée par un de ses professeurs. Emue par les témoignages des personnes qui faisaient la queue pour un bol de nourriture distribué au portail du jardin de son hôte qui, selon la tradition dans l'hindouisme, offrait le repas aux nécessiteux, Sophie accepta leur invitation à se rendre chez eux dans le bidonville de Shadipur Depot à Delhi. Profondément touchée par leurs conditions de vie difficile, Sophie décida immédiatement de les aider.</br></br>
-Le bidonville de Shadipur comportait deux parties distinctes : l’une pour ses habitants en \"bonne santé\" et l’autre pour les personnes atteintes de lèpre. Avec l’aide de quelques amis indiens, Sophie organisa une petite école abritée sous une bâche plastique, déterminée et persuadée qu’en apportant l’instruction à un enfant, on l’apportait pour les générations futures. </br></br>
+"Il y a 45 ans, Sophie Rombaut, jeune étudiante en médecine tropicale, arrivait en Inde invitée par un de ses professeurs. Emue par les témoignages des personnes qui faisaient la queue pour un bol de nourriture distribué au portail du jardin de son hôte qui, selon la tradition dans l'hindouisme, offrait le repas aux nécessiteux, Sophie accepta leur invitation à se rendre chez eux dans le bidonville de Shadipur Depot à Delhi. Profondément touchée par leurs conditions de vie difficile, Sophie décida immédiatement de les aider.</br></br>
+Le bidonville de Shadipur comportait deux parties distinctes : l’une pour ses habitants en \"bonne santé\" et l’autre pour les personnes atteintes de la lèpre. Avec l’aide de quelques amis indiens, Sophie organisa une petite école abritée sous une bâche plastique, déterminée et persuadée qu’en apportant l’instruction à un enfant, on l’apportait pour les générations futures. </br></br>
 Sophie réalisa rapidement que les enfants de parents lépreux n’étaient pas autorisés à rejoindre l’école. Pour Sophie, \"un enfant est un enfant, il n’a pas choisi de naître auprès de parents lépreux, dans une basse caste et dans un bidonville\" et qu’il était extrêmement injuste de ne pas leur donner de chances égales.</br></br>
 En Inde, la lèpre reste un grand tabou même si elle ne se transmet pas par hérédité. Sophie ouvrit une seconde école dans la partie réservée aux lépreux. Elle réalisa rapidement qu’il y avait un besoin important d’assistance médicale, qu’aucun médecin n’irait dans une colonie de lépreux et que les femmes ne se présenteraient pas chez un médecin homme. Sophie organisa au plus vite une consultation médicale qui se tiendrait sur le site de l’école.</br></br>
 Et ce fut le départ d’un voyage qui durera trente ans, la vie de Sophie jusqu’en 2002.</br></br>
-A Delhi, ses activités se sont étendues dans d’autres bidonvilles, Sophie créa 7 écoles, prenant soin de plus de 700 enfants. En parallèle, elle continua d’apporter son aide médicale aux personnes atteintes de la lèpre dans le bidonville de Shadipur et la nuit sur un petit sentier près de Guruwara Bangla Sahid où les malades étaient autorisés à se rassembler à partir de 23 heures. Il était difficile d’apporter des soins médicaux dans ces conditions et Sophie se mit à la recherche d’un terrain pour construire un hôpital. Après de nombreuses investigations, Sophie trouva une terre à Rishikesh, à 240 km au nord de Delhi, où en 1993 fut construit l’hôpital Mateshwari. De nombreux patients atteints de la lèpre y furent soignés et réinsérés dans la société après l’apprentissage d’emplois comme le jardinage ou le filage de tissus.</br></br>
-L’école SVM \"Sangeeta Vidya Mandir\" a été créée en 1995 dans le bidonville de I.T.O. à New Delhi. Le bidonville s’étendait sur plusieurs kilomètres sous les conduites d’alimentation en eau, proche des rives du fleuve Yamuna, à l’est de la capitale, et comptait plusieurs centaines d’habitants. L’école a débuté avec cinq enseignants, six classes et 80 élèves le jour de son ouverture.</br></br>
+A Delhi, ses activités se sont étendues dans d’autres bidonvilles, Sophie créa 7 écoles, prenant soin de plus de 700 enfants. En parallèle, elle continua d’apporter son aide médicale aux personnes atteintes de la lèpre dans le bidonville de Shadipur et la nuit sur un petit sentier près de Guruwara Bangla Sahid où les malades étaient autorisés à se rassembler à partir de 23 heures. C’était difficile d’apporter des soins médicaux dans ces conditions et Sophie se mit à la recherche d’un terrain pour construire un hôpital. Après de nombreuses investigations, Sophie trouva une terre à Rishikesh, à 240 km au nord de Delhi, où en 1993 fut construit l’hôpital Mateshwari. De nombreux patients atteints de la lèpre y furent soignés et réinsérés dans la société après l’apprentissage d’emplois comme le jardinage ou le filage de tissus.</br></br>
+L’école SVM \"Sangeeta Vidya Mandir\" a été créée en 1995 dans le bidonville de I.T.O. à New Delhi. Le bidonville s’étendait sur plusieurs kilomètres sous les conduites d’alimentation en eau, proche des rives du fleuve Yamuna, à l’est de la capitale, et comptait plusieurs centaines d’habitants. L’école a débuté avec cinq enseignants, six degrés scolaires et 80 élèves le jour de son ouverture.</br></br>
 A mesure que ses activités grandissaient, Sophie avait besoin de plus en plus de ressources pour les soutenir. Elle recevait l’aide d’amis et récoltait des fonds lors de ses témoignages organisés régulièrement en France et en Belgique. C’est lors d’une première conférence donnée en Suisse en 1996, dans la région du Locle, que Sophie rencontra Anita Bula. Sensible à son témoignage, Anita décida de l’accompagner dans ses projets. Avec quelques amis elle créa en 1997 l’association Shanti Delhi pour soutenir le travail de Sophie en Inde par la récolte de dons et la vente d’artisanat indien. Grâce à une amie hôtesse de l’air, Shanti Delhi eut l’opportunité de présenter en 1999 un dossier auprès de la Fondation de l’aide à l’enfance du personnel de Swissair qui débuta aussitôt son soutien à l’école SVM par un don annuel qui se poursuit à ce jour.</br></br>
 Avec un soutien croissant et les besoins nécessaires sur place, des classes supplémentaires ont été ajoutées en 2000 afin que les élèves puissent atteindre un niveau d’étude supérieur qui leur permettrait d’obtenir un emploi de base ou un petit prêt gouvernemental les aidant à démarrer une activité.  </br></br>
 2002, année décisive pour ceux qui soutenaient et accompagnaient Sophie dans son parcours, par le choix de poursuivre son œuvre caritative malgré le chagrin de son absence, par considération pour son engagement auprès de ceux en difficultés, pour tout son travail effectué en Inde, pour toute l’affection qu’elle avait pour ceux qu’elle aidait et dans la volonté de ne pas les laisser tomber. </br></br>
@@ -118,8 +119,8 @@ Aujourd’hui, 1025 étudiants ont suivi le programme d’éducation SVM, 225 so
 Au fil des ans, le bidonville détruit en 2006 a commencé à se réinstaller et il était important pour tous ceux qui ont continué le travail de Sophie de se rapprocher des enfants qui y vivent et de faire quelque chose pour eux. Nous avons décidé en 2017 d’ouvrir une petite école, un cours le matin et le soir, dans ce nouveau bidonville.</br></br>
 ",
     "circle_title" => "Depuis 1995...",
-    "circle_title_bottom" => "…ET TOUT CELA AURAIT VALU LA PEINE MÊME SI C’ÉTAIT POUR UN SEUL ENFANT.",
-    "circle" => "C’est un long voyage que nous faisons ensemble avec les élèves, avec leurs parents quand les enfants ne sont pas seuls et les enseignants de SVM.",
+    "circle_title_bottom" => "ET TOUT CELA AURAIT VALU LA PEINE MÊME POUR UN SEUL ENFANT.",
+    "circle" => "C’est une longue histoire que nous écrivons ensemble, avec les élèves et les enseignants de SVM",
     "involved_title" => "We are grateful for your support no matter how small it is",
     "involved_once_title" => "Paypal / Cb",
     "involved_once_paypal" => 
@@ -128,13 +129,13 @@ Au fil des ans, le bidonville détruit en 2006 a commencé à se réinstaller et
     "involved_cheque" =>
     "Please make your check payable to \"Jivan association Caritative\"",
     "quote_end" => "Il appartient à chacun de nous de rendre leur dignité aux enfants oubliés, de les respecter, les aimer, leur permettre d’accéder à l’éducation et leur donner l’élan pour demain.",
-    "today_need_help" => "Aujourd’hui on a besoin de votre aide",
-    "stat-label-1" => "enfants ont reçu une éducation",
+    "today_need_help" => "Aujourd’hui nous avons besoin de votre aide",
+    "stat-label-1" => "ont suivi l’enseignement à SVM",
     "stat-amount-1" => "1025",
-    "stat-label-2" => "on terminés une école secondaire",
+    "stat-label-2" => "ont obtenu le baccalauréat",
     "stat-amount-2" => "150",
     "stat-amount-3" => "225",
-    "stat-label-3" => "sont inscrits dans les classes aujourd'hui",
+    "stat-label-3" => "sont aujourd’hui inscrits à l’école",
     "stat-global-label" => "Since 1995",
     "timeline_cta" => "Découvrez nos actions",
     "timeline_title" => "45 années dans les bidonvilles en Inde<br/>Sangita Vidya Mandir (SVM) Education Centre à New Delhi depuis 1995",
