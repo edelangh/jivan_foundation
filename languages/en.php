@@ -133,7 +133,7 @@ Till date 1025 students have been through the SVM education program, 225 are cur
     "involved_cheque_title" => "Check",
     "involved_cheque" =>
     "Please make your check payable to \"Jivan association Caritative\"",
-    "quote_end" => "It belongs to each one of us to give back children their dignity.",
+    "quote_end" => "It belongs to each one of us to give back children their dignity. ”",
     "today_need_help" => "Today we need your help",
     "stat-label-1" => "children received education",
     "stat-amount-1" => "1025",
@@ -144,7 +144,7 @@ Till date 1025 students have been through the SVM education program, 225 are cur
     "stat-global-label" => "Since 1995",
     "timeline_cta" => "DISCOVER OUR ACTION",
     "timeline_title" => "45 years in the slums of India<br/>Sangita Vidya Mandir (SVM) Education Centre in New Delhi since 1995",
-    "timeline_p" => "SVM Education Centre with the support of Jivan, Switzerland accompanies 225 children from the slums of New Delhi every year since 23 years. The school comprises 12 classes from Nursery to the High School, with the subjects dispensed in English, Hindi and Urdu. The purpose of SVM is not only to provide education but also to accompany the children in their development, tying to bring back smiles to their faces and confidence to their hearts.",
+    "timeline_p" => "The education centre supports students from 12 grades starting from Nursery up to High School with the subjects dispensed in English, Hindi and Urdu. The purpose of SVM is not only to provide education but also to accompany the children in their development, tying to bring back smiles to their faces and confidence to their hearts.",
     "timeline" => array(
 	    array(
 		    "date" => "1973",

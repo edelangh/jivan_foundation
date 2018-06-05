@@ -5,7 +5,7 @@
    <?php echo $LANG["timeline_p"]?>
 </p>
 <div style="margin-bottom: 5em; width: 100%; text-align: center" class="blink">
-  <a class="blink" href="?page=who_story"><?php echo $LANG["timeline_cta"]; ?></a>
+  <a class="blink" href="?page=gi_do"><?php echo $LANG["timeline_cta"]; ?></a>
 </div>
 <div class="timeline-container" id="timeline-1">
    <div style="pointer-events: none;" class="timeline">
